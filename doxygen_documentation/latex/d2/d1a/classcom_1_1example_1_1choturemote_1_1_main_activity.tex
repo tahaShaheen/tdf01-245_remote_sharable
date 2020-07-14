@@ -1,0 +1,750 @@
+\hypertarget{classcom_1_1example_1_1choturemote_1_1_main_activity}{}\doxysection{com.\+example.\+choturemote.\+Main\+Activity Class Reference}
+\label{classcom_1_1example_1_1choturemote_1_1_main_activity}\index{com.example.choturemote.MainActivity@{com.example.choturemote.MainActivity}}
+
+
+This is where everything important happens.  
+
+
+Inheritance diagram for com.\+example.\+choturemote.\+Main\+Activity\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{d2/d1a/classcom_1_1example_1_1choturemote_1_1_main_activity}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{classcom_1_1example_1_1choturemote_1_1_main_activity_a1d4da6b3021a2b2b7805ed332b010fa5}{show\+Toast\+Method}} (final String message)
+\begin{DoxyCompactList}\small\item\em Toasts for threads other than the main. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+static void \mbox{\hyperlink{classcom_1_1example_1_1choturemote_1_1_main_activity_a2a0745c0230a1d2472278bb418a6b33e}{write\+To\+Bluetooth}} (String classifier, String instruction, String modifier)
+\begin{DoxyCompactList}\small\item\em Forms and sends command Strings through Bluetooth. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Static Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+static \mbox{\hyperlink{classcom_1_1example_1_1choturemote_1_1_my_bluetooth_service}{My\+Bluetooth\+Service}} \mbox{\hyperlink{classcom_1_1example_1_1choturemote_1_1_main_activity_aeaa2c2da0a0ccef38be2bf1d8d3b0343}{my\+Bluetooth\+Service}}
+\begin{DoxyCompactList}\small\item\em Handles Bluetooth stuff. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Protected Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{classcom_1_1example_1_1choturemote_1_1_main_activity_a1332d5b4e648746329f39c0fb582a2fc}{on\+Create}} (Bundle saved\+Instance\+State)
+\begin{DoxyCompactList}\small\item\em fires when the system first creates the activity. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classcom_1_1example_1_1choturemote_1_1_main_activity_a9cf3195fbb9588ac3b61faed0cb15561}{on\+Destroy}} ()
+\begin{DoxyCompactList}\small\item\em The final call you receive before your activity is destroyed. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classcom_1_1example_1_1choturemote_1_1_main_activity_ac3abaf659333fa1d6fc2f300f504cf16}{on\+Activity\+Result}} (int request\+Code, int result\+Code, @Nullable Intent data)
+\begin{DoxyCompactList}\small\item\em Called back after focus is returned from process started by start\+Activity\+For\+Result() \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Static Package Attributes}
+\begin{DoxyCompactItemize}
+\item 
+static final U\+U\+ID \mbox{\hyperlink{classcom_1_1example_1_1choturemote_1_1_main_activity_a1c5f9a89b607cb40b0b886b9d095a60f}{M\+Y\+\_\+\+U\+U\+ID}} = U\+U\+I\+D.\+from\+String(\char`\"{}00001101-\/0000-\/1000-\/8000-\/00805F9\+B34\+FB\char`\"{})
+\begin{DoxyCompactList}\small\item\em Universally Unique Identifier (U\+U\+ID) \end{DoxyCompactList}\item 
+static String \mbox{\hyperlink{classcom_1_1example_1_1choturemote_1_1_main_activity_afb3ca51ae9be50096f8776a6312447c8}{T\+E\+R\+M\+I\+N\+A\+T\+OR}}
+\begin{DoxyCompactList}\small\item\em Command instruction terminator. \end{DoxyCompactList}\item 
+static String \mbox{\hyperlink{classcom_1_1example_1_1choturemote_1_1_main_activity_aa26bd8585bf0ab9cdc1b030369e257ef}{D\+I\+S\+A\+B\+LE}}
+\end{DoxyCompactItemize}
+\doxysubsection*{Private Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{classcom_1_1example_1_1choturemote_1_1_main_activity_a2c702f416b173ab9f040d8f7e8d2f416}{begin\+Connection}} ()
+\begin{DoxyCompactList}\small\item\em Establishes a Bluetooth serial communication. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+final boolean \mbox{\hyperlink{classcom_1_1example_1_1choturemote_1_1_main_activity_a6f2c5025e156efc0ea6940d05f963429}{T\+E\+S\+T\+I\+NG}} = false
+\begin{DoxyCompactList}\small\item\em Debugging tool. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classcom_1_1example_1_1choturemote_1_1ui_1_1main_1_1_sections_pager_adapter}{Sections\+Pager\+Adapter}} \mbox{\hyperlink{classcom_1_1example_1_1choturemote_1_1_main_activity_ab0a4994b9bd5818e19716d3f798443c0}{sections\+Pager\+Adapter}}
+\begin{DoxyCompactList}\small\item\em Custom class. \end{DoxyCompactList}\item 
+Tab\+Layout \mbox{\hyperlink{classcom_1_1example_1_1choturemote_1_1_main_activity_acc22e845be09511f9c52ebe30d6d4a5d}{tabs}}
+\begin{DoxyCompactList}\small\item\em Tab\+Layout provides a horizontal layout to display tabs. \end{DoxyCompactList}\item 
+View\+Pager \mbox{\hyperlink{classcom_1_1example_1_1choturemote_1_1_main_activity_a7831031b101fce51879743e2eaf3b7a0}{view\+Pager}}
+\begin{DoxyCompactList}\small\item\em Layout manager allowing left/right swipes to get access to more options. \end{DoxyCompactList}\item 
+String \mbox{\hyperlink{classcom_1_1example_1_1choturemote_1_1_main_activity_ac1a0c9e9b8077cabfa5d18a584391044}{M\+A\+C\+\_\+\+A\+D\+D\+R\+E\+SS}}
+\item 
+Bluetooth\+Adapter \mbox{\hyperlink{classcom_1_1example_1_1choturemote_1_1_main_activity_a061e9ac654dd449b5043b6937f3bf592}{bluetooth\+Adapter}}
+\begin{DoxyCompactList}\small\item\em A Bluetooth\+Adapter object. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{classcom_1_1example_1_1choturemote_1_1_main_activity_a9473bd91131e1dfc843c05938d9bb811}{R\+E\+Q\+U\+E\+S\+T\+\_\+\+E\+N\+A\+B\+L\+E\+\_\+\+BT}} = 1
+\begin{DoxyCompactList}\small\item\em An integer passed to start\+Activity\+For\+Result() and received by \mbox{\hyperlink{classcom_1_1example_1_1choturemote_1_1_main_activity_ac3abaf659333fa1d6fc2f300f504cf16}{on\+Activity\+Result()}}. If it is greater $>$= 0, this code will be returned in \mbox{\hyperlink{classcom_1_1example_1_1choturemote_1_1_main_activity_ac3abaf659333fa1d6fc2f300f504cf16}{on\+Activity\+Result()}} when the activity exits. Does nothing of significance at present. \end{DoxyCompactList}\item 
+final Broadcast\+Receiver \mbox{\hyperlink{classcom_1_1example_1_1choturemote_1_1_main_activity_abd4fc90f15deade7491ac2a18b2947bc}{m\+B\+T\+State\+Broadcast\+Receiver}}
+\begin{DoxyCompactList}\small\item\em a Broadcast\+Receiver type object \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Static Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+static String \mbox{\hyperlink{classcom_1_1example_1_1choturemote_1_1_main_activity_a45413adbd3f558042556a9fb4dfab01c}{P\+O\+K\+E\+\_\+\+S\+L\+E\+E\+P\+\_\+\+C\+L\+A\+S\+S\+I\+F\+I\+ER}}
+\begin{DoxyCompactList}\small\item\em Used to send sleep or poke instructions. \end{DoxyCompactList}\item 
+static String \mbox{\hyperlink{classcom_1_1example_1_1choturemote_1_1_main_activity_ab353b0e58d8b5533f4351a11a56f3c47}{S\+E\+P\+A\+R\+A\+T\+OR}}
+\begin{DoxyCompactList}\small\item\em Command instruction separator. \end{DoxyCompactList}\item 
+static String \mbox{\hyperlink{classcom_1_1example_1_1choturemote_1_1_main_activity_ac3e9ca4725b013aac8b4210555d40ccf}{P\+O\+KE}}
+\begin{DoxyCompactList}\small\item\em Used as a modifier. \end{DoxyCompactList}\item 
+static String \mbox{\hyperlink{classcom_1_1example_1_1choturemote_1_1_main_activity_ae5ad6f9443471cb8c445e6a7f35c8cf6}{E\+N\+A\+B\+LE}}
+\item 
+static String \mbox{\hyperlink{classcom_1_1example_1_1choturemote_1_1_main_activity_aa3382314e04a6a0e63b1318f0d0aec5c}{T\+AG}} = \char`\"{}Main\+Activity\char`\"{}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+This is where everything important happens. 
+
+This is the first screen to appear when the user launches the app. This handles everything and calls everything. 
+
+Definition at line 35 of file Main\+Activity.\+java.
+
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classcom_1_1example_1_1choturemote_1_1_main_activity_a2c702f416b173ab9f040d8f7e8d2f416}\label{classcom_1_1example_1_1choturemote_1_1_main_activity_a2c702f416b173ab9f040d8f7e8d2f416}} 
+\index{com.example.choturemote.MainActivity@{com.example.choturemote.MainActivity}!beginConnection@{beginConnection}}
+\index{beginConnection@{beginConnection}!com.example.choturemote.MainActivity@{com.example.choturemote.MainActivity}}
+\doxysubsubsection{\texorpdfstring{beginConnection()}{beginConnection()}}
+{\footnotesize\ttfamily void com.\+example.\+choturemote.\+Main\+Activity.\+begin\+Connection (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Establishes a Bluetooth serial communication. 
+
+\begin{DoxyItemize}
+\item Fetches device info from paired devices. \item \end{DoxyItemize}
+
+
+Definition at line 281 of file Main\+Activity.\+java.
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{281                                    \{}
+\DoxyCodeLine{282 }
+\DoxyCodeLine{283         \textcolor{keywordtype}{boolean} deviceFound = \textcolor{keyword}{false};}
+\DoxyCodeLine{284 }
+\DoxyCodeLine{285         Set<BluetoothDevice> pairedDevices = \mbox{\hyperlink{classcom_1_1example_1_1choturemote_1_1_main_activity_a061e9ac654dd449b5043b6937f3bf592}{bluetoothAdapter}}.getBondedDevices();}
+\DoxyCodeLine{286         \textcolor{keywordflow}{if} (pairedDevices.size() > 0) \{}
+\DoxyCodeLine{287             \textcolor{comment}{// There are paired devices. Get the name and address of each paired device. //}}
+\DoxyCodeLine{288             \textcolor{keywordflow}{for} (BluetoothDevice device : pairedDevices) \{}
+\DoxyCodeLine{289                 String deviceHardwareAddress = device.getAddress(); \textcolor{comment}{// MAC address}}
+\DoxyCodeLine{290                 \textcolor{keywordflow}{if} (deviceHardwareAddress.equals(\mbox{\hyperlink{classcom_1_1example_1_1choturemote_1_1_main_activity_ac1a0c9e9b8077cabfa5d18a584391044}{MAC\_ADDRESS}})) \{}
+\DoxyCodeLine{291                     \textcolor{comment}{// This bit matches the MAC address of your "face device" to a paired device's //}}
+\DoxyCodeLine{292                     \textcolor{comment}{// Then establishes a connection on a separate thread //}}
+\DoxyCodeLine{293                     deviceFound = \textcolor{keyword}{true};}
+\DoxyCodeLine{294                     \mbox{\hyperlink{classcom_1_1example_1_1choturemote_1_1_main_activity_aeaa2c2da0a0ccef38be2bf1d8d3b0343}{myBluetoothService}}.\mbox{\hyperlink{classcom_1_1example_1_1choturemote_1_1_my_bluetooth_service_a9a5b2171c01731966981f1381ad1a7ac}{startClient}}(device, \mbox{\hyperlink{classcom_1_1example_1_1choturemote_1_1_main_activity_a1c5f9a89b607cb40b0b886b9d095a60f}{MY\_UUID}});}
+\DoxyCodeLine{295                     \textcolor{keywordflow}{break};}
+\DoxyCodeLine{296                 \}}
+\DoxyCodeLine{297             \}}
+\DoxyCodeLine{298             \textcolor{keywordflow}{if} (!deviceFound) \{}
+\DoxyCodeLine{299                 Toast.makeText(getBaseContext(), \textcolor{stringliteral}{"ERROR: Device with MAC address "} + \mbox{\hyperlink{classcom_1_1example_1_1choturemote_1_1_main_activity_ac1a0c9e9b8077cabfa5d18a584391044}{MAC\_ADDRESS}} + \textcolor{stringliteral}{" not paired"}, Toast.LENGTH\_LONG).show();}
+\DoxyCodeLine{300                 this.finishAffinity();}
+\DoxyCodeLine{301             \}}
+\DoxyCodeLine{302 }
+\DoxyCodeLine{303         \} \textcolor{keywordflow}{else} \{}
+\DoxyCodeLine{304             Toast.makeText(getBaseContext(), \textcolor{stringliteral}{"ERROR:"} + getString(R.string.NO\_PAIRED\_DEVICES), Toast.LENGTH\_LONG).show();}
+\DoxyCodeLine{305             this.finishAffinity();}
+\DoxyCodeLine{306         \}}
+\DoxyCodeLine{307     \}}
+
+\end{DoxyCode}
+
+
+References com.\+example.\+choturemote.\+Main\+Activity.\+bluetooth\+Adapter, com.\+example.\+choturemote.\+Main\+Activity.\+M\+A\+C\+\_\+\+A\+D\+D\+R\+E\+SS, com.\+example.\+choturemote.\+Main\+Activity.\+M\+Y\+\_\+\+U\+U\+ID, com.\+example.\+choturemote.\+Main\+Activity.\+my\+Bluetooth\+Service, and com.\+example.\+choturemote.\+My\+Bluetooth\+Service.\+start\+Client().
+
+
+
+Referenced by com.\+example.\+choturemote.\+Main\+Activity.\+on\+Activity\+Result(), and com.\+example.\+choturemote.\+Main\+Activity.\+on\+Create().
+
+\mbox{\Hypertarget{classcom_1_1example_1_1choturemote_1_1_main_activity_ac3abaf659333fa1d6fc2f300f504cf16}\label{classcom_1_1example_1_1choturemote_1_1_main_activity_ac3abaf659333fa1d6fc2f300f504cf16}} 
+\index{com.example.choturemote.MainActivity@{com.example.choturemote.MainActivity}!onActivityResult@{onActivityResult}}
+\index{onActivityResult@{onActivityResult}!com.example.choturemote.MainActivity@{com.example.choturemote.MainActivity}}
+\doxysubsubsection{\texorpdfstring{onActivityResult()}{onActivityResult()}}
+{\footnotesize\ttfamily void com.\+example.\+choturemote.\+Main\+Activity.\+on\+Activity\+Result (\begin{DoxyParamCaption}\item[{int}]{request\+Code,  }\item[{int}]{result\+Code,  }\item[{@Nullable Intent}]{data }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [protected]}}
+
+
+
+Called back after focus is returned from process started by start\+Activity\+For\+Result() 
+
+
+\begin{DoxyParams}{Parameters}
+{\em request\+Code} & the request\+Code passed as the second parameter to start\+Activity\+For\+Result(), here it is R\+E\+Q\+U\+E\+S\+T\+\_\+\+E\+N\+A\+B\+L\+E\+\_\+\+BT \\
+\hline
+{\em result\+Code} & Possible values -\/ R\+E\+S\+U\+L\+T\+\_\+\+OK or R\+E\+S\+U\+L\+T\+\_\+\+C\+A\+N\+C\+E\+L\+ED \\
+\hline
+{\em data} & Optional parameter. An Intent, which can return result data to the caller. {\ttfamily @Nullable} denotes that a value can be null.\\
+\hline
+\end{DoxyParams}
+If enabling Bluetooth succeeds, this activity receives the R\+E\+S\+U\+L\+T\+\_\+\+OK result code in the \mbox{\hyperlink{classcom_1_1example_1_1choturemote_1_1_main_activity_ac3abaf659333fa1d6fc2f300f504cf16}{on\+Activity\+Result()}} callback. If Bluetooth was not enabled due to an error (or the user responded \char`\"{}\+No\char`\"{}) then the result code is R\+E\+S\+U\+L\+T\+\_\+\+C\+A\+N\+C\+E\+L\+ED. 
+
+Definition at line 336 of file Main\+Activity.\+java.
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{336                                                                                             \{}
+\DoxyCodeLine{337         \textcolor{keywordflow}{if} (requestCode == \mbox{\hyperlink{classcom_1_1example_1_1choturemote_1_1_main_activity_a9473bd91131e1dfc843c05938d9bb811}{REQUEST\_ENABLE\_BT}} \&\& resultCode == RESULT\_OK) \{}
+\DoxyCodeLine{338             \mbox{\hyperlink{classcom_1_1example_1_1choturemote_1_1_main_activity_a2c702f416b173ab9f040d8f7e8d2f416}{beginConnection}}();}
+\DoxyCodeLine{339         \}}
+\DoxyCodeLine{340         \textcolor{keywordflow}{if} (resultCode == RESULT\_CANCELED)}
+\DoxyCodeLine{341             Toast.makeText(\textcolor{keyword}{this}, \textcolor{stringliteral}{"Unable to access Bluetooth"}, Toast.LENGTH\_SHORT).show();}
+\DoxyCodeLine{342     \}}
+
+\end{DoxyCode}
+
+
+References com.\+example.\+choturemote.\+Main\+Activity.\+begin\+Connection(), and com.\+example.\+choturemote.\+Main\+Activity.\+R\+E\+Q\+U\+E\+S\+T\+\_\+\+E\+N\+A\+B\+L\+E\+\_\+\+BT.
+
+\mbox{\Hypertarget{classcom_1_1example_1_1choturemote_1_1_main_activity_a1332d5b4e648746329f39c0fb582a2fc}\label{classcom_1_1example_1_1choturemote_1_1_main_activity_a1332d5b4e648746329f39c0fb582a2fc}} 
+\index{com.example.choturemote.MainActivity@{com.example.choturemote.MainActivity}!onCreate@{onCreate}}
+\index{onCreate@{onCreate}!com.example.choturemote.MainActivity@{com.example.choturemote.MainActivity}}
+\doxysubsubsection{\texorpdfstring{onCreate()}{onCreate()}}
+{\footnotesize\ttfamily void com.\+example.\+choturemote.\+Main\+Activity.\+on\+Create (\begin{DoxyParamCaption}\item[{Bundle}]{saved\+Instance\+State }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [protected]}}
+
+
+
+fires when the system first creates the activity. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em saved\+Instance\+State} & A Bundle object containing the activity\textquotesingle{}s previously saved state. If the activity has never existed before, the value of the Bundle object is null. (Bundle is generally used for passing data between various activities of android.)\\
+\hline
+\end{DoxyParams}
+In the \mbox{\hyperlink{classcom_1_1example_1_1choturemote_1_1_main_activity_a1332d5b4e648746329f39c0fb582a2fc}{on\+Create()}} method, you perform basic application startup logic that should happen only once for the entire life of the activity. 
+
+Definition at line 166 of file Main\+Activity.\+java.
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{166                                                        \{}
+\DoxyCodeLine{167 }
+\DoxyCodeLine{168         super.onCreate(savedInstanceState);}
+\DoxyCodeLine{169         setContentView(R.layout.activity\_main);}
+\DoxyCodeLine{170 }
+\DoxyCodeLine{171         \textcolor{comment}{// String code //}}
+\DoxyCodeLine{172         \mbox{\hyperlink{classcom_1_1example_1_1choturemote_1_1_main_activity_a45413adbd3f558042556a9fb4dfab01c}{POKE\_SLEEP\_CLASSIFIER}} = getString(R.string.POKE\_SLEEP\_CLASSIFIER);}
+\DoxyCodeLine{173         \mbox{\hyperlink{classcom_1_1example_1_1choturemote_1_1_main_activity_ab353b0e58d8b5533f4351a11a56f3c47}{SEPARATOR}} = getString(R.string.SEPARATOR);}
+\DoxyCodeLine{174         \mbox{\hyperlink{classcom_1_1example_1_1choturemote_1_1_main_activity_afb3ca51ae9be50096f8776a6312447c8}{TERMINATOR}} = getString(R.string.TERMINATOR);}
+\DoxyCodeLine{175         \mbox{\hyperlink{classcom_1_1example_1_1choturemote_1_1_main_activity_ac3e9ca4725b013aac8b4210555d40ccf}{POKE}} = getString(R.string.POKE\_INSTRUCTION);}
+\DoxyCodeLine{176         \mbox{\hyperlink{classcom_1_1example_1_1choturemote_1_1_main_activity_aa26bd8585bf0ab9cdc1b030369e257ef}{DISABLE}} = getString(R.string.DISABLE);}
+\DoxyCodeLine{177         \mbox{\hyperlink{classcom_1_1example_1_1choturemote_1_1_main_activity_ae5ad6f9443471cb8c445e6a7f35c8cf6}{ENABLE}} = getString(R.string.ENABLE);}
+\DoxyCodeLine{178 }
+\DoxyCodeLine{179         \textcolor{comment}{// ViewPager and connected TabLayout setup //}}
+\DoxyCodeLine{180         \mbox{\hyperlink{classcom_1_1example_1_1choturemote_1_1_main_activity_ab0a4994b9bd5818e19716d3f798443c0}{sectionsPagerAdapter}} = \textcolor{keyword}{new} SectionsPagerAdapter(\textcolor{keyword}{this}, getSupportFragmentManager());}
+\DoxyCodeLine{181         \mbox{\hyperlink{classcom_1_1example_1_1choturemote_1_1_main_activity_a7831031b101fce51879743e2eaf3b7a0}{viewPager}} = findViewById(R.id.view\_pager);}
+\DoxyCodeLine{182         \mbox{\hyperlink{classcom_1_1example_1_1choturemote_1_1_main_activity_a7831031b101fce51879743e2eaf3b7a0}{viewPager}}.setAdapter(\mbox{\hyperlink{classcom_1_1example_1_1choturemote_1_1_main_activity_ab0a4994b9bd5818e19716d3f798443c0}{sectionsPagerAdapter}});}
+\DoxyCodeLine{183         \mbox{\hyperlink{classcom_1_1example_1_1choturemote_1_1_main_activity_acc22e845be09511f9c52ebe30d6d4a5d}{tabs}} = findViewById(R.id.tabs);}
+\DoxyCodeLine{184         \mbox{\hyperlink{classcom_1_1example_1_1choturemote_1_1_main_activity_acc22e845be09511f9c52ebe30d6d4a5d}{tabs}}.setupWithViewPager(\mbox{\hyperlink{classcom_1_1example_1_1choturemote_1_1_main_activity_a7831031b101fce51879743e2eaf3b7a0}{viewPager}});}
+\DoxyCodeLine{185 }
+\DoxyCodeLine{186         \textcolor{comment}{// FAB //}}
+\DoxyCodeLine{187         \textcolor{keyword}{final} FloatingActionButton fab = findViewById(R.id.fab);}
+\DoxyCodeLine{188         fab.setOnClickListener(\textcolor{keyword}{new} View.OnClickListener() \{}
+\DoxyCodeLine{189             \textcolor{keywordtype}{boolean} toggle = \textcolor{keyword}{true};}
+\DoxyCodeLine{190 }
+\DoxyCodeLine{191             @Override}
+\DoxyCodeLine{192             \textcolor{keyword}{public} \textcolor{keywordtype}{void} onClick(View view) \{}
+\DoxyCodeLine{193                 \textcolor{comment}{// Toggles between POKE ENABLED and POKE DISABLED //}}
+\DoxyCodeLine{194                 toggle = !toggle;}
+\DoxyCodeLine{195                 \textcolor{keywordflow}{if} (toggle) \{}
+\DoxyCodeLine{196                     \textcolor{comment}{// Changes the FAB icon //}}
+\DoxyCodeLine{197                     fab.setImageDrawable(ContextCompat.getDrawable(getApplicationContext(), android.R.drawable.ic\_menu\_view));}
+\DoxyCodeLine{198                     \mbox{\hyperlink{classcom_1_1example_1_1choturemote_1_1_main_activity_a2a0745c0230a1d2472278bb418a6b33e}{writeToBluetooth}}(\mbox{\hyperlink{classcom_1_1example_1_1choturemote_1_1_main_activity_a45413adbd3f558042556a9fb4dfab01c}{POKE\_SLEEP\_CLASSIFIER}}, \mbox{\hyperlink{classcom_1_1example_1_1choturemote_1_1_main_activity_ac3e9ca4725b013aac8b4210555d40ccf}{POKE}}, \mbox{\hyperlink{classcom_1_1example_1_1choturemote_1_1_main_activity_ae5ad6f9443471cb8c445e6a7f35c8cf6}{ENABLE}});}
+\DoxyCodeLine{199                     Snackbar.make(view, \mbox{\hyperlink{classcom_1_1example_1_1choturemote_1_1_main_activity_ac3e9ca4725b013aac8b4210555d40ccf}{POKE}} + \textcolor{stringliteral}{" "} + \mbox{\hyperlink{classcom_1_1example_1_1choturemote_1_1_main_activity_ae5ad6f9443471cb8c445e6a7f35c8cf6}{ENABLE}} + \textcolor{stringliteral}{"ED"}, Snackbar.LENGTH\_LONG)}
+\DoxyCodeLine{200                             .setAction(\textcolor{stringliteral}{"Action"}, \textcolor{keyword}{null}).show();}
+\DoxyCodeLine{201                 \} \textcolor{keywordflow}{else} \{}
+\DoxyCodeLine{202                     fab.setImageDrawable(ContextCompat.getDrawable(getApplicationContext(), android.R.drawable.ic\_lock\_idle\_lock));}
+\DoxyCodeLine{203                     \mbox{\hyperlink{classcom_1_1example_1_1choturemote_1_1_main_activity_a2a0745c0230a1d2472278bb418a6b33e}{writeToBluetooth}}(\mbox{\hyperlink{classcom_1_1example_1_1choturemote_1_1_main_activity_a45413adbd3f558042556a9fb4dfab01c}{POKE\_SLEEP\_CLASSIFIER}}, \mbox{\hyperlink{classcom_1_1example_1_1choturemote_1_1_main_activity_ac3e9ca4725b013aac8b4210555d40ccf}{POKE}}, \mbox{\hyperlink{classcom_1_1example_1_1choturemote_1_1_main_activity_aa26bd8585bf0ab9cdc1b030369e257ef}{DISABLE}});}
+\DoxyCodeLine{204                     Snackbar.make(view, \mbox{\hyperlink{classcom_1_1example_1_1choturemote_1_1_main_activity_ac3e9ca4725b013aac8b4210555d40ccf}{POKE}} + \textcolor{stringliteral}{" "} + \mbox{\hyperlink{classcom_1_1example_1_1choturemote_1_1_main_activity_aa26bd8585bf0ab9cdc1b030369e257ef}{DISABLE}} + \textcolor{stringliteral}{"ED"}, Snackbar.LENGTH\_LONG)}
+\DoxyCodeLine{205                             .setAction(\textcolor{stringliteral}{"Action"}, \textcolor{keyword}{null}).show();}
+\DoxyCodeLine{206                 \}}
+\DoxyCodeLine{207             \}}
+\DoxyCodeLine{208         \});}
+\DoxyCodeLine{209         fab.setOnLongClickListener(\textcolor{keyword}{new} View.OnLongClickListener() \{}
+\DoxyCodeLine{210             @Override}
+\DoxyCodeLine{211             \textcolor{keyword}{public} \textcolor{keywordtype}{boolean} onLongClick(View view) \{}
+\DoxyCodeLine{212                 \textcolor{comment}{// Triggers sleep animation and turns off screen of the "face device" //}}
+\DoxyCodeLine{213                 \mbox{\hyperlink{classcom_1_1example_1_1choturemote_1_1_main_activity_a2a0745c0230a1d2472278bb418a6b33e}{writeToBluetooth}}(\mbox{\hyperlink{classcom_1_1example_1_1choturemote_1_1_main_activity_a45413adbd3f558042556a9fb4dfab01c}{POKE\_SLEEP\_CLASSIFIER}}, \textcolor{stringliteral}{"SLEEP"}, \textcolor{stringliteral}{"000"});}
+\DoxyCodeLine{214                 Snackbar.make(view, \textcolor{stringliteral}{"Chotu is now asleep"}, Snackbar.LENGTH\_LONG)}
+\DoxyCodeLine{215                         .setAction(\textcolor{stringliteral}{"Action"}, \textcolor{keyword}{null}).show();}
+\DoxyCodeLine{216                 \textcolor{keywordflow}{return} \textcolor{keyword}{true};}
+\DoxyCodeLine{217             \}}
+\DoxyCodeLine{218         \});}
+\DoxyCodeLine{219 }
+\DoxyCodeLine{220         \textcolor{comment}{//Bluetooth code //}}
+\DoxyCodeLine{221         \textcolor{keywordflow}{if} (\mbox{\hyperlink{classcom_1_1example_1_1choturemote_1_1_main_activity_a6f2c5025e156efc0ea6940d05f963429}{TESTING}})}
+\DoxyCodeLine{222             \mbox{\hyperlink{classcom_1_1example_1_1choturemote_1_1_main_activity_ac1a0c9e9b8077cabfa5d18a584391044}{MAC\_ADDRESS}} = getString(R.string.TESTING\_MAC\_ADDRESS\_2); \textcolor{comment}{// MAC\_ADDRESS IN USE -\/ EASIER TO CHANGE HERE THAN ALL OVER THE PLACE //}}
+\DoxyCodeLine{223         \textcolor{keywordflow}{else}}
+\DoxyCodeLine{224             \mbox{\hyperlink{classcom_1_1example_1_1choturemote_1_1_main_activity_ac1a0c9e9b8077cabfa5d18a584391044}{MAC\_ADDRESS}} = getString(R.string.MAC\_ADDRESS); \textcolor{comment}{// MAC\_ADDRESS IN USE -\/ EASIER TO CHANGE HERE THAN ALL OVER THE PLACE //}}
+\DoxyCodeLine{225 }
+\DoxyCodeLine{226         \mbox{\hyperlink{classcom_1_1example_1_1choturemote_1_1_main_activity_aeaa2c2da0a0ccef38be2bf1d8d3b0343}{myBluetoothService}} = \textcolor{keyword}{new} MyBluetoothService(MainActivity.this) \{}
+\DoxyCodeLine{227             @Override}
+\DoxyCodeLine{228             \textcolor{keyword}{public} \textcolor{keywordtype}{void} showToast(\textcolor{keywordtype}{int} resourceID) \{}
+\DoxyCodeLine{229                 \textcolor{comment}{// Will receive a resourceID, convert it into a String, and send it to showToastMethod() //}}
+\DoxyCodeLine{230                 \mbox{\hyperlink{classcom_1_1example_1_1choturemote_1_1_main_activity_a1d4da6b3021a2b2b7805ed332b010fa5}{showToastMethod}}(getString(resourceID));}
+\DoxyCodeLine{231             \}}
+\DoxyCodeLine{232 }
+\DoxyCodeLine{233         \};}
+\DoxyCodeLine{234 }
+\DoxyCodeLine{235         \textcolor{comment}{// Get a handle/reference to the default local Bluetooth adapter of the device being used //}}
+\DoxyCodeLine{236         \mbox{\hyperlink{classcom_1_1example_1_1choturemote_1_1_main_activity_a061e9ac654dd449b5043b6937f3bf592}{bluetoothAdapter}} = BluetoothAdapter.getDefaultAdapter();}
+\DoxyCodeLine{237         \textcolor{keywordflow}{if} (\mbox{\hyperlink{classcom_1_1example_1_1choturemote_1_1_main_activity_a061e9ac654dd449b5043b6937f3bf592}{bluetoothAdapter}} == \textcolor{keyword}{null})}
+\DoxyCodeLine{238             Toast.makeText(\textcolor{keyword}{this}, \textcolor{stringliteral}{"Error: This device device does not support Bluetooth"}, Toast.LENGTH\_LONG).show();}
+\DoxyCodeLine{239         \textcolor{keywordflow}{else} \{}
+\DoxyCodeLine{240             \textcolor{keywordflow}{if} (!\mbox{\hyperlink{classcom_1_1example_1_1choturemote_1_1_main_activity_a061e9ac654dd449b5043b6937f3bf592}{bluetoothAdapter}}.isEnabled()) \{}
+\DoxyCodeLine{241 }
+\DoxyCodeLine{242                 \textcolor{comment}{// Creating an Intent //}}
+\DoxyCodeLine{243                 Intent enableBtIntent = \textcolor{keyword}{new} Intent(BluetoothAdapter.ACTION\_REQUEST\_ENABLE);}
+\DoxyCodeLine{244 }
+\DoxyCodeLine{245                 \textcolor{comment}{// A dialog appears requesting user permission to enable Bluetooth. //}}
+\DoxyCodeLine{246                 \textcolor{comment}{// If the user responds "Yes", the system begins to enable Bluetooth //}}
+\DoxyCodeLine{247                 \textcolor{comment}{// Focus returns to your application once the process completes (or fails) //}}
+\DoxyCodeLine{248                 \textcolor{comment}{// onActivityResult() that gets called upon return of focus //}}
+\DoxyCodeLine{249                 startActivityForResult(enableBtIntent, \mbox{\hyperlink{classcom_1_1example_1_1choturemote_1_1_main_activity_a9473bd91131e1dfc843c05938d9bb811}{REQUEST\_ENABLE\_BT}});}
+\DoxyCodeLine{250 }
+\DoxyCodeLine{251 }
+\DoxyCodeLine{252             \} \textcolor{keywordflow}{else} \{}
+\DoxyCodeLine{253                 \mbox{\hyperlink{classcom_1_1example_1_1choturemote_1_1_main_activity_a2c702f416b173ab9f040d8f7e8d2f416}{beginConnection}}();}
+\DoxyCodeLine{254             \}}
+\DoxyCodeLine{255 }
+\DoxyCodeLine{256             \textcolor{comment}{// Informs us when BT condition changes //}}
+\DoxyCodeLine{257             \textcolor{comment}{// Registers a BroadcastReceiver to be run in the main activity thread. //}}
+\DoxyCodeLine{258             \textcolor{comment}{// The receiver will be called with any broadcast Intent that matches filter //}}
+\DoxyCodeLine{259             \textcolor{comment}{// The Broadcast Receiver implementation is outside onCreate() //}}
+\DoxyCodeLine{260             registerReceiver(\mbox{\hyperlink{classcom_1_1example_1_1choturemote_1_1_main_activity_abd4fc90f15deade7491ac2a18b2947bc}{mBTStateBroadcastReceiver}}, \textcolor{keyword}{new} IntentFilter(BluetoothAdapter.ACTION\_STATE\_CHANGED));}
+\DoxyCodeLine{261         \}}
+\DoxyCodeLine{262     \}}
+
+\end{DoxyCode}
+
+
+References com.\+example.\+choturemote.\+Main\+Activity.\+begin\+Connection(), com.\+example.\+choturemote.\+Main\+Activity.\+bluetooth\+Adapter, com.\+example.\+choturemote.\+Main\+Activity.\+D\+I\+S\+A\+B\+LE, com.\+example.\+choturemote.\+Main\+Activity.\+E\+N\+A\+B\+LE, com.\+example.\+choturemote.\+Main\+Activity.\+M\+A\+C\+\_\+\+A\+D\+D\+R\+E\+SS, com.\+example.\+choturemote.\+Main\+Activity.\+m\+B\+T\+State\+Broadcast\+Receiver, com.\+example.\+choturemote.\+Main\+Activity.\+my\+Bluetooth\+Service, com.\+example.\+choturemote.\+Main\+Activity.\+P\+O\+KE, com.\+example.\+choturemote.\+Main\+Activity.\+P\+O\+K\+E\+\_\+\+S\+L\+E\+E\+P\+\_\+\+C\+L\+A\+S\+S\+I\+F\+I\+ER, com.\+example.\+choturemote.\+Main\+Activity.\+R\+E\+Q\+U\+E\+S\+T\+\_\+\+E\+N\+A\+B\+L\+E\+\_\+\+BT, com.\+example.\+choturemote.\+Main\+Activity.\+sections\+Pager\+Adapter, com.\+example.\+choturemote.\+Main\+Activity.\+S\+E\+P\+A\+R\+A\+T\+OR, com.\+example.\+choturemote.\+Main\+Activity.\+show\+Toast\+Method(), com.\+example.\+choturemote.\+Main\+Activity.\+tabs, com.\+example.\+choturemote.\+Main\+Activity.\+T\+E\+R\+M\+I\+N\+A\+T\+OR, com.\+example.\+choturemote.\+Main\+Activity.\+T\+E\+S\+T\+I\+NG, com.\+example.\+choturemote.\+Main\+Activity.\+view\+Pager, and com.\+example.\+choturemote.\+Main\+Activity.\+write\+To\+Bluetooth().
+
+\mbox{\Hypertarget{classcom_1_1example_1_1choturemote_1_1_main_activity_a9cf3195fbb9588ac3b61faed0cb15561}\label{classcom_1_1example_1_1choturemote_1_1_main_activity_a9cf3195fbb9588ac3b61faed0cb15561}} 
+\index{com.example.choturemote.MainActivity@{com.example.choturemote.MainActivity}!onDestroy@{onDestroy}}
+\index{onDestroy@{onDestroy}!com.example.choturemote.MainActivity@{com.example.choturemote.MainActivity}}
+\doxysubsubsection{\texorpdfstring{onDestroy()}{onDestroy()}}
+{\footnotesize\ttfamily void com.\+example.\+choturemote.\+Main\+Activity.\+on\+Destroy (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [protected]}}
+
+
+
+The final call you receive before your activity is destroyed. 
+
+This opportunity is used to unregister the Broadcast\+Receiver, m\+B\+T\+State\+Broadcast\+Receiver 
+
+Definition at line 269 of file Main\+Activity.\+java.
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{269                                \{}
+\DoxyCodeLine{270         super.onDestroy();}
+\DoxyCodeLine{271         \textcolor{comment}{// Unregistering broadcast listener to free up resources}}
+\DoxyCodeLine{272         unregisterReceiver(\mbox{\hyperlink{classcom_1_1example_1_1choturemote_1_1_main_activity_abd4fc90f15deade7491ac2a18b2947bc}{mBTStateBroadcastReceiver}});}
+\DoxyCodeLine{273     \}}
+
+\end{DoxyCode}
+
+
+References com.\+example.\+choturemote.\+Main\+Activity.\+m\+B\+T\+State\+Broadcast\+Receiver.
+
+\mbox{\Hypertarget{classcom_1_1example_1_1choturemote_1_1_main_activity_a1d4da6b3021a2b2b7805ed332b010fa5}\label{classcom_1_1example_1_1choturemote_1_1_main_activity_a1d4da6b3021a2b2b7805ed332b010fa5}} 
+\index{com.example.choturemote.MainActivity@{com.example.choturemote.MainActivity}!showToastMethod@{showToastMethod}}
+\index{showToastMethod@{showToastMethod}!com.example.choturemote.MainActivity@{com.example.choturemote.MainActivity}}
+\doxysubsubsection{\texorpdfstring{showToastMethod()}{showToastMethod()}}
+{\footnotesize\ttfamily void com.\+example.\+choturemote.\+Main\+Activity.\+show\+Toast\+Method (\begin{DoxyParamCaption}\item[{final String}]{message }\end{DoxyParamCaption})}
+
+
+
+Toasts for threads other than the main. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em message} & Message to be shown in Toast\\
+\hline
+\end{DoxyParams}
+Toasts can only be displayed on the main thread. To call Toasts from other threads, a public method in the Activity running on the main thread can be used. 
+
+Definition at line 349 of file Main\+Activity.\+java.
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{349                                                       \{}
+\DoxyCodeLine{350         runOnUiThread(\textcolor{keyword}{new} Runnable() \{}
+\DoxyCodeLine{351             \textcolor{keyword}{public} \textcolor{keywordtype}{void} run() \{}
+\DoxyCodeLine{352                 Toast.makeText(getBaseContext(), message, Toast.LENGTH\_SHORT).show();}
+\DoxyCodeLine{353             \}}
+\DoxyCodeLine{354         \});}
+\DoxyCodeLine{355     \}}
+
+\end{DoxyCode}
+
+
+Referenced by com.\+example.\+choturemote.\+Main\+Activity.\+on\+Create().
+
+\mbox{\Hypertarget{classcom_1_1example_1_1choturemote_1_1_main_activity_a2a0745c0230a1d2472278bb418a6b33e}\label{classcom_1_1example_1_1choturemote_1_1_main_activity_a2a0745c0230a1d2472278bb418a6b33e}} 
+\index{com.example.choturemote.MainActivity@{com.example.choturemote.MainActivity}!writeToBluetooth@{writeToBluetooth}}
+\index{writeToBluetooth@{writeToBluetooth}!com.example.choturemote.MainActivity@{com.example.choturemote.MainActivity}}
+\doxysubsubsection{\texorpdfstring{writeToBluetooth()}{writeToBluetooth()}}
+{\footnotesize\ttfamily static void com.\+example.\+choturemote.\+Main\+Activity.\+write\+To\+Bluetooth (\begin{DoxyParamCaption}\item[{String}]{classifier,  }\item[{String}]{instruction,  }\item[{String}]{modifier }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Forms and sends command Strings through Bluetooth. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em classifier} & Possible values F, B, R, L, E, etc. \\
+\hline
+{\em instruction} & Parameterizes or explains the classifier. This can be a number or can be something else entirely. \\
+\hline
+{\em modifier} & Modifies the parameter definition.\\
+\hline
+\end{DoxyParams}
+Constructs command Strings using S\+E\+P\+A\+R\+A\+T\+OR and T\+E\+R\+M\+I\+N\+A\+T\+OR then sends command String through Bluetooth. This makes the command construction process easily programmable and editable as it is all in one place. 
+
+Definition at line 316 of file Main\+Activity.\+java.
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{316                                                                                                 \{}
+\DoxyCodeLine{317 }
+\DoxyCodeLine{318         \textcolor{keywordflow}{if} (MyBluetoothService.connectedThreadRunning()) \{}
+\DoxyCodeLine{319 }
+\DoxyCodeLine{320             String fullMessage = classifier + \mbox{\hyperlink{classcom_1_1example_1_1choturemote_1_1_main_activity_ab353b0e58d8b5533f4351a11a56f3c47}{SEPARATOR}} + instruction + \mbox{\hyperlink{classcom_1_1example_1_1choturemote_1_1_main_activity_ab353b0e58d8b5533f4351a11a56f3c47}{SEPARATOR}} + modifier + \mbox{\hyperlink{classcom_1_1example_1_1choturemote_1_1_main_activity_afb3ca51ae9be50096f8776a6312447c8}{TERMINATOR}};}
+\DoxyCodeLine{321 }
+\DoxyCodeLine{322             \textcolor{comment}{// Converts the String to an Array of byte type //}}
+\DoxyCodeLine{323             \textcolor{keywordtype}{byte}[] bytes = fullMessage.getBytes(Charset.defaultCharset());}
+\DoxyCodeLine{324             \mbox{\hyperlink{classcom_1_1example_1_1choturemote_1_1_main_activity_aeaa2c2da0a0ccef38be2bf1d8d3b0343}{myBluetoothService}}.\mbox{\hyperlink{classcom_1_1example_1_1choturemote_1_1_my_bluetooth_service_a99e4bde70d43f56123413fee07424f1d}{write}}(bytes);}
+\DoxyCodeLine{325         \}}
+\DoxyCodeLine{326     \}}
+
+\end{DoxyCode}
+
+
+References com.\+example.\+choturemote.\+My\+Bluetooth\+Service.\+connected\+Thread\+Running(), com.\+example.\+choturemote.\+Main\+Activity.\+my\+Bluetooth\+Service, com.\+example.\+choturemote.\+Main\+Activity.\+S\+E\+P\+A\+R\+A\+T\+OR, com.\+example.\+choturemote.\+Main\+Activity.\+T\+E\+R\+M\+I\+N\+A\+T\+OR, and com.\+example.\+choturemote.\+My\+Bluetooth\+Service.\+write().
+
+
+
+Referenced by com.\+example.\+choturemote.\+Main\+Activity.\+on\+Create(), com.\+example.\+choturemote.\+ui.\+main.\+Locomotion\+Fragment.\+on\+Create\+View(), com.\+example.\+choturemote.\+ui.\+main.\+Expressions\+Fragment.\+on\+Create\+View(), and com.\+example.\+choturemote.\+ui.\+main.\+Speaking\+Fragment.\+on\+Create\+View().
+
+
+
+\doxysubsection{Member Data Documentation}
+\mbox{\Hypertarget{classcom_1_1example_1_1choturemote_1_1_main_activity_a061e9ac654dd449b5043b6937f3bf592}\label{classcom_1_1example_1_1choturemote_1_1_main_activity_a061e9ac654dd449b5043b6937f3bf592}} 
+\index{com.example.choturemote.MainActivity@{com.example.choturemote.MainActivity}!bluetoothAdapter@{bluetoothAdapter}}
+\index{bluetoothAdapter@{bluetoothAdapter}!com.example.choturemote.MainActivity@{com.example.choturemote.MainActivity}}
+\doxysubsubsection{\texorpdfstring{bluetoothAdapter}{bluetoothAdapter}}
+{\footnotesize\ttfamily Bluetooth\+Adapter com.\+example.\+choturemote.\+Main\+Activity.\+bluetooth\+Adapter\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+A Bluetooth\+Adapter object. 
+
+A Bluetooth\+Adapter lets you perform fundamental Bluetooth tasks, such as initiate device discovery, query a list of bonded (paired) devices, instantiate a Bluetooth\+Device using a known M\+AC address, and create a Bluetooth\+Server\+Socket to listen for connection requests from other devices, and start a scan for Bluetooth LE devices. 
+
+Definition at line 121 of file Main\+Activity.\+java.
+
+
+
+Referenced by com.\+example.\+choturemote.\+Main\+Activity.\+begin\+Connection(), and com.\+example.\+choturemote.\+Main\+Activity.\+on\+Create().
+
+\mbox{\Hypertarget{classcom_1_1example_1_1choturemote_1_1_main_activity_aa26bd8585bf0ab9cdc1b030369e257ef}\label{classcom_1_1example_1_1choturemote_1_1_main_activity_aa26bd8585bf0ab9cdc1b030369e257ef}} 
+\index{com.example.choturemote.MainActivity@{com.example.choturemote.MainActivity}!DISABLE@{DISABLE}}
+\index{DISABLE@{DISABLE}!com.example.choturemote.MainActivity@{com.example.choturemote.MainActivity}}
+\doxysubsubsection{\texorpdfstring{DISABLE}{DISABLE}}
+{\footnotesize\ttfamily com.\+example.\+choturemote.\+Main\+Activity.\+D\+I\+S\+A\+B\+LE\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [package]}}
+
+Disables poking 
+
+Definition at line 104 of file Main\+Activity.\+java.
+
+
+
+Referenced by com.\+example.\+choturemote.\+Main\+Activity.\+on\+Create().
+
+\mbox{\Hypertarget{classcom_1_1example_1_1choturemote_1_1_main_activity_ae5ad6f9443471cb8c445e6a7f35c8cf6}\label{classcom_1_1example_1_1choturemote_1_1_main_activity_ae5ad6f9443471cb8c445e6a7f35c8cf6}} 
+\index{com.example.choturemote.MainActivity@{com.example.choturemote.MainActivity}!ENABLE@{ENABLE}}
+\index{ENABLE@{ENABLE}!com.example.choturemote.MainActivity@{com.example.choturemote.MainActivity}}
+\doxysubsubsection{\texorpdfstring{ENABLE}{ENABLE}}
+{\footnotesize\ttfamily com.\+example.\+choturemote.\+Main\+Activity.\+E\+N\+A\+B\+LE\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [private]}}
+
+Enables poking 
+
+Definition at line 104 of file Main\+Activity.\+java.
+
+
+
+Referenced by com.\+example.\+choturemote.\+Main\+Activity.\+on\+Create().
+
+\mbox{\Hypertarget{classcom_1_1example_1_1choturemote_1_1_main_activity_ac1a0c9e9b8077cabfa5d18a584391044}\label{classcom_1_1example_1_1choturemote_1_1_main_activity_ac1a0c9e9b8077cabfa5d18a584391044}} 
+\index{com.example.choturemote.MainActivity@{com.example.choturemote.MainActivity}!MAC\_ADDRESS@{MAC\_ADDRESS}}
+\index{MAC\_ADDRESS@{MAC\_ADDRESS}!com.example.choturemote.MainActivity@{com.example.choturemote.MainActivity}}
+\doxysubsubsection{\texorpdfstring{MAC\_ADDRESS}{MAC\_ADDRESS}}
+{\footnotesize\ttfamily String com.\+example.\+choturemote.\+Main\+Activity.\+M\+A\+C\+\_\+\+A\+D\+D\+R\+E\+SS\hspace{0.3cm}{\ttfamily [private]}}
+
+M\+AC A\+D\+D\+R\+E\+SS of the Bluetooth device to establish communication with 
+
+Definition at line 115 of file Main\+Activity.\+java.
+
+
+
+Referenced by com.\+example.\+choturemote.\+Main\+Activity.\+begin\+Connection(), and com.\+example.\+choturemote.\+Main\+Activity.\+on\+Create().
+
+\mbox{\Hypertarget{classcom_1_1example_1_1choturemote_1_1_main_activity_abd4fc90f15deade7491ac2a18b2947bc}\label{classcom_1_1example_1_1choturemote_1_1_main_activity_abd4fc90f15deade7491ac2a18b2947bc}} 
+\index{com.example.choturemote.MainActivity@{com.example.choturemote.MainActivity}!mBTStateBroadcastReceiver@{mBTStateBroadcastReceiver}}
+\index{mBTStateBroadcastReceiver@{mBTStateBroadcastReceiver}!com.example.choturemote.MainActivity@{com.example.choturemote.MainActivity}}
+\doxysubsubsection{\texorpdfstring{mBTStateBroadcastReceiver}{mBTStateBroadcastReceiver}}
+{\footnotesize\ttfamily final Broadcast\+Receiver com.\+example.\+choturemote.\+Main\+Activity.\+m\+B\+T\+State\+Broadcast\+Receiver\hspace{0.3cm}{\ttfamily [private]}}
+
+{\bfseries Initial value\+:}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{= \textcolor{keyword}{new} BroadcastReceiver() \{}
+\DoxyCodeLine{        @Override}
+\DoxyCodeLine{        \textcolor{keyword}{public} \textcolor{keywordtype}{void} onReceive(Context context, Intent intent) \{}
+\DoxyCodeLine{            }
+\DoxyCodeLine{            \textcolor{keyword}{final} String action = intent.getAction();}
+\DoxyCodeLine{            \textcolor{keywordflow}{if} (action.equals(BluetoothAdapter.ACTION\_STATE\_CHANGED)) \{}
+\DoxyCodeLine{                \textcolor{keyword}{final} \textcolor{keywordtype}{int} state = intent.getIntExtra(BluetoothAdapter.EXTRA\_STATE, BluetoothAdapter.ERROR);}
+\DoxyCodeLine{                \textcolor{keywordflow}{switch} (state) \{}
+\DoxyCodeLine{                    \textcolor{keywordflow}{case} BluetoothAdapter.STATE\_OFF:}
+\DoxyCodeLine{                        Toast.makeText(context, R.string.BT\_STATE\_OFF\_TEXT, Toast.LENGTH\_SHORT).show();}
+\DoxyCodeLine{                        \textcolor{keywordflow}{break};}
+\DoxyCodeLine{                    \textcolor{keywordflow}{case} BluetoothAdapter.STATE\_TURNING\_OFF:}
+\DoxyCodeLine{                        Toast.makeText(context, R.string.BT\_STATE\_TURNING\_OFF\_TEXT, Toast.LENGTH\_SHORT).show();}
+\DoxyCodeLine{                        \textcolor{keywordflow}{break};}
+\DoxyCodeLine{                    \textcolor{keywordflow}{case} BluetoothAdapter.STATE\_ON:}
+\DoxyCodeLine{                        Toast.makeText(context, R.string.BT\_STATE\_ON\_TEXT, Toast.LENGTH\_SHORT).show();}
+\DoxyCodeLine{                        \textcolor{keywordflow}{break};}
+\DoxyCodeLine{                    \textcolor{keywordflow}{case} BluetoothAdapter.STATE\_TURNING\_ON:}
+\DoxyCodeLine{                        Toast.makeText(context, R.string.BT\_STATE\_TURNING\_ON\_TEXT, Toast.LENGTH\_SHORT).show();}
+\DoxyCodeLine{                        \textcolor{keywordflow}{break};}
+\DoxyCodeLine{                \}}
+\DoxyCodeLine{}
+\DoxyCodeLine{            \}}
+\DoxyCodeLine{        \}}
+\DoxyCodeLine{    \}}
+
+\end{DoxyCode}
+
+
+a Broadcast\+Receiver type object 
+
+\begin{DoxyItemize}
+\item Receives and handles broadcast intents sent by \href{https://developer.android.com/reference/android/content/Context.html\#sendBroadcast(android.content.Intent)}{\texttt{ Context.\+send\+Broadcast(\+Intent)}}. \item This is an implementation of Broadcast\+Receiver registered to be run in the main activity thread. Its receiver is called with any broadcast Intent that matches filter, in this case is {\bfseries{Bluetooth\+Adapter.\+A\+C\+T\+I\+O\+N\+\_\+\+S\+T\+A\+T\+E\+\_\+\+C\+H\+A\+N\+G\+ED}} (in other words, when the state of the local Bluetooth adapter has been changed). \end{DoxyItemize}
+
+
+Definition at line 134 of file Main\+Activity.\+java.
+
+
+
+Referenced by com.\+example.\+choturemote.\+Main\+Activity.\+on\+Create(), and com.\+example.\+choturemote.\+Main\+Activity.\+on\+Destroy().
+
+\mbox{\Hypertarget{classcom_1_1example_1_1choturemote_1_1_main_activity_a1c5f9a89b607cb40b0b886b9d095a60f}\label{classcom_1_1example_1_1choturemote_1_1_main_activity_a1c5f9a89b607cb40b0b886b9d095a60f}} 
+\index{com.example.choturemote.MainActivity@{com.example.choturemote.MainActivity}!MY\_UUID@{MY\_UUID}}
+\index{MY\_UUID@{MY\_UUID}!com.example.choturemote.MainActivity@{com.example.choturemote.MainActivity}}
+\doxysubsubsection{\texorpdfstring{MY\_UUID}{MY\_UUID}}
+{\footnotesize\ttfamily final U\+U\+ID com.\+example.\+choturemote.\+Main\+Activity.\+M\+Y\+\_\+\+U\+U\+ID = U\+U\+I\+D.\+from\+String(\char`\"{}00001101-\/0000-\/1000-\/8000-\/00805F9\+B34\+FB\char`\"{})\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [package]}}
+
+
+
+Universally Unique Identifier (U\+U\+ID) 
+
+\begin{DoxyItemize}
+\item Creating a U\+U\+ID which represents a 128-\/bit value. \item More information on U\+U\+I\+Ds by the Internet Engineering Task Force can be found \href{https://www.ietf.org/rfc/rfc4122.txt}{\texttt{ here}}. \item U\+U\+I\+Ds are not tied to particular devices. They identify software services. You just need both sides to use the same one. \item \char`\"{}00001101-\/0000-\/1000-\/8000-\/00805\+F9\+B34\+F\+B\char`\"{} is the one and only U\+U\+ID for S\+PP (serial port profile). Check out \href{https://developer.android.com/reference/android/bluetooth/BluetoothDevice.html\#createRfcommSocketToServiceRecord(java.util.UUID)}{\texttt{ the Android Developer\textquotesingle{}s page}}. \end{DoxyItemize}
+
+
+Definition at line 51 of file Main\+Activity.\+java.
+
+
+
+Referenced by com.\+example.\+choturemote.\+Main\+Activity.\+begin\+Connection().
+
+\mbox{\Hypertarget{classcom_1_1example_1_1choturemote_1_1_main_activity_aeaa2c2da0a0ccef38be2bf1d8d3b0343}\label{classcom_1_1example_1_1choturemote_1_1_main_activity_aeaa2c2da0a0ccef38be2bf1d8d3b0343}} 
+\index{com.example.choturemote.MainActivity@{com.example.choturemote.MainActivity}!myBluetoothService@{myBluetoothService}}
+\index{myBluetoothService@{myBluetoothService}!com.example.choturemote.MainActivity@{com.example.choturemote.MainActivity}}
+\doxysubsubsection{\texorpdfstring{myBluetoothService}{myBluetoothService}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classcom_1_1example_1_1choturemote_1_1_my_bluetooth_service}{My\+Bluetooth\+Service}} com.\+example.\+choturemote.\+Main\+Activity.\+my\+Bluetooth\+Service\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Handles Bluetooth stuff. 
+
+Custom class. Handles Bluetooth stuff. 
+
+Definition at line 57 of file Main\+Activity.\+java.
+
+
+
+Referenced by com.\+example.\+choturemote.\+Main\+Activity.\+begin\+Connection(), com.\+example.\+choturemote.\+Main\+Activity.\+on\+Create(), and com.\+example.\+choturemote.\+Main\+Activity.\+write\+To\+Bluetooth().
+
+\mbox{\Hypertarget{classcom_1_1example_1_1choturemote_1_1_main_activity_ac3e9ca4725b013aac8b4210555d40ccf}\label{classcom_1_1example_1_1choturemote_1_1_main_activity_ac3e9ca4725b013aac8b4210555d40ccf}} 
+\index{com.example.choturemote.MainActivity@{com.example.choturemote.MainActivity}!POKE@{POKE}}
+\index{POKE@{POKE}!com.example.choturemote.MainActivity@{com.example.choturemote.MainActivity}}
+\doxysubsubsection{\texorpdfstring{POKE}{POKE}}
+{\footnotesize\ttfamily com.\+example.\+choturemote.\+Main\+Activity.\+P\+O\+KE\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [private]}}
+
+
+
+Used as a modifier. 
+
+Used as a modifier to distinguish a poke command from a sleep command. 
+
+Definition at line 103 of file Main\+Activity.\+java.
+
+
+
+Referenced by com.\+example.\+choturemote.\+Main\+Activity.\+on\+Create().
+
+\mbox{\Hypertarget{classcom_1_1example_1_1choturemote_1_1_main_activity_a45413adbd3f558042556a9fb4dfab01c}\label{classcom_1_1example_1_1choturemote_1_1_main_activity_a45413adbd3f558042556a9fb4dfab01c}} 
+\index{com.example.choturemote.MainActivity@{com.example.choturemote.MainActivity}!POKE\_SLEEP\_CLASSIFIER@{POKE\_SLEEP\_CLASSIFIER}}
+\index{POKE\_SLEEP\_CLASSIFIER@{POKE\_SLEEP\_CLASSIFIER}!com.example.choturemote.MainActivity@{com.example.choturemote.MainActivity}}
+\doxysubsubsection{\texorpdfstring{POKE\_SLEEP\_CLASSIFIER}{POKE\_SLEEP\_CLASSIFIER}}
+{\footnotesize\ttfamily com.\+example.\+choturemote.\+Main\+Activity.\+P\+O\+K\+E\+\_\+\+S\+L\+E\+E\+P\+\_\+\+C\+L\+A\+S\+S\+I\+F\+I\+ER\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [private]}}
+
+
+
+Used to send sleep or poke instructions. 
+
+Command Strings pertaining to sleep or poke instructions classified by this classifier 
+
+Definition at line 101 of file Main\+Activity.\+java.
+
+
+
+Referenced by com.\+example.\+choturemote.\+Main\+Activity.\+on\+Create().
+
+\mbox{\Hypertarget{classcom_1_1example_1_1choturemote_1_1_main_activity_a9473bd91131e1dfc843c05938d9bb811}\label{classcom_1_1example_1_1choturemote_1_1_main_activity_a9473bd91131e1dfc843c05938d9bb811}} 
+\index{com.example.choturemote.MainActivity@{com.example.choturemote.MainActivity}!REQUEST\_ENABLE\_BT@{REQUEST\_ENABLE\_BT}}
+\index{REQUEST\_ENABLE\_BT@{REQUEST\_ENABLE\_BT}!com.example.choturemote.MainActivity@{com.example.choturemote.MainActivity}}
+\doxysubsubsection{\texorpdfstring{REQUEST\_ENABLE\_BT}{REQUEST\_ENABLE\_BT}}
+{\footnotesize\ttfamily int com.\+example.\+choturemote.\+Main\+Activity.\+R\+E\+Q\+U\+E\+S\+T\+\_\+\+E\+N\+A\+B\+L\+E\+\_\+\+BT = 1\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+An integer passed to start\+Activity\+For\+Result() and received by \mbox{\hyperlink{classcom_1_1example_1_1choturemote_1_1_main_activity_ac3abaf659333fa1d6fc2f300f504cf16}{on\+Activity\+Result()}}. If it is greater $>$= 0, this code will be returned in \mbox{\hyperlink{classcom_1_1example_1_1choturemote_1_1_main_activity_ac3abaf659333fa1d6fc2f300f504cf16}{on\+Activity\+Result()}} when the activity exits. Does nothing of significance at present. 
+
+
+
+Definition at line 126 of file Main\+Activity.\+java.
+
+
+
+Referenced by com.\+example.\+choturemote.\+Main\+Activity.\+on\+Activity\+Result(), and com.\+example.\+choturemote.\+Main\+Activity.\+on\+Create().
+
+\mbox{\Hypertarget{classcom_1_1example_1_1choturemote_1_1_main_activity_ab0a4994b9bd5818e19716d3f798443c0}\label{classcom_1_1example_1_1choturemote_1_1_main_activity_ab0a4994b9bd5818e19716d3f798443c0}} 
+\index{com.example.choturemote.MainActivity@{com.example.choturemote.MainActivity}!sectionsPagerAdapter@{sectionsPagerAdapter}}
+\index{sectionsPagerAdapter@{sectionsPagerAdapter}!com.example.choturemote.MainActivity@{com.example.choturemote.MainActivity}}
+\doxysubsubsection{\texorpdfstring{sectionsPagerAdapter}{sectionsPagerAdapter}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classcom_1_1example_1_1choturemote_1_1ui_1_1main_1_1_sections_pager_adapter}{Sections\+Pager\+Adapter}} com.\+example.\+choturemote.\+Main\+Activity.\+sections\+Pager\+Adapter\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Custom class. 
+
+Sections\+Pager\+Adapter extends Fragment\+Pager\+Adapter which is an implementation of the Pager\+Adapter class. It is needed for the View\+Pager object, view\+Pager. 
+
+Definition at line 63 of file Main\+Activity.\+java.
+
+
+
+Referenced by com.\+example.\+choturemote.\+Main\+Activity.\+on\+Create().
+
+\mbox{\Hypertarget{classcom_1_1example_1_1choturemote_1_1_main_activity_ab353b0e58d8b5533f4351a11a56f3c47}\label{classcom_1_1example_1_1choturemote_1_1_main_activity_ab353b0e58d8b5533f4351a11a56f3c47}} 
+\index{com.example.choturemote.MainActivity@{com.example.choturemote.MainActivity}!SEPARATOR@{SEPARATOR}}
+\index{SEPARATOR@{SEPARATOR}!com.example.choturemote.MainActivity@{com.example.choturemote.MainActivity}}
+\doxysubsubsection{\texorpdfstring{SEPARATOR}{SEPARATOR}}
+{\footnotesize\ttfamily com.\+example.\+choturemote.\+Main\+Activity.\+S\+E\+P\+A\+R\+A\+T\+OR\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [private]}}
+
+
+
+Command instruction separator. 
+
+Is used to visually distinguish between parts of a String instruction. 
+
+Definition at line 102 of file Main\+Activity.\+java.
+
+
+
+Referenced by com.\+example.\+choturemote.\+Main\+Activity.\+on\+Create(), and com.\+example.\+choturemote.\+Main\+Activity.\+write\+To\+Bluetooth().
+
+\mbox{\Hypertarget{classcom_1_1example_1_1choturemote_1_1_main_activity_acc22e845be09511f9c52ebe30d6d4a5d}\label{classcom_1_1example_1_1choturemote_1_1_main_activity_acc22e845be09511f9c52ebe30d6d4a5d}} 
+\index{com.example.choturemote.MainActivity@{com.example.choturemote.MainActivity}!tabs@{tabs}}
+\index{tabs@{tabs}!com.example.choturemote.MainActivity@{com.example.choturemote.MainActivity}}
+\doxysubsubsection{\texorpdfstring{tabs}{tabs}}
+{\footnotesize\ttfamily Tab\+Layout com.\+example.\+choturemote.\+Main\+Activity.\+tabs\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Tab\+Layout provides a horizontal layout to display tabs. 
+
+\begin{DoxyItemize}
+\item The class method setup\+With\+View\+Pager() links the given View\+Pager and this Tab\+Layout together so that changes in one are automatically reflected in the other. This includes scroll state changes and clicks. The tabs displayed in this layout will be populated from the View\+Pager adapter\textquotesingle{}s page titles. \item The Tab\+Layout object, tabs, is a View in the activity\+\_\+main.\+xml layout file with the id \char`\"{}tabs\char`\"{}. \end{DoxyItemize}
+
+
+Definition at line 71 of file Main\+Activity.\+java.
+
+
+
+Referenced by com.\+example.\+choturemote.\+Main\+Activity.\+on\+Create().
+
+\mbox{\Hypertarget{classcom_1_1example_1_1choturemote_1_1_main_activity_aa3382314e04a6a0e63b1318f0d0aec5c}\label{classcom_1_1example_1_1choturemote_1_1_main_activity_aa3382314e04a6a0e63b1318f0d0aec5c}} 
+\index{com.example.choturemote.MainActivity@{com.example.choturemote.MainActivity}!TAG@{TAG}}
+\index{TAG@{TAG}!com.example.choturemote.MainActivity@{com.example.choturemote.MainActivity}}
+\doxysubsubsection{\texorpdfstring{TAG}{TAG}}
+{\footnotesize\ttfamily String com.\+example.\+choturemote.\+Main\+Activity.\+T\+AG = \char`\"{}Main\+Activity\char`\"{}\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [private]}}
+
+Debugging tool 
+
+Definition at line 109 of file Main\+Activity.\+java.
+
+\mbox{\Hypertarget{classcom_1_1example_1_1choturemote_1_1_main_activity_afb3ca51ae9be50096f8776a6312447c8}\label{classcom_1_1example_1_1choturemote_1_1_main_activity_afb3ca51ae9be50096f8776a6312447c8}} 
+\index{com.example.choturemote.MainActivity@{com.example.choturemote.MainActivity}!TERMINATOR@{TERMINATOR}}
+\index{TERMINATOR@{TERMINATOR}!com.example.choturemote.MainActivity@{com.example.choturemote.MainActivity}}
+\doxysubsubsection{\texorpdfstring{TERMINATOR}{TERMINATOR}}
+{\footnotesize\ttfamily com.\+example.\+choturemote.\+Main\+Activity.\+T\+E\+R\+M\+I\+N\+A\+T\+OR\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [package]}}
+
+
+
+Command instruction terminator. 
+
+Used to indicate the end of a String instruction. 
+
+Definition at line 102 of file Main\+Activity.\+java.
+
+
+
+Referenced by com.\+example.\+choturemote.\+Main\+Activity.\+on\+Create(), and com.\+example.\+choturemote.\+Main\+Activity.\+write\+To\+Bluetooth().
+
+\mbox{\Hypertarget{classcom_1_1example_1_1choturemote_1_1_main_activity_a6f2c5025e156efc0ea6940d05f963429}\label{classcom_1_1example_1_1choturemote_1_1_main_activity_a6f2c5025e156efc0ea6940d05f963429}} 
+\index{com.example.choturemote.MainActivity@{com.example.choturemote.MainActivity}!TESTING@{TESTING}}
+\index{TESTING@{TESTING}!com.example.choturemote.MainActivity@{com.example.choturemote.MainActivity}}
+\doxysubsubsection{\texorpdfstring{TESTING}{TESTING}}
+{\footnotesize\ttfamily final boolean com.\+example.\+choturemote.\+Main\+Activity.\+T\+E\+S\+T\+I\+NG = false\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Debugging tool. 
+
+Toggle to F\+A\+L\+SE when using it with the two H\+C-\/05\textquotesingle{}s on a breadboard. Check their M\+AC Addresses before using. 
+
+Definition at line 41 of file Main\+Activity.\+java.
+
+
+
+Referenced by com.\+example.\+choturemote.\+Main\+Activity.\+on\+Create().
+
+\mbox{\Hypertarget{classcom_1_1example_1_1choturemote_1_1_main_activity_a7831031b101fce51879743e2eaf3b7a0}\label{classcom_1_1example_1_1choturemote_1_1_main_activity_a7831031b101fce51879743e2eaf3b7a0}} 
+\index{com.example.choturemote.MainActivity@{com.example.choturemote.MainActivity}!viewPager@{viewPager}}
+\index{viewPager@{viewPager}!com.example.choturemote.MainActivity@{com.example.choturemote.MainActivity}}
+\doxysubsubsection{\texorpdfstring{viewPager}{viewPager}}
+{\footnotesize\ttfamily View\+Pager com.\+example.\+choturemote.\+Main\+Activity.\+view\+Pager\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Layout manager allowing left/right swipes to get access to more options. 
+
+\begin{DoxyItemize}
+\item View\+Pager is a layout manager that allows the user to flip left and right through pages of data. \item You supply an implementation of a Pager\+Adapter to generate the pages that the view shows. In this case it was supplied a Sections\+Pager\+Adapter object sections\+Pager\+Adapter. Sections\+Pager\+Adapter extends Fragment\+Pager\+Adapter which is an implementation of the Pager\+Adapter class. \item More information \href{https://developer.android.com/reference/android/support/v4/view/ViewPager.html}{\texttt{ at the View\+Pager entry}} and \href{https://developer.android.com/reference/android/support/v4/view/PagerAdapter.html}{\texttt{ Pager\+Adapter entry}} in the Android Developer\textquotesingle{}s documentation. \item The View\+Pager object, view\+Pager, is a View in the activity\+\_\+main.\+xml layout file with the id \char`\"{}view\+\_\+pager\char`\"{}. \end{DoxyItemize}
+
+
+Definition at line 81 of file Main\+Activity.\+java.
+
+
+
+Referenced by com.\+example.\+choturemote.\+Main\+Activity.\+on\+Create().
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{_main_activity_8java}{Main\+Activity.\+java}}\end{DoxyCompactItemize}

@@ -1,0 +1,176 @@
+\hypertarget{classcom_1_1example_1_1choturemote_1_1ui_1_1main_1_1_expressions_word_adapter}{}\doxysection{com.\+example.\+choturemote.\+ui.\+main.\+Expressions\+Word\+Adapter Class Reference}
+\label{classcom_1_1example_1_1choturemote_1_1ui_1_1main_1_1_expressions_word_adapter}\index{com.example.choturemote.ui.main.ExpressionsWordAdapter@{com.example.choturemote.ui.main.ExpressionsWordAdapter}}
+
+
+An Array\+Adapter Implementation.  
+
+
+Inheritance diagram for com.\+example.\+choturemote.\+ui.\+main.\+Expressions\+Word\+Adapter\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{d7/d53/classcom_1_1example_1_1choturemote_1_1ui_1_1main_1_1_expressions_word_adapter}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classcom_1_1example_1_1choturemote_1_1ui_1_1main_1_1_expressions_word_adapter_a1ad0132c2c6371911d7d340006ee7b41}{Expressions\+Word\+Adapter}} (Context context, Array\+List$<$ \mbox{\hyperlink{classcom_1_1example_1_1choturemote_1_1ui_1_1main_1_1_word}{Word}} $>$ words, int color\+Resource\+Id)
+\begin{DoxyCompactList}\small\item\em Constructor. \end{DoxyCompactList}\item 
+View \mbox{\hyperlink{classcom_1_1example_1_1choturemote_1_1ui_1_1main_1_1_expressions_word_adapter_a1268fd387222ad2ce3e458b9e2826cb8}{get\+View}} (int position, View convert\+View, View\+Group parent)
+\begin{DoxyCompactList}\small\item\em Return a View object. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+int \mbox{\hyperlink{classcom_1_1example_1_1choturemote_1_1ui_1_1main_1_1_expressions_word_adapter_a565c7bfcd4d64e4b1fb3b361821216d1}{m\+Color\+Resource\+Id}}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+An Array\+Adapter Implementation. 
+
+\begin{DoxyItemize}
+\item This is an Array\+Adapter used to provide views for the Adapter\+View \item Returns a view for each object in a collection of \mbox{\hyperlink{classcom_1_1example_1_1choturemote_1_1ui_1_1main_1_1_word}{Word}} objects provided \end{DoxyItemize}
+
+
+Definition at line 43 of file Expressions\+Word\+Adapter.\+java.
+
+
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classcom_1_1example_1_1choturemote_1_1ui_1_1main_1_1_expressions_word_adapter_a1ad0132c2c6371911d7d340006ee7b41}\label{classcom_1_1example_1_1choturemote_1_1ui_1_1main_1_1_expressions_word_adapter_a1ad0132c2c6371911d7d340006ee7b41}} 
+\index{com.example.choturemote.ui.main.ExpressionsWordAdapter@{com.example.choturemote.ui.main.ExpressionsWordAdapter}!ExpressionsWordAdapter@{ExpressionsWordAdapter}}
+\index{ExpressionsWordAdapter@{ExpressionsWordAdapter}!com.example.choturemote.ui.main.ExpressionsWordAdapter@{com.example.choturemote.ui.main.ExpressionsWordAdapter}}
+\doxysubsubsection{\texorpdfstring{ExpressionsWordAdapter()}{ExpressionsWordAdapter()}}
+{\footnotesize\ttfamily com.\+example.\+choturemote.\+ui.\+main.\+Expressions\+Word\+Adapter.\+Expressions\+Word\+Adapter (\begin{DoxyParamCaption}\item[{Context}]{context,  }\item[{Array\+List$<$ \mbox{\hyperlink{classcom_1_1example_1_1choturemote_1_1ui_1_1main_1_1_word}{Word}} $>$}]{words,  }\item[{int}]{color\+Resource\+Id }\end{DoxyParamCaption})}
+
+
+
+Constructor. 
+
+Constructor for an \mbox{\hyperlink{classcom_1_1example_1_1choturemote_1_1ui_1_1main_1_1_expressions_word_adapter}{Expressions\+Word\+Adapter}} object. 
+\begin{DoxyParams}{Parameters}
+{\em context} & the current context (i.\+e. Activity) that the adapter is being created in \\
+\hline
+{\em words} & the list of \mbox{\hyperlink{classcom_1_1example_1_1choturemote_1_1ui_1_1main_1_1_word}{Word}} objects to be displayed \\
+\hline
+{\em color\+Resource\+Id} & the resource ID for the background color for this list of words \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 58 of file Expressions\+Word\+Adapter.\+java.
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{58                                                                                                \{}
+\DoxyCodeLine{59         super(context, 0, words);}
+\DoxyCodeLine{60         \mbox{\hyperlink{classcom_1_1example_1_1choturemote_1_1ui_1_1main_1_1_expressions_word_adapter_a565c7bfcd4d64e4b1fb3b361821216d1}{mColorResourceId}} = colorResourceId;}
+\DoxyCodeLine{61     \}}
+
+\end{DoxyCode}
+
+
+References com.\+example.\+choturemote.\+ui.\+main.\+Expressions\+Word\+Adapter.\+m\+Color\+Resource\+Id.
+
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classcom_1_1example_1_1choturemote_1_1ui_1_1main_1_1_expressions_word_adapter_a1268fd387222ad2ce3e458b9e2826cb8}\label{classcom_1_1example_1_1choturemote_1_1ui_1_1main_1_1_expressions_word_adapter_a1268fd387222ad2ce3e458b9e2826cb8}} 
+\index{com.example.choturemote.ui.main.ExpressionsWordAdapter@{com.example.choturemote.ui.main.ExpressionsWordAdapter}!getView@{getView}}
+\index{getView@{getView}!com.example.choturemote.ui.main.ExpressionsWordAdapter@{com.example.choturemote.ui.main.ExpressionsWordAdapter}}
+\doxysubsubsection{\texorpdfstring{getView()}{getView()}}
+{\footnotesize\ttfamily View com.\+example.\+choturemote.\+ui.\+main.\+Expressions\+Word\+Adapter.\+get\+View (\begin{DoxyParamCaption}\item[{int}]{position,  }\item[{View}]{convert\+View,  }\item[{View\+Group}]{parent }\end{DoxyParamCaption})}
+
+
+
+Return a View object. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em position} & specified position in the data set of the \mbox{\hyperlink{classcom_1_1example_1_1choturemote_1_1ui_1_1main_1_1_word}{Word}} to be displayed \\
+\hline
+{\em convert\+View} & a View type. Here value is null. Instead expressions\+\_\+grid\+\_\+item.\+xml is inflated to create the View \\
+\hline
+{\em parent} & Parent View object of the View object being returned \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+a View that displays the data at the specified position in the data set
+\end{DoxyReturn}
+\begin{DoxyItemize}
+\item Check if an existing view is being reused, otherwise inflate the view \item \mbox{\hyperlink{classcom_1_1example_1_1choturemote_1_1ui_1_1main_1_1_expressions_word_adapter_a1268fd387222ad2ce3e458b9e2826cb8}{get\+View()}} was {\ttfamily @Override} in order to return a custom type View \item Called back automatically by Android \end{DoxyItemize}
+
+
+Definition at line 75 of file Expressions\+Word\+Adapter.\+java.
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{75                                                                           \{}
+\DoxyCodeLine{76 }
+\DoxyCodeLine{77         View itemView = convertView;}
+\DoxyCodeLine{78 }
+\DoxyCodeLine{79         \textcolor{keywordflow}{if} (itemView == \textcolor{keyword}{null}) \{}
+\DoxyCodeLine{80             \textcolor{comment}{// Inflating expressions\_grid\_item.xml //}}
+\DoxyCodeLine{81             itemView = LayoutInflater.from(getContext()).inflate(}
+\DoxyCodeLine{82                     R.layout.expressions\_grid\_item, parent, \textcolor{keyword}{false});}
+\DoxyCodeLine{83         \}}
+\DoxyCodeLine{84 }
+\DoxyCodeLine{85         \textcolor{comment}{// Get the Word object located at this position in the list //}}
+\DoxyCodeLine{86         Word currentWord = getItem(position);}
+\DoxyCodeLine{87 }
+\DoxyCodeLine{88         \textcolor{comment}{// Find the TextView in the expressions\_grid\_item.xml layout with the ID "default\_text\_view" //}}
+\DoxyCodeLine{89         TextView defaultTextView = (TextView) itemView.findViewById(R.id.default\_text\_view);}
+\DoxyCodeLine{90 }
+\DoxyCodeLine{91         \textcolor{comment}{// Get the text from the currentWord object and set this text on the default TextView //}}
+\DoxyCodeLine{92         defaultTextView.setText(currentWord.getStringResourceId());}
+\DoxyCodeLine{93 }
+\DoxyCodeLine{94         \textcolor{comment}{// Find the ImageView in the expressions\_grid\_item.xml layout with the ID "image" //}}
+\DoxyCodeLine{95         ImageView imageView = (ImageView) itemView.findViewById(R.id.image);}
+\DoxyCodeLine{96 }
+\DoxyCodeLine{97         \textcolor{keywordflow}{if} (currentWord.hasImage()) \{}
+\DoxyCodeLine{98             \textcolor{comment}{// If an image is available, display the provided image based on the resource ID //}}
+\DoxyCodeLine{99             imageView.setImageResource(currentWord.getImageResourceId());}
+\DoxyCodeLine{100 }
+\DoxyCodeLine{101             \textcolor{comment}{// Make sure the view is visible //}}
+\DoxyCodeLine{102             imageView.setVisibility(View.VISIBLE);}
+\DoxyCodeLine{103         \} \textcolor{keywordflow}{else} \{}
+\DoxyCodeLine{104             \textcolor{comment}{// Otherwise hide the ImageView (set visibility to GONE) //}}
+\DoxyCodeLine{105             imageView.setVisibility(View.GONE);}
+\DoxyCodeLine{106         \}}
+\DoxyCodeLine{107 }
+\DoxyCodeLine{108         \textcolor{comment}{// Set the background color of the text container View //}}
+\DoxyCodeLine{109         View textContainer = itemView.findViewById(R.id.text\_container);}
+\DoxyCodeLine{110         \textcolor{keywordtype}{int} color = ContextCompat.getColor(getContext(), \mbox{\hyperlink{classcom_1_1example_1_1choturemote_1_1ui_1_1main_1_1_expressions_word_adapter_a565c7bfcd4d64e4b1fb3b361821216d1}{mColorResourceId}}); \textcolor{comment}{// Find the color that the resource ID maps to //}}
+\DoxyCodeLine{111         textContainer.setBackgroundColor(color);}
+\DoxyCodeLine{112 }
+\DoxyCodeLine{113         \textcolor{comment}{// Return the itemView object(containing one TextView and one ImageView) so that it can be shown in the GridView //}}
+\DoxyCodeLine{114         \textcolor{keywordflow}{return} itemView;}
+\DoxyCodeLine{115     \}}
+
+\end{DoxyCode}
+
+
+References com.\+example.\+choturemote.\+ui.\+main.\+Word.\+get\+Image\+Resource\+Id(), com.\+example.\+choturemote.\+ui.\+main.\+Word.\+get\+String\+Resource\+Id(), com.\+example.\+choturemote.\+ui.\+main.\+Word.\+has\+Image(), and com.\+example.\+choturemote.\+ui.\+main.\+Expressions\+Word\+Adapter.\+m\+Color\+Resource\+Id.
+
+
+
+\doxysubsection{Member Data Documentation}
+\mbox{\Hypertarget{classcom_1_1example_1_1choturemote_1_1ui_1_1main_1_1_expressions_word_adapter_a565c7bfcd4d64e4b1fb3b361821216d1}\label{classcom_1_1example_1_1choturemote_1_1ui_1_1main_1_1_expressions_word_adapter_a565c7bfcd4d64e4b1fb3b361821216d1}} 
+\index{com.example.choturemote.ui.main.ExpressionsWordAdapter@{com.example.choturemote.ui.main.ExpressionsWordAdapter}!mColorResourceId@{mColorResourceId}}
+\index{mColorResourceId@{mColorResourceId}!com.example.choturemote.ui.main.ExpressionsWordAdapter@{com.example.choturemote.ui.main.ExpressionsWordAdapter}}
+\doxysubsubsection{\texorpdfstring{mColorResourceId}{mColorResourceId}}
+{\footnotesize\ttfamily int com.\+example.\+choturemote.\+ui.\+main.\+Expressions\+Word\+Adapter.\+m\+Color\+Resource\+Id\hspace{0.3cm}{\ttfamily [private]}}
+
+Resource ID for the background color for this list of \mbox{\hyperlink{classcom_1_1example_1_1choturemote_1_1ui_1_1main_1_1_word}{Word}} objects 
+
+Definition at line 48 of file Expressions\+Word\+Adapter.\+java.
+
+
+
+Referenced by com.\+example.\+choturemote.\+ui.\+main.\+Expressions\+Word\+Adapter.\+Expressions\+Word\+Adapter(), and com.\+example.\+choturemote.\+ui.\+main.\+Expressions\+Word\+Adapter.\+get\+View().
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{_expressions_word_adapter_8java}{Expressions\+Word\+Adapter.\+java}}\end{DoxyCompactItemize}

@@ -1,0 +1,273 @@
+\hypertarget{classcom_1_1example_1_1choturemote_1_1_my_bluetooth_service_1_1_connected_thread}{}\doxysection{com.\+example.\+choturemote.\+My\+Bluetooth\+Service.\+Connected\+Thread Class Reference}
+\label{classcom_1_1example_1_1choturemote_1_1_my_bluetooth_service_1_1_connected_thread}\index{com.example.choturemote.MyBluetoothService.ConnectedThread@{com.example.choturemote.MyBluetoothService.ConnectedThread}}
+
+
+Thread that manages a Bluetooth connection.  
+
+
+Inheritance diagram for com.\+example.\+choturemote.\+My\+Bluetooth\+Service.\+Connected\+Thread\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{d0/dd3/classcom_1_1example_1_1choturemote_1_1_my_bluetooth_service_1_1_connected_thread}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classcom_1_1example_1_1choturemote_1_1_my_bluetooth_service_1_1_connected_thread_a503a0e52af0b7fc57fe8103c82576940}{Connected\+Thread}} (Bluetooth\+Socket socket)
+\begin{DoxyCompactList}\small\item\em Constructor for the \mbox{\hyperlink{classcom_1_1example_1_1choturemote_1_1_my_bluetooth_service_1_1_connected_thread}{Connected\+Thread}} class. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classcom_1_1example_1_1choturemote_1_1_my_bluetooth_service_1_1_connected_thread_adf4f9ea6314c0f175cbb5bbe6a6c2b62}{run}} ()
+\begin{DoxyCompactList}\small\item\em Main code that runs in the Thread. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classcom_1_1example_1_1choturemote_1_1_my_bluetooth_service_1_1_connected_thread_afb74e74b0bb6de9fb8a4cd6d5c9cecb6}{write}} (byte\mbox{[}$\,$\mbox{]} bytes)
+\begin{DoxyCompactList}\small\item\em Sends data to the remote device. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classcom_1_1example_1_1choturemote_1_1_my_bluetooth_service_1_1_connected_thread_add4e5a5c84cb3f4f39da3a580f06563f}{cancel}} ()
+\begin{DoxyCompactList}\small\item\em Closes the socket. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+final Bluetooth\+Socket \mbox{\hyperlink{classcom_1_1example_1_1choturemote_1_1_my_bluetooth_service_1_1_connected_thread_a8de5a3d5caf68e9d995bed0feb705ae9}{mm\+Socket}}
+\item 
+final Input\+Stream \mbox{\hyperlink{classcom_1_1example_1_1choturemote_1_1_my_bluetooth_service_1_1_connected_thread_a45b89d8acf2113687279c4a14408bd4a}{mm\+In\+Stream}}
+\item 
+final Output\+Stream \mbox{\hyperlink{classcom_1_1example_1_1choturemote_1_1_my_bluetooth_service_1_1_connected_thread_ac0299412c60ee2362599ca3600f3ebec}{mm\+Out\+Stream}}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Thread that manages a Bluetooth connection. 
+
+\begin{DoxyItemize}
+\item A thread is a thread of execution in a program. The Java Virtual Machine allows an application to have multiple threads of execution running concurrently. \item This one manages a Bluetooth\+Socket \end{DoxyItemize}
+
+
+Definition at line 248 of file My\+Bluetooth\+Service.\+java.
+
+
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classcom_1_1example_1_1choturemote_1_1_my_bluetooth_service_1_1_connected_thread_a503a0e52af0b7fc57fe8103c82576940}\label{classcom_1_1example_1_1choturemote_1_1_my_bluetooth_service_1_1_connected_thread_a503a0e52af0b7fc57fe8103c82576940}} 
+\index{com.example.choturemote.MyBluetoothService.ConnectedThread@{com.example.choturemote.MyBluetoothService.ConnectedThread}!ConnectedThread@{ConnectedThread}}
+\index{ConnectedThread@{ConnectedThread}!com.example.choturemote.MyBluetoothService.ConnectedThread@{com.example.choturemote.MyBluetoothService.ConnectedThread}}
+\doxysubsubsection{\texorpdfstring{ConnectedThread()}{ConnectedThread()}}
+{\footnotesize\ttfamily com.\+example.\+choturemote.\+My\+Bluetooth\+Service.\+Connected\+Thread.\+Connected\+Thread (\begin{DoxyParamCaption}\item[{Bluetooth\+Socket}]{socket }\end{DoxyParamCaption})}
+
+
+
+Constructor for the \mbox{\hyperlink{classcom_1_1example_1_1choturemote_1_1_my_bluetooth_service_1_1_connected_thread}{Connected\+Thread}} class. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em socket} & R\+F\+C\+O\+MM Bluetooth Socket object\\
+\hline
+\end{DoxyParams}
+Manages a R\+F\+C\+O\+MM Bluetooth Socket 
+
+Definition at line 269 of file My\+Bluetooth\+Service.\+java.
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{269                                                        \{}
+\DoxyCodeLine{270             Log.d(\mbox{\hyperlink{classcom_1_1example_1_1choturemote_1_1_my_bluetooth_service_ac76c590b5b28ab954ba7cc4e023eabf4}{TAG}}, \textcolor{stringliteral}{"ConnectedThread: Starting."});}
+\DoxyCodeLine{271 }
+\DoxyCodeLine{272             \mbox{\hyperlink{classcom_1_1example_1_1choturemote_1_1_my_bluetooth_service_1_1_connected_thread_a8de5a3d5caf68e9d995bed0feb705ae9}{mmSocket}} = socket;}
+\DoxyCodeLine{273 }
+\DoxyCodeLine{274             \textcolor{comment}{// Temporary storage for  an input stream for reading bytes from this socket//}}
+\DoxyCodeLine{275             InputStream tmpIn = \textcolor{keyword}{null};}
+\DoxyCodeLine{276 }
+\DoxyCodeLine{277             \textcolor{comment}{// Temporary storage for  an output stream for writing bytes from this socket//}}
+\DoxyCodeLine{278             OutputStream tmpOut = \textcolor{keyword}{null};}
+\DoxyCodeLine{279 }
+\DoxyCodeLine{280             \textcolor{comment}{// dismiss the progressDialog when connection is established //}}
+\DoxyCodeLine{281             \textcolor{keywordflow}{try} \{}
+\DoxyCodeLine{282                 \mbox{\hyperlink{classcom_1_1example_1_1choturemote_1_1_my_bluetooth_service_a9cf511ab1548e57b548d4aa30d9dc74b}{mProgressDialog}}.dismiss();}
+\DoxyCodeLine{283             \} \textcolor{keywordflow}{catch} (NullPointerException e) \{}
+\DoxyCodeLine{284                 e.printStackTrace();}
+\DoxyCodeLine{285             \}}
+\DoxyCodeLine{286 }
+\DoxyCodeLine{287             \textcolor{comment}{// Get the InputStream and OutputStream that handle transmissions through the socket using getInputStream() and getOutputStream(), respectively. //}}
+\DoxyCodeLine{288             \textcolor{keywordflow}{try} \{}
+\DoxyCodeLine{289                 tmpIn = \mbox{\hyperlink{classcom_1_1example_1_1choturemote_1_1_my_bluetooth_service_1_1_connected_thread_a8de5a3d5caf68e9d995bed0feb705ae9}{mmSocket}}.getInputStream();}
+\DoxyCodeLine{290                 tmpOut = \mbox{\hyperlink{classcom_1_1example_1_1choturemote_1_1_my_bluetooth_service_1_1_connected_thread_a8de5a3d5caf68e9d995bed0feb705ae9}{mmSocket}}.getOutputStream();}
+\DoxyCodeLine{291             \} \textcolor{keywordflow}{catch} (IOException e) \{}
+\DoxyCodeLine{292                 e.printStackTrace();}
+\DoxyCodeLine{293             \}}
+\DoxyCodeLine{294 }
+\DoxyCodeLine{295             \mbox{\hyperlink{classcom_1_1example_1_1choturemote_1_1_my_bluetooth_service_1_1_connected_thread_a45b89d8acf2113687279c4a14408bd4a}{mmInStream}} = tmpIn;}
+\DoxyCodeLine{296             \mbox{\hyperlink{classcom_1_1example_1_1choturemote_1_1_my_bluetooth_service_1_1_connected_thread_ac0299412c60ee2362599ca3600f3ebec}{mmOutStream}} = tmpOut;}
+\DoxyCodeLine{297 }
+\DoxyCodeLine{298             \mbox{\hyperlink{classcom_1_1example_1_1choturemote_1_1_my_bluetooth_service_ac02a94a59c7ffa59695c0f87110446dd}{mConnectedThreadRunning}} = \textcolor{keyword}{true};}
+\DoxyCodeLine{299         \}}
+
+\end{DoxyCode}
+
+
+References com.\+example.\+choturemote.\+My\+Bluetooth\+Service.\+m\+Connected\+Thread\+Running, com.\+example.\+choturemote.\+My\+Bluetooth\+Service.\+Connected\+Thread.\+mm\+In\+Stream, com.\+example.\+choturemote.\+My\+Bluetooth\+Service.\+Connected\+Thread.\+mm\+Out\+Stream, com.\+example.\+choturemote.\+My\+Bluetooth\+Service.\+Connected\+Thread.\+mm\+Socket, com.\+example.\+choturemote.\+My\+Bluetooth\+Service.\+m\+Progress\+Dialog, and com.\+example.\+choturemote.\+My\+Bluetooth\+Service.\+T\+AG.
+
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classcom_1_1example_1_1choturemote_1_1_my_bluetooth_service_1_1_connected_thread_add4e5a5c84cb3f4f39da3a580f06563f}\label{classcom_1_1example_1_1choturemote_1_1_my_bluetooth_service_1_1_connected_thread_add4e5a5c84cb3f4f39da3a580f06563f}} 
+\index{com.example.choturemote.MyBluetoothService.ConnectedThread@{com.example.choturemote.MyBluetoothService.ConnectedThread}!cancel@{cancel}}
+\index{cancel@{cancel}!com.example.choturemote.MyBluetoothService.ConnectedThread@{com.example.choturemote.MyBluetoothService.ConnectedThread}}
+\doxysubsubsection{\texorpdfstring{cancel()}{cancel()}}
+{\footnotesize\ttfamily void com.\+example.\+choturemote.\+My\+Bluetooth\+Service.\+Connected\+Thread.\+cancel (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Closes the socket. 
+
+Closes the client socket and causes the thread to finish. Called from the main activity to shut down the connection. 
+
+Definition at line 347 of file My\+Bluetooth\+Service.\+java.
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{347                              \{}
+\DoxyCodeLine{348             \textcolor{keywordflow}{try} \{}
+\DoxyCodeLine{349                 \mbox{\hyperlink{classcom_1_1example_1_1choturemote_1_1_my_bluetooth_service_1_1_connected_thread_a8de5a3d5caf68e9d995bed0feb705ae9}{mmSocket}}.close();}
+\DoxyCodeLine{350                 \mbox{\hyperlink{classcom_1_1example_1_1choturemote_1_1_my_bluetooth_service_ac02a94a59c7ffa59695c0f87110446dd}{mConnectedThreadRunning}} = \textcolor{keyword}{false};}
+\DoxyCodeLine{351             \} \textcolor{keywordflow}{catch} (IOException e) \{}
+\DoxyCodeLine{352             \}}
+\DoxyCodeLine{353         \}}
+
+\end{DoxyCode}
+
+
+References com.\+example.\+choturemote.\+My\+Bluetooth\+Service.\+m\+Connected\+Thread\+Running, and com.\+example.\+choturemote.\+My\+Bluetooth\+Service.\+Connected\+Thread.\+mm\+Socket.
+
+
+
+Referenced by com.\+example.\+choturemote.\+My\+Bluetooth\+Service.\+cancel\+Threads().
+
+\mbox{\Hypertarget{classcom_1_1example_1_1choturemote_1_1_my_bluetooth_service_1_1_connected_thread_adf4f9ea6314c0f175cbb5bbe6a6c2b62}\label{classcom_1_1example_1_1choturemote_1_1_my_bluetooth_service_1_1_connected_thread_adf4f9ea6314c0f175cbb5bbe6a6c2b62}} 
+\index{com.example.choturemote.MyBluetoothService.ConnectedThread@{com.example.choturemote.MyBluetoothService.ConnectedThread}!run@{run}}
+\index{run@{run}!com.example.choturemote.MyBluetoothService.ConnectedThread@{com.example.choturemote.MyBluetoothService.ConnectedThread}}
+\doxysubsubsection{\texorpdfstring{run()}{run()}}
+{\footnotesize\ttfamily void com.\+example.\+choturemote.\+My\+Bluetooth\+Service.\+Connected\+Thread.\+run (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Main code that runs in the Thread. 
+
+Try Catch to read data being sent through the connection with the remote device. 
+
+Definition at line 306 of file My\+Bluetooth\+Service.\+java.
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{306                           \{}
+\DoxyCodeLine{307             \textcolor{comment}{// buffer store for the stream //}}
+\DoxyCodeLine{308             \textcolor{keywordtype}{byte}[] buffer = \textcolor{keyword}{new} \textcolor{keywordtype}{byte}[1024];}
+\DoxyCodeLine{309 }
+\DoxyCodeLine{310             \textcolor{comment}{// bytes returned from read() //}}
+\DoxyCodeLine{311             \textcolor{keywordtype}{int} bytes;}
+\DoxyCodeLine{312 }
+\DoxyCodeLine{313             \textcolor{comment}{// Keep listening to the InputStream until an exception occurs //}}
+\DoxyCodeLine{314             \textcolor{keywordflow}{while} (\textcolor{keyword}{true}) \{}
+\DoxyCodeLine{315                 \textcolor{comment}{// Read from the InputStream //}}
+\DoxyCodeLine{316                 \textcolor{keywordflow}{try} \{}
+\DoxyCodeLine{317                     bytes = \mbox{\hyperlink{classcom_1_1example_1_1choturemote_1_1_my_bluetooth_service_1_1_connected_thread_a45b89d8acf2113687279c4a14408bd4a}{mmInStream}}.read(buffer);}
+\DoxyCodeLine{318                     String incomingMessage = \textcolor{keyword}{new} String(buffer, 0, bytes);}
+\DoxyCodeLine{319                     Log.d(\mbox{\hyperlink{classcom_1_1example_1_1choturemote_1_1_my_bluetooth_service_ac76c590b5b28ab954ba7cc4e023eabf4}{TAG}}, \textcolor{stringliteral}{"InputStream: "} + incomingMessage);}
+\DoxyCodeLine{320                 \} \textcolor{keywordflow}{catch} (IOException e) \{}
+\DoxyCodeLine{321                     Log.e(\mbox{\hyperlink{classcom_1_1example_1_1choturemote_1_1_my_bluetooth_service_ac76c590b5b28ab954ba7cc4e023eabf4}{TAG}}, \textcolor{stringliteral}{"write: Error reading Input Stream. "} + e.getMessage());}
+\DoxyCodeLine{322                     \textcolor{keywordflow}{break};}
+\DoxyCodeLine{323                 \}}
+\DoxyCodeLine{324             \}}
+\DoxyCodeLine{325         \}}
+
+\end{DoxyCode}
+
+
+References com.\+example.\+choturemote.\+My\+Bluetooth\+Service.\+Connected\+Thread.\+mm\+In\+Stream, and com.\+example.\+choturemote.\+My\+Bluetooth\+Service.\+T\+AG.
+
+\mbox{\Hypertarget{classcom_1_1example_1_1choturemote_1_1_my_bluetooth_service_1_1_connected_thread_afb74e74b0bb6de9fb8a4cd6d5c9cecb6}\label{classcom_1_1example_1_1choturemote_1_1_my_bluetooth_service_1_1_connected_thread_afb74e74b0bb6de9fb8a4cd6d5c9cecb6}} 
+\index{com.example.choturemote.MyBluetoothService.ConnectedThread@{com.example.choturemote.MyBluetoothService.ConnectedThread}!write@{write}}
+\index{write@{write}!com.example.choturemote.MyBluetoothService.ConnectedThread@{com.example.choturemote.MyBluetoothService.ConnectedThread}}
+\doxysubsubsection{\texorpdfstring{write()}{write()}}
+{\footnotesize\ttfamily void com.\+example.\+choturemote.\+My\+Bluetooth\+Service.\+Connected\+Thread.\+write (\begin{DoxyParamCaption}\item[{byte\mbox{[}$\,$\mbox{]}}]{bytes }\end{DoxyParamCaption})}
+
+
+
+Sends data to the remote device. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em bytes} & Array of bytes to be sent to the remote Bluetooth device\\
+\hline
+\end{DoxyParams}
+Called this from the main activity to send data to the remote device 
+
+Definition at line 333 of file My\+Bluetooth\+Service.\+java.
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{333                                         \{}
+\DoxyCodeLine{334             String text = \textcolor{keyword}{new} String(bytes, Charset.defaultCharset());}
+\DoxyCodeLine{335             Log.d(\mbox{\hyperlink{classcom_1_1example_1_1choturemote_1_1_my_bluetooth_service_ac76c590b5b28ab954ba7cc4e023eabf4}{TAG}}, \textcolor{stringliteral}{"write: Writing to output stream: "} + text);}
+\DoxyCodeLine{336             \textcolor{keywordflow}{try} \{}
+\DoxyCodeLine{337                 \mbox{\hyperlink{classcom_1_1example_1_1choturemote_1_1_my_bluetooth_service_1_1_connected_thread_ac0299412c60ee2362599ca3600f3ebec}{mmOutStream}}.write(bytes);}
+\DoxyCodeLine{338             \} \textcolor{keywordflow}{catch} (IOException e) \{}
+\DoxyCodeLine{339                 Log.e(\mbox{\hyperlink{classcom_1_1example_1_1choturemote_1_1_my_bluetooth_service_ac76c590b5b28ab954ba7cc4e023eabf4}{TAG}}, \textcolor{stringliteral}{"write: Error writing to output stream. "} + e.getMessage());}
+\DoxyCodeLine{340             \}}
+\DoxyCodeLine{341         \}}
+
+\end{DoxyCode}
+
+
+References com.\+example.\+choturemote.\+My\+Bluetooth\+Service.\+Connected\+Thread.\+mm\+Out\+Stream, and com.\+example.\+choturemote.\+My\+Bluetooth\+Service.\+T\+AG.
+
+
+
+Referenced by com.\+example.\+choturemote.\+My\+Bluetooth\+Service.\+write().
+
+
+
+\doxysubsection{Member Data Documentation}
+\mbox{\Hypertarget{classcom_1_1example_1_1choturemote_1_1_my_bluetooth_service_1_1_connected_thread_a45b89d8acf2113687279c4a14408bd4a}\label{classcom_1_1example_1_1choturemote_1_1_my_bluetooth_service_1_1_connected_thread_a45b89d8acf2113687279c4a14408bd4a}} 
+\index{com.example.choturemote.MyBluetoothService.ConnectedThread@{com.example.choturemote.MyBluetoothService.ConnectedThread}!mmInStream@{mmInStream}}
+\index{mmInStream@{mmInStream}!com.example.choturemote.MyBluetoothService.ConnectedThread@{com.example.choturemote.MyBluetoothService.ConnectedThread}}
+\doxysubsubsection{\texorpdfstring{mmInStream}{mmInStream}}
+{\footnotesize\ttfamily com.\+example.\+choturemote.\+My\+Bluetooth\+Service.\+Connected\+Thread.\+mm\+In\+Stream\hspace{0.3cm}{\ttfamily [private]}}
+
+Holds a reference to an Input\+Stream object, one of two types of streams. One that you can read data from 
+
+Definition at line 261 of file My\+Bluetooth\+Service.\+java.
+
+
+
+Referenced by com.\+example.\+choturemote.\+My\+Bluetooth\+Service.\+Connected\+Thread.\+Connected\+Thread(), and com.\+example.\+choturemote.\+My\+Bluetooth\+Service.\+Connected\+Thread.\+run().
+
+\mbox{\Hypertarget{classcom_1_1example_1_1choturemote_1_1_my_bluetooth_service_1_1_connected_thread_ac0299412c60ee2362599ca3600f3ebec}\label{classcom_1_1example_1_1choturemote_1_1_my_bluetooth_service_1_1_connected_thread_ac0299412c60ee2362599ca3600f3ebec}} 
+\index{com.example.choturemote.MyBluetoothService.ConnectedThread@{com.example.choturemote.MyBluetoothService.ConnectedThread}!mmOutStream@{mmOutStream}}
+\index{mmOutStream@{mmOutStream}!com.example.choturemote.MyBluetoothService.ConnectedThread@{com.example.choturemote.MyBluetoothService.ConnectedThread}}
+\doxysubsubsection{\texorpdfstring{mmOutStream}{mmOutStream}}
+{\footnotesize\ttfamily com.\+example.\+choturemote.\+My\+Bluetooth\+Service.\+Connected\+Thread.\+mm\+Out\+Stream\hspace{0.3cm}{\ttfamily [private]}}
+
+Holds a reference to an Output\+Stream object, one of two types of streams. One that you can either write data to 
+
+Definition at line 262 of file My\+Bluetooth\+Service.\+java.
+
+
+
+Referenced by com.\+example.\+choturemote.\+My\+Bluetooth\+Service.\+Connected\+Thread.\+Connected\+Thread(), and com.\+example.\+choturemote.\+My\+Bluetooth\+Service.\+Connected\+Thread.\+write().
+
+\mbox{\Hypertarget{classcom_1_1example_1_1choturemote_1_1_my_bluetooth_service_1_1_connected_thread_a8de5a3d5caf68e9d995bed0feb705ae9}\label{classcom_1_1example_1_1choturemote_1_1_my_bluetooth_service_1_1_connected_thread_a8de5a3d5caf68e9d995bed0feb705ae9}} 
+\index{com.example.choturemote.MyBluetoothService.ConnectedThread@{com.example.choturemote.MyBluetoothService.ConnectedThread}!mmSocket@{mmSocket}}
+\index{mmSocket@{mmSocket}!com.example.choturemote.MyBluetoothService.ConnectedThread@{com.example.choturemote.MyBluetoothService.ConnectedThread}}
+\doxysubsubsection{\texorpdfstring{mmSocket}{mmSocket}}
+{\footnotesize\ttfamily final Bluetooth\+Socket com.\+example.\+choturemote.\+My\+Bluetooth\+Service.\+Connected\+Thread.\+mm\+Socket\hspace{0.3cm}{\ttfamily [private]}}
+
+Holds the R\+F\+C\+O\+MM Socket object 
+
+Definition at line 253 of file My\+Bluetooth\+Service.\+java.
+
+
+
+Referenced by com.\+example.\+choturemote.\+My\+Bluetooth\+Service.\+Connected\+Thread.\+cancel(), and com.\+example.\+choturemote.\+My\+Bluetooth\+Service.\+Connected\+Thread.\+Connected\+Thread().
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{_my_bluetooth_service_8java}{My\+Bluetooth\+Service.\+java}}\end{DoxyCompactItemize}

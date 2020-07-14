@@ -1,0 +1,206 @@
+\hypertarget{classcom_1_1example_1_1choturemote_1_1_my_bluetooth_service_1_1_connect_thread}{}\doxysection{com.\+example.\+choturemote.\+My\+Bluetooth\+Service.\+Connect\+Thread Class Reference}
+\label{classcom_1_1example_1_1choturemote_1_1_my_bluetooth_service_1_1_connect_thread}\index{com.example.choturemote.MyBluetoothService.ConnectThread@{com.example.choturemote.MyBluetoothService.ConnectThread}}
+
+
+Client thread that initiates a Bluetooth connection.  
+
+
+Inheritance diagram for com.\+example.\+choturemote.\+My\+Bluetooth\+Service.\+Connect\+Thread\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{da/d2b/classcom_1_1example_1_1choturemote_1_1_my_bluetooth_service_1_1_connect_thread}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classcom_1_1example_1_1choturemote_1_1_my_bluetooth_service_1_1_connect_thread_a7a20beeda92100d98d0c8dace2bbf14a}{Connect\+Thread}} (Bluetooth\+Device device, U\+U\+ID uuid)
+\begin{DoxyCompactList}\small\item\em Public constructor for the \mbox{\hyperlink{classcom_1_1example_1_1choturemote_1_1_my_bluetooth_service_1_1_connect_thread}{Connect\+Thread}} class. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classcom_1_1example_1_1choturemote_1_1_my_bluetooth_service_1_1_connect_thread_aa7031496011e1ae2e940604eb729baa6}{run}} ()
+\begin{DoxyCompactList}\small\item\em Main code that runs in the Thread. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classcom_1_1example_1_1choturemote_1_1_my_bluetooth_service_1_1_connect_thread_ab8b1e6a11cffe24ebfee2cd65858dd46}{cancel}} ()
+\begin{DoxyCompactList}\small\item\em Closes the socket. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+final Bluetooth\+Socket \mbox{\hyperlink{classcom_1_1example_1_1choturemote_1_1_my_bluetooth_service_1_1_connect_thread_af3237c7f513175822de67ab3e4c29625}{mm\+Socket}}
+\begin{DoxyCompactList}\small\item\em An instance of a Bluetooth socket. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Client thread that initiates a Bluetooth connection. 
+
+\begin{DoxyItemize}
+\item A Bluetooth client sends the connection request and the Bluetooth Server component accepts the request. \item A thread is a thread of execution in a program. The Java Virtual Machine allows an application to have multiple threads of execution running concurrently. \item This one creates a Bluetooth\+Socket \end{DoxyItemize}
+
+
+Definition at line 141 of file My\+Bluetooth\+Service.\+java.
+
+
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classcom_1_1example_1_1choturemote_1_1_my_bluetooth_service_1_1_connect_thread_a7a20beeda92100d98d0c8dace2bbf14a}\label{classcom_1_1example_1_1choturemote_1_1_my_bluetooth_service_1_1_connect_thread_a7a20beeda92100d98d0c8dace2bbf14a}} 
+\index{com.example.choturemote.MyBluetoothService.ConnectThread@{com.example.choturemote.MyBluetoothService.ConnectThread}!ConnectThread@{ConnectThread}}
+\index{ConnectThread@{ConnectThread}!com.example.choturemote.MyBluetoothService.ConnectThread@{com.example.choturemote.MyBluetoothService.ConnectThread}}
+\doxysubsubsection{\texorpdfstring{ConnectThread()}{ConnectThread()}}
+{\footnotesize\ttfamily com.\+example.\+choturemote.\+My\+Bluetooth\+Service.\+Connect\+Thread.\+Connect\+Thread (\begin{DoxyParamCaption}\item[{Bluetooth\+Device}]{device,  }\item[{U\+U\+ID}]{uuid }\end{DoxyParamCaption})}
+
+
+
+Public constructor for the \mbox{\hyperlink{classcom_1_1example_1_1choturemote_1_1_my_bluetooth_service_1_1_connect_thread}{Connect\+Thread}} class. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em device} & Bluetooth\+Device object \\
+\hline
+{\em uuid} & U\+U\+ID object\\
+\hline
+\end{DoxyParams}
+Creates a R\+F\+C\+O\+MM Bluetooth Socket 
+
+Definition at line 157 of file My\+Bluetooth\+Service.\+java.
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{157                                                                 \{}
+\DoxyCodeLine{158 }
+\DoxyCodeLine{159             \textcolor{comment}{// Use a temporary object that is later assigned to mmSocket because mmSocket is final //}}
+\DoxyCodeLine{160             BluetoothSocket tmp = \textcolor{keyword}{null};}
+\DoxyCodeLine{161             \mbox{\hyperlink{classcom_1_1example_1_1choturemote_1_1_my_bluetooth_service_a98c050a35c59d791104a5d0ef4b340ab}{mmDevice}} = device;}
+\DoxyCodeLine{162             \textcolor{keywordflow}{try} \{}
+\DoxyCodeLine{163                 \textcolor{comment}{// Get a BluetoothSocket to connect with the given BluetoothDevice. //}}
+\DoxyCodeLine{164                 tmp = device.createRfcommSocketToServiceRecord(uuid);}
+\DoxyCodeLine{165             \} \textcolor{keywordflow}{catch} (IOException e) \{}
+\DoxyCodeLine{166                 Log.e(\mbox{\hyperlink{classcom_1_1example_1_1choturemote_1_1_my_bluetooth_service_ac76c590b5b28ab954ba7cc4e023eabf4}{TAG}}, \textcolor{stringliteral}{"Socket's create() method failed"}, e);}
+\DoxyCodeLine{167             \}}
+\DoxyCodeLine{168             \mbox{\hyperlink{classcom_1_1example_1_1choturemote_1_1_my_bluetooth_service_1_1_connect_thread_af3237c7f513175822de67ab3e4c29625}{mmSocket}} = tmp;}
+\DoxyCodeLine{169         \}}
+
+\end{DoxyCode}
+
+
+References com.\+example.\+choturemote.\+My\+Bluetooth\+Service.\+mm\+Device, com.\+example.\+choturemote.\+My\+Bluetooth\+Service.\+Connect\+Thread.\+mm\+Socket, and com.\+example.\+choturemote.\+My\+Bluetooth\+Service.\+T\+AG.
+
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classcom_1_1example_1_1choturemote_1_1_my_bluetooth_service_1_1_connect_thread_ab8b1e6a11cffe24ebfee2cd65858dd46}\label{classcom_1_1example_1_1choturemote_1_1_my_bluetooth_service_1_1_connect_thread_ab8b1e6a11cffe24ebfee2cd65858dd46}} 
+\index{com.example.choturemote.MyBluetoothService.ConnectThread@{com.example.choturemote.MyBluetoothService.ConnectThread}!cancel@{cancel}}
+\index{cancel@{cancel}!com.example.choturemote.MyBluetoothService.ConnectThread@{com.example.choturemote.MyBluetoothService.ConnectThread}}
+\doxysubsubsection{\texorpdfstring{cancel()}{cancel()}}
+{\footnotesize\ttfamily void com.\+example.\+choturemote.\+My\+Bluetooth\+Service.\+Connect\+Thread.\+cancel (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Closes the socket. 
+
+Closes the client socket and causes the thread to finish. Called from the main activity to shut down the connection. 
+
+Definition at line 217 of file My\+Bluetooth\+Service.\+java.
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{217                              \{}
+\DoxyCodeLine{218             \textcolor{keywordflow}{try} \{}
+\DoxyCodeLine{219                 \mbox{\hyperlink{classcom_1_1example_1_1choturemote_1_1_my_bluetooth_service_1_1_connect_thread_af3237c7f513175822de67ab3e4c29625}{mmSocket}}.close();}
+\DoxyCodeLine{220             \} \textcolor{keywordflow}{catch} (IOException e) \{}
+\DoxyCodeLine{221                 Log.e(\mbox{\hyperlink{classcom_1_1example_1_1choturemote_1_1_my_bluetooth_service_ac76c590b5b28ab954ba7cc4e023eabf4}{TAG}}, \textcolor{stringliteral}{"Could not close the client socket"}, e);}
+\DoxyCodeLine{222             \}}
+\DoxyCodeLine{223         \}}
+
+\end{DoxyCode}
+
+
+References com.\+example.\+choturemote.\+My\+Bluetooth\+Service.\+Connect\+Thread.\+mm\+Socket, and com.\+example.\+choturemote.\+My\+Bluetooth\+Service.\+T\+AG.
+
+
+
+Referenced by com.\+example.\+choturemote.\+My\+Bluetooth\+Service.\+cancel\+Threads().
+
+\mbox{\Hypertarget{classcom_1_1example_1_1choturemote_1_1_my_bluetooth_service_1_1_connect_thread_aa7031496011e1ae2e940604eb729baa6}\label{classcom_1_1example_1_1choturemote_1_1_my_bluetooth_service_1_1_connect_thread_aa7031496011e1ae2e940604eb729baa6}} 
+\index{com.example.choturemote.MyBluetoothService.ConnectThread@{com.example.choturemote.MyBluetoothService.ConnectThread}!run@{run}}
+\index{run@{run}!com.example.choturemote.MyBluetoothService.ConnectThread@{com.example.choturemote.MyBluetoothService.ConnectThread}}
+\doxysubsubsection{\texorpdfstring{run()}{run()}}
+{\footnotesize\ttfamily void com.\+example.\+choturemote.\+My\+Bluetooth\+Service.\+Connect\+Thread.\+run (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Main code that runs in the Thread. 
+
+Try Catch to attempt a connection to the remote device. 
+
+Definition at line 175 of file My\+Bluetooth\+Service.\+java.
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{175                           \{}
+\DoxyCodeLine{176 }
+\DoxyCodeLine{177             \textcolor{comment}{// Cancel discovery because it otherwise slows down the connection //}}
+\DoxyCodeLine{178             \mbox{\hyperlink{classcom_1_1example_1_1choturemote_1_1_my_bluetooth_service_ac813c3f4315a63a9ce6792497bffd037}{bluetoothAdapter}}.cancelDiscovery();}
+\DoxyCodeLine{179 }
+\DoxyCodeLine{180             \textcolor{keywordflow}{try} \{}
+\DoxyCodeLine{181                 \textcolor{comment}{// Connect to the remote device through the socket. This call blocks until it succeeds or throws an exception //}}
+\DoxyCodeLine{182                 \mbox{\hyperlink{classcom_1_1example_1_1choturemote_1_1_my_bluetooth_service_1_1_connect_thread_af3237c7f513175822de67ab3e4c29625}{mmSocket}}.connect();}
+\DoxyCodeLine{183             \} \textcolor{keywordflow}{catch} (IOException connectException) \{}
+\DoxyCodeLine{184                 \textcolor{comment}{// Unable to connect; close the socket and return //}}
+\DoxyCodeLine{185 }
+\DoxyCodeLine{186                 Log.d(\mbox{\hyperlink{classcom_1_1example_1_1choturemote_1_1_my_bluetooth_service_ac76c590b5b28ab954ba7cc4e023eabf4}{TAG}}, \textcolor{stringliteral}{"R.string.CONNECTION\_TO\_DEVICE\_UNSUCCESSFUL"});}
+\DoxyCodeLine{187                 \mbox{\hyperlink{classcom_1_1example_1_1choturemote_1_1_my_bluetooth_service_af5627ee3d64532f5e62138d0a67ea279}{showToast}}(R.string.CONNECTION\_TO\_DEVICE\_UNSUCCESSFUL);}
+\DoxyCodeLine{188 }
+\DoxyCodeLine{189                 \textcolor{keywordflow}{try} \{}
+\DoxyCodeLine{190                     \mbox{\hyperlink{classcom_1_1example_1_1choturemote_1_1_my_bluetooth_service_1_1_connect_thread_af3237c7f513175822de67ab3e4c29625}{mmSocket}}.close();}
+\DoxyCodeLine{191                 \} \textcolor{keywordflow}{catch} (IOException closeException) \{}
+\DoxyCodeLine{192                     Log.e(\mbox{\hyperlink{classcom_1_1example_1_1choturemote_1_1_my_bluetooth_service_ac76c590b5b28ab954ba7cc4e023eabf4}{TAG}}, \textcolor{stringliteral}{"Could not close the client socket"}, closeException);}
+\DoxyCodeLine{193                 \}}
+\DoxyCodeLine{194 }
+\DoxyCodeLine{195                 \textcolor{comment}{// dismiss the progressDialog //}}
+\DoxyCodeLine{196                 \textcolor{keywordflow}{try} \{}
+\DoxyCodeLine{197                     \mbox{\hyperlink{classcom_1_1example_1_1choturemote_1_1_my_bluetooth_service_a9cf511ab1548e57b548d4aa30d9dc74b}{mProgressDialog}}.dismiss();}
+\DoxyCodeLine{198                 \} \textcolor{keywordflow}{catch} (NullPointerException e) \{}
+\DoxyCodeLine{199                     e.printStackTrace();}
+\DoxyCodeLine{200                 \}}
+\DoxyCodeLine{201 }
+\DoxyCodeLine{202                 \textcolor{keywordflow}{return};}
+\DoxyCodeLine{203             \}}
+\DoxyCodeLine{204 }
+\DoxyCodeLine{205             \textcolor{comment}{// The connection attempt succeeded. Perform work associated with the connection in a separate thread. //}}
+\DoxyCodeLine{206             Log.d(\mbox{\hyperlink{classcom_1_1example_1_1choturemote_1_1_my_bluetooth_service_ac76c590b5b28ab954ba7cc4e023eabf4}{TAG}}, \textcolor{stringliteral}{"R.string.CONNECTION\_TO\_DEVICE\_SUCCESSFUL"});}
+\DoxyCodeLine{207             \mbox{\hyperlink{classcom_1_1example_1_1choturemote_1_1_my_bluetooth_service_af5627ee3d64532f5e62138d0a67ea279}{showToast}}(R.string.CONNECTION\_TO\_DEVICE\_SUCCESSFUL);}
+\DoxyCodeLine{208 }
+\DoxyCodeLine{209             \textcolor{comment}{// Start a Thread that'll manage the work associated with the connection //}}
+\DoxyCodeLine{210             \mbox{\hyperlink{classcom_1_1example_1_1choturemote_1_1_my_bluetooth_service_a37db32a364e4c9c3985c5233e2bdddf2}{connected}}(\mbox{\hyperlink{classcom_1_1example_1_1choturemote_1_1_my_bluetooth_service_1_1_connect_thread_af3237c7f513175822de67ab3e4c29625}{mmSocket}}, \mbox{\hyperlink{classcom_1_1example_1_1choturemote_1_1_my_bluetooth_service_a98c050a35c59d791104a5d0ef4b340ab}{mmDevice}});}
+\DoxyCodeLine{211         \}}
+
+\end{DoxyCode}
+
+
+References com.\+example.\+choturemote.\+My\+Bluetooth\+Service.\+bluetooth\+Adapter, com.\+example.\+choturemote.\+My\+Bluetooth\+Service.\+connected(), com.\+example.\+choturemote.\+My\+Bluetooth\+Service.\+mm\+Device, com.\+example.\+choturemote.\+My\+Bluetooth\+Service.\+Connect\+Thread.\+mm\+Socket, com.\+example.\+choturemote.\+My\+Bluetooth\+Service.\+m\+Progress\+Dialog, com.\+example.\+choturemote.\+My\+Bluetooth\+Service.\+show\+Toast(), and com.\+example.\+choturemote.\+My\+Bluetooth\+Service.\+T\+AG.
+
+
+
+\doxysubsection{Member Data Documentation}
+\mbox{\Hypertarget{classcom_1_1example_1_1choturemote_1_1_my_bluetooth_service_1_1_connect_thread_af3237c7f513175822de67ab3e4c29625}\label{classcom_1_1example_1_1choturemote_1_1_my_bluetooth_service_1_1_connect_thread_af3237c7f513175822de67ab3e4c29625}} 
+\index{com.example.choturemote.MyBluetoothService.ConnectThread@{com.example.choturemote.MyBluetoothService.ConnectThread}!mmSocket@{mmSocket}}
+\index{mmSocket@{mmSocket}!com.example.choturemote.MyBluetoothService.ConnectThread@{com.example.choturemote.MyBluetoothService.ConnectThread}}
+\doxysubsubsection{\texorpdfstring{mmSocket}{mmSocket}}
+{\footnotesize\ttfamily final Bluetooth\+Socket com.\+example.\+choturemote.\+My\+Bluetooth\+Service.\+Connect\+Thread.\+mm\+Socket\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+An instance of a Bluetooth socket. 
+
+\begin{DoxyItemize}
+\item A socket is one endpoint of a two-\/way communication link \item The most common type of Bluetooth socket is R\+F\+C\+O\+MM, which is the type supported by the Android A\+P\+Is \end{DoxyItemize}
+
+
+Definition at line 149 of file My\+Bluetooth\+Service.\+java.
+
+
+
+Referenced by com.\+example.\+choturemote.\+My\+Bluetooth\+Service.\+Connect\+Thread.\+cancel(), com.\+example.\+choturemote.\+My\+Bluetooth\+Service.\+Connect\+Thread.\+Connect\+Thread(), and com.\+example.\+choturemote.\+My\+Bluetooth\+Service.\+Connect\+Thread.\+run().
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{_my_bluetooth_service_8java}{My\+Bluetooth\+Service.\+java}}\end{DoxyCompactItemize}

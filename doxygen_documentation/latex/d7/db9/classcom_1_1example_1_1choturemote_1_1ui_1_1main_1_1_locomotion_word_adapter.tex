@@ -1,0 +1,166 @@
+\hypertarget{classcom_1_1example_1_1choturemote_1_1ui_1_1main_1_1_locomotion_word_adapter}{}\doxysection{com.\+example.\+choturemote.\+ui.\+main.\+Locomotion\+Word\+Adapter Class Reference}
+\label{classcom_1_1example_1_1choturemote_1_1ui_1_1main_1_1_locomotion_word_adapter}\index{com.example.choturemote.ui.main.LocomotionWordAdapter@{com.example.choturemote.ui.main.LocomotionWordAdapter}}
+
+
+An Array\+Adapter Implementation.  
+
+
+Inheritance diagram for com.\+example.\+choturemote.\+ui.\+main.\+Locomotion\+Word\+Adapter\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{d7/db9/classcom_1_1example_1_1choturemote_1_1ui_1_1main_1_1_locomotion_word_adapter}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classcom_1_1example_1_1choturemote_1_1ui_1_1main_1_1_locomotion_word_adapter_a416dd03d4c526b06bc11fc9e0d88db65}{Locomotion\+Word\+Adapter}} (Context context, Array\+List$<$ \mbox{\hyperlink{classcom_1_1example_1_1choturemote_1_1ui_1_1main_1_1_word}{Word}} $>$ words, int color\+Resource\+Id)
+\begin{DoxyCompactList}\small\item\em Constructor. \end{DoxyCompactList}\item 
+View \mbox{\hyperlink{classcom_1_1example_1_1choturemote_1_1ui_1_1main_1_1_locomotion_word_adapter_a8b026556f62f44c29e1cea50f4e97062}{get\+View}} (int position, View convert\+View, View\+Group parent)
+\begin{DoxyCompactList}\small\item\em Return a View object. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+int \mbox{\hyperlink{classcom_1_1example_1_1choturemote_1_1ui_1_1main_1_1_locomotion_word_adapter_a4094a111c30bbeddb29059662fa4c385}{m\+Color\+Resource\+Id}}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+An Array\+Adapter Implementation. 
+
+\begin{DoxyItemize}
+\item This is an Array\+Adapter used to provide views for the Adapter\+View \item Returns a view for each object in a collection of \mbox{\hyperlink{classcom_1_1example_1_1choturemote_1_1ui_1_1main_1_1_word}{Word}} objects provided \end{DoxyItemize}
+
+
+Definition at line 43 of file Locomotion\+Word\+Adapter.\+java.
+
+
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classcom_1_1example_1_1choturemote_1_1ui_1_1main_1_1_locomotion_word_adapter_a416dd03d4c526b06bc11fc9e0d88db65}\label{classcom_1_1example_1_1choturemote_1_1ui_1_1main_1_1_locomotion_word_adapter_a416dd03d4c526b06bc11fc9e0d88db65}} 
+\index{com.example.choturemote.ui.main.LocomotionWordAdapter@{com.example.choturemote.ui.main.LocomotionWordAdapter}!LocomotionWordAdapter@{LocomotionWordAdapter}}
+\index{LocomotionWordAdapter@{LocomotionWordAdapter}!com.example.choturemote.ui.main.LocomotionWordAdapter@{com.example.choturemote.ui.main.LocomotionWordAdapter}}
+\doxysubsubsection{\texorpdfstring{LocomotionWordAdapter()}{LocomotionWordAdapter()}}
+{\footnotesize\ttfamily com.\+example.\+choturemote.\+ui.\+main.\+Locomotion\+Word\+Adapter.\+Locomotion\+Word\+Adapter (\begin{DoxyParamCaption}\item[{Context}]{context,  }\item[{Array\+List$<$ \mbox{\hyperlink{classcom_1_1example_1_1choturemote_1_1ui_1_1main_1_1_word}{Word}} $>$}]{words,  }\item[{int}]{color\+Resource\+Id }\end{DoxyParamCaption})}
+
+
+
+Constructor. 
+
+Constructor for a \mbox{\hyperlink{classcom_1_1example_1_1choturemote_1_1ui_1_1main_1_1_locomotion_word_adapter}{Locomotion\+Word\+Adapter}} object. 
+\begin{DoxyParams}{Parameters}
+{\em context} & the current context (i.\+e. Activity) that the adapter is being created in \\
+\hline
+{\em words} & the list of \mbox{\hyperlink{classcom_1_1example_1_1choturemote_1_1ui_1_1main_1_1_word}{Word}} objects to be displayed \\
+\hline
+{\em color\+Resource\+Id} & the resource ID for the background color for this list of words \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 58 of file Locomotion\+Word\+Adapter.\+java.
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{58                                                                                               \{}
+\DoxyCodeLine{59         super(context, 0, words);}
+\DoxyCodeLine{60         \mbox{\hyperlink{classcom_1_1example_1_1choturemote_1_1ui_1_1main_1_1_locomotion_word_adapter_a4094a111c30bbeddb29059662fa4c385}{mColorResourceId}} = colorResourceId;}
+\DoxyCodeLine{61     \}}
+
+\end{DoxyCode}
+
+
+References com.\+example.\+choturemote.\+ui.\+main.\+Locomotion\+Word\+Adapter.\+m\+Color\+Resource\+Id.
+
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classcom_1_1example_1_1choturemote_1_1ui_1_1main_1_1_locomotion_word_adapter_a8b026556f62f44c29e1cea50f4e97062}\label{classcom_1_1example_1_1choturemote_1_1ui_1_1main_1_1_locomotion_word_adapter_a8b026556f62f44c29e1cea50f4e97062}} 
+\index{com.example.choturemote.ui.main.LocomotionWordAdapter@{com.example.choturemote.ui.main.LocomotionWordAdapter}!getView@{getView}}
+\index{getView@{getView}!com.example.choturemote.ui.main.LocomotionWordAdapter@{com.example.choturemote.ui.main.LocomotionWordAdapter}}
+\doxysubsubsection{\texorpdfstring{getView()}{getView()}}
+{\footnotesize\ttfamily View com.\+example.\+choturemote.\+ui.\+main.\+Locomotion\+Word\+Adapter.\+get\+View (\begin{DoxyParamCaption}\item[{int}]{position,  }\item[{View}]{convert\+View,  }\item[{View\+Group}]{parent }\end{DoxyParamCaption})}
+
+
+
+Return a View object. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em position} & specified position in the data set of the \mbox{\hyperlink{classcom_1_1example_1_1choturemote_1_1ui_1_1main_1_1_word}{Word}} to be displayed \\
+\hline
+{\em convert\+View} & a View type. Here value is null. Instead locomotion\+\_\+grid\+\_\+item.\+xml is inflated to create the View \\
+\hline
+{\em parent} & Parent View object of the View object being returned \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+a View that displays the data at the specified position in the data set
+\end{DoxyReturn}
+\begin{DoxyItemize}
+\item Check if an existing view is being reused, otherwise inflate the view \item \mbox{\hyperlink{classcom_1_1example_1_1choturemote_1_1ui_1_1main_1_1_locomotion_word_adapter_a8b026556f62f44c29e1cea50f4e97062}{get\+View()}} was {\ttfamily @Override} in order to return a custom type View \item Called back automatically by Android \end{DoxyItemize}
+Check if an existing view is being reused, otherwise inflate the view
+
+Definition at line 76 of file Locomotion\+Word\+Adapter.\+java.
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{76                                                                           \{}
+\DoxyCodeLine{79          View itemView = convertView;}
+\DoxyCodeLine{80         \textcolor{keywordflow}{if} (itemView == \textcolor{keyword}{null}) \{}
+\DoxyCodeLine{81 }
+\DoxyCodeLine{82             \textcolor{comment}{// Inflating locomotion\_grid\_item.xml //}}
+\DoxyCodeLine{83             itemView = LayoutInflater.from(getContext()).inflate(}
+\DoxyCodeLine{84                     R.layout.locomotion\_grid\_item, parent, \textcolor{keyword}{false});}
+\DoxyCodeLine{85         \}}
+\DoxyCodeLine{86 }
+\DoxyCodeLine{87         \textcolor{comment}{// Get the Word object located at this position in the list //}}
+\DoxyCodeLine{88         Word currentWord = getItem(position);}
+\DoxyCodeLine{89 }
+\DoxyCodeLine{90         \textcolor{comment}{// Find the ImageView in the expressions\_grid\_item.xml layout with the ID "image" //}}
+\DoxyCodeLine{91         ImageView imageView = (ImageView) itemView.findViewById(R.id.image);}
+\DoxyCodeLine{92 }
+\DoxyCodeLine{93         \textcolor{keywordflow}{if} (currentWord.hasImage()) \{}
+\DoxyCodeLine{94 }
+\DoxyCodeLine{95             \textcolor{comment}{// If an image is available, display the provided image based on the resource ID //}}
+\DoxyCodeLine{96             imageView.setImageResource(currentWord.getImageResourceId());}
+\DoxyCodeLine{97 }
+\DoxyCodeLine{98             \textcolor{comment}{// Make sure the view is visible //}}
+\DoxyCodeLine{99             imageView.setVisibility(View.VISIBLE);}
+\DoxyCodeLine{100         \} \textcolor{keywordflow}{else} \{}
+\DoxyCodeLine{101 }
+\DoxyCodeLine{102             \textcolor{comment}{// Otherwise hide the ImageView (set visibility to GONE) //}}
+\DoxyCodeLine{103             imageView.setVisibility(View.GONE);}
+\DoxyCodeLine{104         \}}
+\DoxyCodeLine{105 }
+\DoxyCodeLine{106         \textcolor{comment}{// Return the itemView object(one ImageView) so that it can be shown in the GridView //}}
+\DoxyCodeLine{107         \textcolor{keywordflow}{return} itemView;}
+\DoxyCodeLine{108     \}}
+
+\end{DoxyCode}
+
+
+References com.\+example.\+choturemote.\+ui.\+main.\+Word.\+get\+Image\+Resource\+Id(), and com.\+example.\+choturemote.\+ui.\+main.\+Word.\+has\+Image().
+
+
+
+\doxysubsection{Member Data Documentation}
+\mbox{\Hypertarget{classcom_1_1example_1_1choturemote_1_1ui_1_1main_1_1_locomotion_word_adapter_a4094a111c30bbeddb29059662fa4c385}\label{classcom_1_1example_1_1choturemote_1_1ui_1_1main_1_1_locomotion_word_adapter_a4094a111c30bbeddb29059662fa4c385}} 
+\index{com.example.choturemote.ui.main.LocomotionWordAdapter@{com.example.choturemote.ui.main.LocomotionWordAdapter}!mColorResourceId@{mColorResourceId}}
+\index{mColorResourceId@{mColorResourceId}!com.example.choturemote.ui.main.LocomotionWordAdapter@{com.example.choturemote.ui.main.LocomotionWordAdapter}}
+\doxysubsubsection{\texorpdfstring{mColorResourceId}{mColorResourceId}}
+{\footnotesize\ttfamily int com.\+example.\+choturemote.\+ui.\+main.\+Locomotion\+Word\+Adapter.\+m\+Color\+Resource\+Id\hspace{0.3cm}{\ttfamily [private]}}
+
+Resource ID for the background color for this list of \mbox{\hyperlink{classcom_1_1example_1_1choturemote_1_1ui_1_1main_1_1_word}{Word}} objects 
+
+Definition at line 48 of file Locomotion\+Word\+Adapter.\+java.
+
+
+
+Referenced by com.\+example.\+choturemote.\+ui.\+main.\+Locomotion\+Word\+Adapter.\+Locomotion\+Word\+Adapter().
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{_locomotion_word_adapter_8java}{Locomotion\+Word\+Adapter.\+java}}\end{DoxyCompactItemize}

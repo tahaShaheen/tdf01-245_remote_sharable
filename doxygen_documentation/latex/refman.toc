@@ -1,0 +1,175 @@
+\@ifundefined {etoctocstyle}{\let \etoc@startlocaltoc \@gobble \let \etoc@settocdepth \@gobble \let \etoc@depthtag \@gobble \let \etoc@setlocaltop \@gobble }{}
+\contentsline {chapter}{\numberline {1}T\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}D\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}F02-\/145 Remote}{1}{chapter.1}% 
+\contentsline {section}{\numberline {1.1}Introduction}{1}{section.1.1}% 
+\contentsline {section}{\numberline {1.2}Things to know}{1}{section.1.2}% 
+\contentsline {subsection}{\numberline {1.2.1}M\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}A\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}C Address}{1}{subsection.1.2.1}% 
+\contentsline {subsection}{\numberline {1.2.2}What works how}{1}{subsection.1.2.2}% 
+\contentsline {subsubsection}{\numberline {1.2.2.1}Author}{1}{subsubsection.1.2.2.1}% 
+\contentsline {subsubsection}{\numberline {1.2.2.2}Version}{1}{subsubsection.1.2.2.2}% 
+\contentsline {chapter}{\numberline {2}Namespace Index}{3}{chapter.2}% 
+\contentsline {section}{\numberline {2.1}Packages}{3}{section.2.1}% 
+\contentsline {chapter}{\numberline {3}Hierarchical Index}{5}{chapter.3}% 
+\contentsline {section}{\numberline {3.1}Class Hierarchy}{5}{section.3.1}% 
+\contentsline {chapter}{\numberline {4}Class Index}{7}{chapter.4}% 
+\contentsline {section}{\numberline {4.1}Class List}{7}{section.4.1}% 
+\contentsline {chapter}{\numberline {5}File Index}{9}{chapter.5}% 
+\contentsline {section}{\numberline {5.1}File List}{9}{section.5.1}% 
+\contentsline {chapter}{\numberline {6}Namespace Documentation}{11}{chapter.6}% 
+\contentsline {section}{\numberline {6.1}Package com}{11}{section.6.1}% 
+\contentsline {section}{\numberline {6.2}Package com.\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}example}{11}{section.6.2}% 
+\contentsline {section}{\numberline {6.3}Package com.\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}example.\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}choturemote}{11}{section.6.3}% 
+\contentsline {section}{\numberline {6.4}Package com.\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}example.\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}choturemote.\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}ui}{11}{section.6.4}% 
+\contentsline {section}{\numberline {6.5}Package com.\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}example.\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}choturemote.\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}ui.\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}main}{12}{section.6.5}% 
+\contentsline {chapter}{\numberline {7}Class Documentation}{13}{chapter.7}% 
+\contentsline {section}{\numberline {7.1}com.\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}example.\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}choturemote.\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}My\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}Bluetooth\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}Service.\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}Connected\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}Thread Class Reference}{13}{section.7.1}% 
+\contentsline {subsection}{\numberline {7.1.1}Detailed Description}{14}{subsection.7.1.1}% 
+\contentsline {subsection}{\numberline {7.1.2}Constructor \& Destructor Documentation}{14}{subsection.7.1.2}% 
+\contentsline {subsubsection}{\numberline {7.1.2.1}ConnectedThread()}{14}{subsubsection.7.1.2.1}% 
+\contentsline {subsection}{\numberline {7.1.3}Member Function Documentation}{15}{subsection.7.1.3}% 
+\contentsline {subsubsection}{\numberline {7.1.3.1}cancel()}{15}{subsubsection.7.1.3.1}% 
+\contentsline {subsubsection}{\numberline {7.1.3.2}run()}{15}{subsubsection.7.1.3.2}% 
+\contentsline {subsubsection}{\numberline {7.1.3.3}write()}{16}{subsubsection.7.1.3.3}% 
+\contentsline {subsection}{\numberline {7.1.4}Member Data Documentation}{16}{subsection.7.1.4}% 
+\contentsline {subsubsection}{\numberline {7.1.4.1}mmInStream}{16}{subsubsection.7.1.4.1}% 
+\contentsline {subsubsection}{\numberline {7.1.4.2}mmOutStream}{16}{subsubsection.7.1.4.2}% 
+\contentsline {subsubsection}{\numberline {7.1.4.3}mmSocket}{17}{subsubsection.7.1.4.3}% 
+\contentsline {section}{\numberline {7.2}com.\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}example.\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}choturemote.\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}My\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}Bluetooth\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}Service.\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}Connect\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}Thread Class Reference}{17}{section.7.2}% 
+\contentsline {subsection}{\numberline {7.2.1}Detailed Description}{18}{subsection.7.2.1}% 
+\contentsline {subsection}{\numberline {7.2.2}Constructor \& Destructor Documentation}{18}{subsection.7.2.2}% 
+\contentsline {subsubsection}{\numberline {7.2.2.1}ConnectThread()}{18}{subsubsection.7.2.2.1}% 
+\contentsline {subsection}{\numberline {7.2.3}Member Function Documentation}{18}{subsection.7.2.3}% 
+\contentsline {subsubsection}{\numberline {7.2.3.1}cancel()}{19}{subsubsection.7.2.3.1}% 
+\contentsline {subsubsection}{\numberline {7.2.3.2}run()}{19}{subsubsection.7.2.3.2}% 
+\contentsline {subsection}{\numberline {7.2.4}Member Data Documentation}{20}{subsection.7.2.4}% 
+\contentsline {subsubsection}{\numberline {7.2.4.1}mmSocket}{20}{subsubsection.7.2.4.1}% 
+\contentsline {section}{\numberline {7.3}com.\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}example.\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}choturemote.\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}ui.\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}main.\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}Expressions\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}Fragment Class Reference}{20}{section.7.3}% 
+\contentsline {subsection}{\numberline {7.3.1}Detailed Description}{21}{subsection.7.3.1}% 
+\contentsline {subsection}{\numberline {7.3.2}Constructor \& Destructor Documentation}{21}{subsection.7.3.2}% 
+\contentsline {subsubsection}{\numberline {7.3.2.1}ExpressionsFragment()}{21}{subsubsection.7.3.2.1}% 
+\contentsline {subsection}{\numberline {7.3.3}Member Function Documentation}{21}{subsection.7.3.3}% 
+\contentsline {subsubsection}{\numberline {7.3.3.1}onCreateView()}{21}{subsubsection.7.3.3.1}% 
+\contentsline {section}{\numberline {7.4}com.\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}example.\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}choturemote.\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}ui.\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}main.\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}Expressions\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}Word\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}Adapter Class Reference}{23}{section.7.4}% 
+\contentsline {subsection}{\numberline {7.4.1}Detailed Description}{23}{subsection.7.4.1}% 
+\contentsline {subsection}{\numberline {7.4.2}Constructor \& Destructor Documentation}{23}{subsection.7.4.2}% 
+\contentsline {subsubsection}{\numberline {7.4.2.1}ExpressionsWordAdapter()}{23}{subsubsection.7.4.2.1}% 
+\contentsline {subsection}{\numberline {7.4.3}Member Function Documentation}{24}{subsection.7.4.3}% 
+\contentsline {subsubsection}{\numberline {7.4.3.1}getView()}{24}{subsubsection.7.4.3.1}% 
+\contentsline {subsection}{\numberline {7.4.4}Member Data Documentation}{25}{subsection.7.4.4}% 
+\contentsline {subsubsection}{\numberline {7.4.4.1}mColorResourceId}{25}{subsubsection.7.4.4.1}% 
+\contentsline {section}{\numberline {7.5}com.\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}example.\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}choturemote.\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}ui.\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}main.\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}Locomotion\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}Fragment Class Reference}{26}{section.7.5}% 
+\contentsline {subsection}{\numberline {7.5.1}Detailed Description}{26}{subsection.7.5.1}% 
+\contentsline {subsection}{\numberline {7.5.2}Constructor \& Destructor Documentation}{26}{subsection.7.5.2}% 
+\contentsline {subsubsection}{\numberline {7.5.2.1}LocomotionFragment()}{26}{subsubsection.7.5.2.1}% 
+\contentsline {subsection}{\numberline {7.5.3}Member Function Documentation}{27}{subsection.7.5.3}% 
+\contentsline {subsubsection}{\numberline {7.5.3.1}onCreateView()}{27}{subsubsection.7.5.3.1}% 
+\contentsline {section}{\numberline {7.6}com.\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}example.\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}choturemote.\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}ui.\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}main.\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}Locomotion\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}Word\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}Adapter Class Reference}{29}{section.7.6}% 
+\contentsline {subsection}{\numberline {7.6.1}Detailed Description}{29}{subsection.7.6.1}% 
+\contentsline {subsection}{\numberline {7.6.2}Constructor \& Destructor Documentation}{30}{subsection.7.6.2}% 
+\contentsline {subsubsection}{\numberline {7.6.2.1}LocomotionWordAdapter()}{30}{subsubsection.7.6.2.1}% 
+\contentsline {subsection}{\numberline {7.6.3}Member Function Documentation}{30}{subsection.7.6.3}% 
+\contentsline {subsubsection}{\numberline {7.6.3.1}getView()}{30}{subsubsection.7.6.3.1}% 
+\contentsline {subsection}{\numberline {7.6.4}Member Data Documentation}{31}{subsection.7.6.4}% 
+\contentsline {subsubsection}{\numberline {7.6.4.1}mColorResourceId}{31}{subsubsection.7.6.4.1}% 
+\contentsline {section}{\numberline {7.7}com.\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}example.\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}choturemote.\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}Main\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}Activity Class Reference}{32}{section.7.7}% 
+\contentsline {subsection}{\numberline {7.7.1}Detailed Description}{33}{subsection.7.7.1}% 
+\contentsline {subsection}{\numberline {7.7.2}Member Function Documentation}{33}{subsection.7.7.2}% 
+\contentsline {subsubsection}{\numberline {7.7.2.1}beginConnection()}{34}{subsubsection.7.7.2.1}% 
+\contentsline {subsubsection}{\numberline {7.7.2.2}onActivityResult()}{34}{subsubsection.7.7.2.2}% 
+\contentsline {subsubsection}{\numberline {7.7.2.3}onCreate()}{35}{subsubsection.7.7.2.3}% 
+\contentsline {subsubsection}{\numberline {7.7.2.4}onDestroy()}{37}{subsubsection.7.7.2.4}% 
+\contentsline {subsubsection}{\numberline {7.7.2.5}showToastMethod()}{37}{subsubsection.7.7.2.5}% 
+\contentsline {subsubsection}{\numberline {7.7.2.6}writeToBluetooth()}{37}{subsubsection.7.7.2.6}% 
+\contentsline {subsection}{\numberline {7.7.3}Member Data Documentation}{38}{subsection.7.7.3}% 
+\contentsline {subsubsection}{\numberline {7.7.3.1}bluetoothAdapter}{38}{subsubsection.7.7.3.1}% 
+\contentsline {subsubsection}{\numberline {7.7.3.2}DISABLE}{39}{subsubsection.7.7.3.2}% 
+\contentsline {subsubsection}{\numberline {7.7.3.3}ENABLE}{39}{subsubsection.7.7.3.3}% 
+\contentsline {subsubsection}{\numberline {7.7.3.4}MAC\_ADDRESS}{39}{subsubsection.7.7.3.4}% 
+\contentsline {subsubsection}{\numberline {7.7.3.5}mBTStateBroadcastReceiver}{40}{subsubsection.7.7.3.5}% 
+\contentsline {subsubsection}{\numberline {7.7.3.6}MY\_UUID}{40}{subsubsection.7.7.3.6}% 
+\contentsline {subsubsection}{\numberline {7.7.3.7}myBluetoothService}{41}{subsubsection.7.7.3.7}% 
+\contentsline {subsubsection}{\numberline {7.7.3.8}POKE}{41}{subsubsection.7.7.3.8}% 
+\contentsline {subsubsection}{\numberline {7.7.3.9}POKE\_SLEEP\_CLASSIFIER}{41}{subsubsection.7.7.3.9}% 
+\contentsline {subsubsection}{\numberline {7.7.3.10}REQUEST\_ENABLE\_BT}{41}{subsubsection.7.7.3.10}% 
+\contentsline {subsubsection}{\numberline {7.7.3.11}sectionsPagerAdapter}{42}{subsubsection.7.7.3.11}% 
+\contentsline {subsubsection}{\numberline {7.7.3.12}SEPARATOR}{42}{subsubsection.7.7.3.12}% 
+\contentsline {subsubsection}{\numberline {7.7.3.13}tabs}{42}{subsubsection.7.7.3.13}% 
+\contentsline {subsubsection}{\numberline {7.7.3.14}TAG}{43}{subsubsection.7.7.3.14}% 
+\contentsline {subsubsection}{\numberline {7.7.3.15}TERMINATOR}{43}{subsubsection.7.7.3.15}% 
+\contentsline {subsubsection}{\numberline {7.7.3.16}TESTING}{43}{subsubsection.7.7.3.16}% 
+\contentsline {subsubsection}{\numberline {7.7.3.17}viewPager}{43}{subsubsection.7.7.3.17}% 
+\contentsline {section}{\numberline {7.8}com.\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}example.\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}choturemote.\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}My\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}Bluetooth\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}Service Class Reference}{44}{section.7.8}% 
+\contentsline {subsection}{\numberline {7.8.1}Detailed Description}{45}{subsection.7.8.1}% 
+\contentsline {subsection}{\numberline {7.8.2}Constructor \& Destructor Documentation}{45}{subsection.7.8.2}% 
+\contentsline {subsubsection}{\numberline {7.8.2.1}MyBluetoothService()}{45}{subsubsection.7.8.2.1}% 
+\contentsline {subsection}{\numberline {7.8.3}Member Function Documentation}{46}{subsection.7.8.3}% 
+\contentsline {subsubsection}{\numberline {7.8.3.1}cancelThreads()}{46}{subsubsection.7.8.3.1}% 
+\contentsline {subsubsection}{\numberline {7.8.3.2}connected()}{46}{subsubsection.7.8.3.2}% 
+\contentsline {subsubsection}{\numberline {7.8.3.3}connectedThreadRunning()}{47}{subsubsection.7.8.3.3}% 
+\contentsline {subsubsection}{\numberline {7.8.3.4}showToast()}{47}{subsubsection.7.8.3.4}% 
+\contentsline {subsubsection}{\numberline {7.8.3.5}startClient()}{48}{subsubsection.7.8.3.5}% 
+\contentsline {subsubsection}{\numberline {7.8.3.6}write()}{48}{subsubsection.7.8.3.6}% 
+\contentsline {subsection}{\numberline {7.8.4}Member Data Documentation}{49}{subsection.7.8.4}% 
+\contentsline {subsubsection}{\numberline {7.8.4.1}bluetoothAdapter}{49}{subsubsection.7.8.4.1}% 
+\contentsline {subsubsection}{\numberline {7.8.4.2}mConnectedThread}{49}{subsubsection.7.8.4.2}% 
+\contentsline {subsubsection}{\numberline {7.8.4.3}mConnectedThreadRunning}{50}{subsubsection.7.8.4.3}% 
+\contentsline {subsubsection}{\numberline {7.8.4.4}mConnectThread}{50}{subsubsection.7.8.4.4}% 
+\contentsline {subsubsection}{\numberline {7.8.4.5}mContext}{50}{subsubsection.7.8.4.5}% 
+\contentsline {subsubsection}{\numberline {7.8.4.6}mmDevice}{51}{subsubsection.7.8.4.6}% 
+\contentsline {subsubsection}{\numberline {7.8.4.7}mProgressDialog}{51}{subsubsection.7.8.4.7}% 
+\contentsline {subsubsection}{\numberline {7.8.4.8}TAG}{51}{subsubsection.7.8.4.8}% 
+\contentsline {section}{\numberline {7.9}com.\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}example.\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}choturemote.\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}ui.\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}main.\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}Sections\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}Pager\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}Adapter Class Reference}{52}{section.7.9}% 
+\contentsline {subsection}{\numberline {7.9.1}Detailed Description}{52}{subsection.7.9.1}% 
+\contentsline {subsection}{\numberline {7.9.2}Constructor \& Destructor Documentation}{52}{subsection.7.9.2}% 
+\contentsline {subsubsection}{\numberline {7.9.2.1}SectionsPagerAdapter()}{53}{subsubsection.7.9.2.1}% 
+\contentsline {subsection}{\numberline {7.9.3}Member Function Documentation}{53}{subsection.7.9.3}% 
+\contentsline {subsubsection}{\numberline {7.9.3.1}getCount()}{53}{subsubsection.7.9.3.1}% 
+\contentsline {subsubsection}{\numberline {7.9.3.2}getItem()}{53}{subsubsection.7.9.3.2}% 
+\contentsline {subsubsection}{\numberline {7.9.3.3}getPageTitle()}{54}{subsubsection.7.9.3.3}% 
+\contentsline {subsection}{\numberline {7.9.4}Member Data Documentation}{54}{subsection.7.9.4}% 
+\contentsline {subsubsection}{\numberline {7.9.4.1}mContext}{55}{subsubsection.7.9.4.1}% 
+\contentsline {subsubsection}{\numberline {7.9.4.2}TAB\_TITLES}{55}{subsubsection.7.9.4.2}% 
+\contentsline {section}{\numberline {7.10}com.\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}example.\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}choturemote.\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}ui.\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}main.\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}Speaking\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}Fragment Class Reference}{55}{section.7.10}% 
+\contentsline {subsection}{\numberline {7.10.1}Detailed Description}{56}{subsection.7.10.1}% 
+\contentsline {subsection}{\numberline {7.10.2}Constructor \& Destructor Documentation}{56}{subsection.7.10.2}% 
+\contentsline {subsubsection}{\numberline {7.10.2.1}SpeakingFragment()}{56}{subsubsection.7.10.2.1}% 
+\contentsline {subsection}{\numberline {7.10.3}Member Function Documentation}{57}{subsection.7.10.3}% 
+\contentsline {subsubsection}{\numberline {7.10.3.1}onCreateView()}{57}{subsubsection.7.10.3.1}% 
+\contentsline {subsection}{\numberline {7.10.4}Member Data Documentation}{59}{subsection.7.10.4}% 
+\contentsline {subsubsection}{\numberline {7.10.4.1}DEFAULT\_PITCH}{59}{subsubsection.7.10.4.1}% 
+\contentsline {subsubsection}{\numberline {7.10.4.2}defaultPercentage}{59}{subsubsection.7.10.4.2}% 
+\contentsline {subsubsection}{\numberline {7.10.4.3}myPitch}{60}{subsubsection.7.10.4.3}% 
+\contentsline {subsubsection}{\numberline {7.10.4.4}PITCH\_FACTOR}{60}{subsubsection.7.10.4.4}% 
+\contentsline {section}{\numberline {7.11}com.\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}example.\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}choturemote.\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}ui.\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}main.\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}Word Class Reference}{60}{section.7.11}% 
+\contentsline {subsection}{\numberline {7.11.1}Detailed Description}{61}{subsection.7.11.1}% 
+\contentsline {subsection}{\numberline {7.11.2}Constructor \& Destructor Documentation}{61}{subsection.7.11.2}% 
+\contentsline {subsubsection}{\numberline {7.11.2.1}Word()\hspace {0.1cm}{\relax \fontsize {8}{9.5}\selectfont \abovedisplayskip 6\p@ plus2\p@ minus4\p@ \abovedisplayshortskip \z@ plus\p@ \belowdisplayshortskip 3\p@ plus\p@ minus2\p@ \def \leftmargin \leftmargini \parsep 4\p@ plus2\p@ minus\p@ \topsep 8\p@ plus2\p@ minus4\p@ \itemsep 4\p@ plus2\p@ minus\p@ {\leftmargin \leftmargini \topsep 3\p@ plus\p@ minus\p@ \parsep 2\p@ plus\p@ minus\p@ \itemsep \parsep }\belowdisplayskip \abovedisplayskip \ttfamily [1/2]}}{61}{subsubsection.7.11.2.1}% 
+\contentsline {subsubsection}{\numberline {7.11.2.2}Word()\hspace {0.1cm}{\relax \fontsize {8}{9.5}\selectfont \abovedisplayskip 6\p@ plus2\p@ minus4\p@ \abovedisplayshortskip \z@ plus\p@ \belowdisplayshortskip 3\p@ plus\p@ minus2\p@ \def \leftmargin \leftmargini \parsep 4\p@ plus2\p@ minus\p@ \topsep 8\p@ plus2\p@ minus4\p@ \itemsep 4\p@ plus2\p@ minus\p@ {\leftmargin \leftmargini \topsep 3\p@ plus\p@ minus\p@ \parsep 2\p@ plus\p@ minus\p@ \itemsep \parsep }\belowdisplayskip \abovedisplayskip \ttfamily [2/2]}}{61}{subsubsection.7.11.2.2}% 
+\contentsline {subsection}{\numberline {7.11.3}Member Function Documentation}{62}{subsection.7.11.3}% 
+\contentsline {subsubsection}{\numberline {7.11.3.1}getImageResourceId()}{62}{subsubsection.7.11.3.1}% 
+\contentsline {subsubsection}{\numberline {7.11.3.2}getStringResourceId()}{62}{subsubsection.7.11.3.2}% 
+\contentsline {subsubsection}{\numberline {7.11.3.3}hasImage()}{63}{subsubsection.7.11.3.3}% 
+\contentsline {subsection}{\numberline {7.11.4}Member Data Documentation}{63}{subsection.7.11.4}% 
+\contentsline {subsubsection}{\numberline {7.11.4.1}mImageResourceId}{63}{subsubsection.7.11.4.1}% 
+\contentsline {subsubsection}{\numberline {7.11.4.2}mStringResourceId}{63}{subsubsection.7.11.4.2}% 
+\contentsline {subsubsection}{\numberline {7.11.4.3}NO\_IMAGE\_PROVIDED}{63}{subsubsection.7.11.4.3}% 
+\contentsline {chapter}{\numberline {8}File Documentation}{65}{chapter.8}% 
+\contentsline {section}{\numberline {8.1}Expressions\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}Fragment.\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}java File Reference}{65}{section.8.1}% 
+\contentsline {subsection}{\numberline {8.1.1}Detailed Description}{65}{subsection.8.1.1}% 
+\contentsline {section}{\numberline {8.2}Expressions\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}Word\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}Adapter.\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}java File Reference}{65}{section.8.2}% 
+\contentsline {subsection}{\numberline {8.2.1}Detailed Description}{66}{subsection.8.2.1}% 
+\contentsline {section}{\numberline {8.3}Locomotion\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}Fragment.\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}java File Reference}{66}{section.8.3}% 
+\contentsline {subsection}{\numberline {8.3.1}Detailed Description}{66}{subsection.8.3.1}% 
+\contentsline {section}{\numberline {8.4}Locomotion\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}Word\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}Adapter.\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}java File Reference}{66}{section.8.4}% 
+\contentsline {subsection}{\numberline {8.4.1}Detailed Description}{67}{subsection.8.4.1}% 
+\contentsline {section}{\numberline {8.5}Main\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}Activity.\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}java File Reference}{67}{section.8.5}% 
+\contentsline {subsection}{\numberline {8.5.1}Detailed Description}{67}{subsection.8.5.1}% 
+\contentsline {section}{\numberline {8.6}My\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}Bluetooth\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}Service.\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}java File Reference}{67}{section.8.6}% 
+\contentsline {subsection}{\numberline {8.6.1}Detailed Description}{68}{subsection.8.6.1}% 
+\contentsline {section}{\numberline {8.7}R\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}E\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}A\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}D\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}M\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}E.\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}md File Reference}{68}{section.8.7}% 
+\contentsline {section}{\numberline {8.8}Sections\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}Pager\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}Adapter.\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}java File Reference}{68}{section.8.8}% 
+\contentsline {subsection}{\numberline {8.8.1}Detailed Description}{68}{subsection.8.8.1}% 
+\contentsline {section}{\numberline {8.9}Speaking\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}Fragment.\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}java File Reference}{68}{section.8.9}% 
+\contentsline {subsection}{\numberline {8.9.1}Detailed Description}{69}{subsection.8.9.1}% 
+\contentsline {section}{\numberline {8.10}Word.\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}java File Reference}{69}{section.8.10}% 
+\contentsline {subsection}{\numberline {8.10.1}Detailed Description}{69}{subsection.8.10.1}% 
+\contentsline {chapter}{Index}{71}{section*.71}% 

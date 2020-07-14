@@ -1,0 +1,222 @@
+\hypertarget{classcom_1_1example_1_1choturemote_1_1ui_1_1main_1_1_sections_pager_adapter}{}\doxysection{com.\+example.\+choturemote.\+ui.\+main.\+Sections\+Pager\+Adapter Class Reference}
+\label{classcom_1_1example_1_1choturemote_1_1ui_1_1main_1_1_sections_pager_adapter}\index{com.example.choturemote.ui.main.SectionsPagerAdapter@{com.example.choturemote.ui.main.SectionsPagerAdapter}}
+
+
+Handles the tabbed \char`\"{}\+Whatsapp\char`\"{} look.  
+
+
+Inheritance diagram for com.\+example.\+choturemote.\+ui.\+main.\+Sections\+Pager\+Adapter\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{d9/d1a/classcom_1_1example_1_1choturemote_1_1ui_1_1main_1_1_sections_pager_adapter}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classcom_1_1example_1_1choturemote_1_1ui_1_1main_1_1_sections_pager_adapter_ac8a12ca33c994575f05d6c2314df84f5}{Sections\+Pager\+Adapter}} (Context context, Fragment\+Manager fm)
+\begin{DoxyCompactList}\small\item\em Constructor for \mbox{\hyperlink{classcom_1_1example_1_1choturemote_1_1ui_1_1main_1_1_sections_pager_adapter}{Sections\+Pager\+Adapter}}. \end{DoxyCompactList}\item 
+Fragment \mbox{\hyperlink{classcom_1_1example_1_1choturemote_1_1ui_1_1main_1_1_sections_pager_adapter_a00bdb8ac0443dadd97c7f37dcc0dca70}{get\+Item}} (int position)
+\begin{DoxyCompactList}\small\item\em Return the Fragment associated with a specified position. \end{DoxyCompactList}\item 
+Char\+Sequence \mbox{\hyperlink{classcom_1_1example_1_1choturemote_1_1ui_1_1main_1_1_sections_pager_adapter_ab83da6446b400039218289f59f2e4a5a}{get\+Page\+Title}} (int position)
+\begin{DoxyCompactList}\small\item\em Called by View\+Pager to obtain title for page. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{classcom_1_1example_1_1choturemote_1_1ui_1_1main_1_1_sections_pager_adapter_abfbadd4798d3f628f6e6a3903884648b}{get\+Count}} ()
+\begin{DoxyCompactList}\small\item\em Total pages. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+final Context \mbox{\hyperlink{classcom_1_1example_1_1choturemote_1_1ui_1_1main_1_1_sections_pager_adapter_a8362436f7ca3b2968f8e4ee1046ac123}{m\+Context}}
+\begin{DoxyCompactList}\small\item\em Holder of Activity context reference. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Static Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+static final int\mbox{[}$\,$\mbox{]} \mbox{\hyperlink{classcom_1_1example_1_1choturemote_1_1ui_1_1main_1_1_sections_pager_adapter_a80b718887bf1b6b59e62fa0eb7900f1e}{T\+A\+B\+\_\+\+T\+I\+T\+L\+ES}} = new int\mbox{[}$\,$\mbox{]}\{R.\+string.\+tab\+\_\+text\+\_\+1, R.\+string.\+tab\+\_\+text\+\_\+2, R.\+string.\+tab\+\_\+text\+\_\+3\}
+\begin{DoxyCompactList}\small\item\em Integer references to String resources. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Handles the tabbed \char`\"{}\+Whatsapp\char`\"{} look. 
+
+Class that extends Fragment\+Pager\+Adapter. Implementation of Pager\+Adapter that represents each page as a Fragment that is persistently kept in the fragment manager as long as the user can return to the page. 
+
+Definition at line 22 of file Sections\+Pager\+Adapter.\+java.
+
+
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classcom_1_1example_1_1choturemote_1_1ui_1_1main_1_1_sections_pager_adapter_ac8a12ca33c994575f05d6c2314df84f5}\label{classcom_1_1example_1_1choturemote_1_1ui_1_1main_1_1_sections_pager_adapter_ac8a12ca33c994575f05d6c2314df84f5}} 
+\index{com.example.choturemote.ui.main.SectionsPagerAdapter@{com.example.choturemote.ui.main.SectionsPagerAdapter}!SectionsPagerAdapter@{SectionsPagerAdapter}}
+\index{SectionsPagerAdapter@{SectionsPagerAdapter}!com.example.choturemote.ui.main.SectionsPagerAdapter@{com.example.choturemote.ui.main.SectionsPagerAdapter}}
+\doxysubsubsection{\texorpdfstring{SectionsPagerAdapter()}{SectionsPagerAdapter()}}
+{\footnotesize\ttfamily com.\+example.\+choturemote.\+ui.\+main.\+Sections\+Pager\+Adapter.\+Sections\+Pager\+Adapter (\begin{DoxyParamCaption}\item[{Context}]{context,  }\item[{Fragment\+Manager}]{fm }\end{DoxyParamCaption})}
+
+
+
+Constructor for \mbox{\hyperlink{classcom_1_1example_1_1choturemote_1_1ui_1_1main_1_1_sections_pager_adapter}{Sections\+Pager\+Adapter}}. 
+
+Used to create an instance of \mbox{\hyperlink{classcom_1_1example_1_1choturemote_1_1ui_1_1main_1_1_sections_pager_adapter}{Sections\+Pager\+Adapter}} from an Activity. The super() method initializes the parent class Fragment\+Pager\+Adapter by calling its default constructor. The Fragment\+Manager object passed to this constructor is passed along to the constructor of the base class. 
+\begin{DoxyParams}{Parameters}
+{\em context} & Reference to the Activity where the \mbox{\hyperlink{classcom_1_1example_1_1choturemote_1_1ui_1_1main_1_1_sections_pager_adapter}{Sections\+Pager\+Adapter}} object instance is created \\
+\hline
+{\em fm} & Fragment\+Manager passed from the Activity where the \mbox{\hyperlink{classcom_1_1example_1_1choturemote_1_1ui_1_1main_1_1_sections_pager_adapter}{Sections\+Pager\+Adapter}} object instance is created. ?? \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 43 of file Sections\+Pager\+Adapter.\+java.
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{43                                                                      \{}
+\DoxyCodeLine{44         super(fm);}
+\DoxyCodeLine{45         \mbox{\hyperlink{classcom_1_1example_1_1choturemote_1_1ui_1_1main_1_1_sections_pager_adapter_a8362436f7ca3b2968f8e4ee1046ac123}{mContext}} = context;}
+\DoxyCodeLine{46     \}}
+
+\end{DoxyCode}
+
+
+References com.\+example.\+choturemote.\+ui.\+main.\+Sections\+Pager\+Adapter.\+m\+Context.
+
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classcom_1_1example_1_1choturemote_1_1ui_1_1main_1_1_sections_pager_adapter_abfbadd4798d3f628f6e6a3903884648b}\label{classcom_1_1example_1_1choturemote_1_1ui_1_1main_1_1_sections_pager_adapter_abfbadd4798d3f628f6e6a3903884648b}} 
+\index{com.example.choturemote.ui.main.SectionsPagerAdapter@{com.example.choturemote.ui.main.SectionsPagerAdapter}!getCount@{getCount}}
+\index{getCount@{getCount}!com.example.choturemote.ui.main.SectionsPagerAdapter@{com.example.choturemote.ui.main.SectionsPagerAdapter}}
+\doxysubsubsection{\texorpdfstring{getCount()}{getCount()}}
+{\footnotesize\ttfamily int com.\+example.\+choturemote.\+ui.\+main.\+Sections\+Pager\+Adapter.\+get\+Count (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Total pages. 
+
+Returns the number of views available \begin{DoxyReturn}{Returns}
+Number of views available 
+\end{DoxyReturn}
+
+
+Definition at line 87 of file Sections\+Pager\+Adapter.\+java.
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{87                           \{}
+\DoxyCodeLine{88         \textcolor{keywordflow}{return} 3;}
+\DoxyCodeLine{89     \}}
+
+\end{DoxyCode}
+\mbox{\Hypertarget{classcom_1_1example_1_1choturemote_1_1ui_1_1main_1_1_sections_pager_adapter_a00bdb8ac0443dadd97c7f37dcc0dca70}\label{classcom_1_1example_1_1choturemote_1_1ui_1_1main_1_1_sections_pager_adapter_a00bdb8ac0443dadd97c7f37dcc0dca70}} 
+\index{com.example.choturemote.ui.main.SectionsPagerAdapter@{com.example.choturemote.ui.main.SectionsPagerAdapter}!getItem@{getItem}}
+\index{getItem@{getItem}!com.example.choturemote.ui.main.SectionsPagerAdapter@{com.example.choturemote.ui.main.SectionsPagerAdapter}}
+\doxysubsubsection{\texorpdfstring{getItem()}{getItem()}}
+{\footnotesize\ttfamily Fragment com.\+example.\+choturemote.\+ui.\+main.\+Sections\+Pager\+Adapter.\+get\+Item (\begin{DoxyParamCaption}\item[{int}]{position }\end{DoxyParamCaption})}
+
+
+
+Return the Fragment associated with a specified position. 
+
+\begin{DoxyItemize}
+\item get\+Item is called to instantiate the fragment for the given page \item Here it returns a Fragment of a certain class type 
+\begin{DoxyParams}{Parameters}
+{\em position} & Integer for position \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Fragment associated with position 
+\end{DoxyReturn}
+\end{DoxyItemize}
+
+
+Definition at line 57 of file Sections\+Pager\+Adapter.\+java.
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{57                                           \{}
+\DoxyCodeLine{58 }
+\DoxyCodeLine{59         \textcolor{keywordflow}{switch}(position)\{}
+\DoxyCodeLine{60             \textcolor{keywordflow}{case} 0:}
+\DoxyCodeLine{61                 \textcolor{keywordflow}{return} \textcolor{keyword}{new} ExpressionsFragment();}
+\DoxyCodeLine{62             \textcolor{keywordflow}{case} 1:}
+\DoxyCodeLine{63                 \textcolor{keywordflow}{return} \textcolor{keyword}{new} LocomotionFragment();}
+\DoxyCodeLine{64             \textcolor{keywordflow}{default}: \textcolor{comment}{// case 2: //}}
+\DoxyCodeLine{65                 \textcolor{keywordflow}{return} \textcolor{keyword}{new} SpeakingFragment();}
+\DoxyCodeLine{66         \}}
+\DoxyCodeLine{67     \}}
+
+\end{DoxyCode}
+\mbox{\Hypertarget{classcom_1_1example_1_1choturemote_1_1ui_1_1main_1_1_sections_pager_adapter_ab83da6446b400039218289f59f2e4a5a}\label{classcom_1_1example_1_1choturemote_1_1ui_1_1main_1_1_sections_pager_adapter_ab83da6446b400039218289f59f2e4a5a}} 
+\index{com.example.choturemote.ui.main.SectionsPagerAdapter@{com.example.choturemote.ui.main.SectionsPagerAdapter}!getPageTitle@{getPageTitle}}
+\index{getPageTitle@{getPageTitle}!com.example.choturemote.ui.main.SectionsPagerAdapter@{com.example.choturemote.ui.main.SectionsPagerAdapter}}
+\doxysubsubsection{\texorpdfstring{getPageTitle()}{getPageTitle()}}
+{\footnotesize\ttfamily Char\+Sequence com.\+example.\+choturemote.\+ui.\+main.\+Sections\+Pager\+Adapter.\+get\+Page\+Title (\begin{DoxyParamCaption}\item[{int}]{position }\end{DoxyParamCaption})}
+
+
+
+Called by View\+Pager to obtain title for page. 
+
+This method is called by the View\+Pager to obtain a title string to describe the specified page. This method may return null indicating no title for this page. The default implementation returns null. 
+\begin{DoxyParams}{Parameters}
+{\em position} & The position of the title requested \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+{\ttfamily @Nullable} denotes that a value can be null. 
+\end{DoxyReturn}
+
+
+Definition at line 77 of file Sections\+Pager\+Adapter.\+java.
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{77                                                    \{}
+\DoxyCodeLine{78         \textcolor{keywordflow}{return} \mbox{\hyperlink{classcom_1_1example_1_1choturemote_1_1ui_1_1main_1_1_sections_pager_adapter_a8362436f7ca3b2968f8e4ee1046ac123}{mContext}}.getResources().getString(\mbox{\hyperlink{classcom_1_1example_1_1choturemote_1_1ui_1_1main_1_1_sections_pager_adapter_a80b718887bf1b6b59e62fa0eb7900f1e}{TAB\_TITLES}}[position]);}
+\DoxyCodeLine{79     \}}
+
+\end{DoxyCode}
+
+
+References com.\+example.\+choturemote.\+ui.\+main.\+Sections\+Pager\+Adapter.\+m\+Context, and com.\+example.\+choturemote.\+ui.\+main.\+Sections\+Pager\+Adapter.\+T\+A\+B\+\_\+\+T\+I\+T\+L\+ES.
+
+
+
+\doxysubsection{Member Data Documentation}
+\mbox{\Hypertarget{classcom_1_1example_1_1choturemote_1_1ui_1_1main_1_1_sections_pager_adapter_a8362436f7ca3b2968f8e4ee1046ac123}\label{classcom_1_1example_1_1choturemote_1_1ui_1_1main_1_1_sections_pager_adapter_a8362436f7ca3b2968f8e4ee1046ac123}} 
+\index{com.example.choturemote.ui.main.SectionsPagerAdapter@{com.example.choturemote.ui.main.SectionsPagerAdapter}!mContext@{mContext}}
+\index{mContext@{mContext}!com.example.choturemote.ui.main.SectionsPagerAdapter@{com.example.choturemote.ui.main.SectionsPagerAdapter}}
+\doxysubsubsection{\texorpdfstring{mContext}{mContext}}
+{\footnotesize\ttfamily final Context com.\+example.\+choturemote.\+ui.\+main.\+Sections\+Pager\+Adapter.\+m\+Context\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Holder of Activity context reference. 
+
+Context refers to the activity where the adapter is created. It is helps you with accessing system services and resources in case you need them. m\+Context will store the reference to the Activity where the \mbox{\hyperlink{classcom_1_1example_1_1choturemote_1_1ui_1_1main_1_1_sections_pager_adapter}{Sections\+Pager\+Adapter}} object instance is created. 
+
+Definition at line 35 of file Sections\+Pager\+Adapter.\+java.
+
+
+
+Referenced by com.\+example.\+choturemote.\+ui.\+main.\+Sections\+Pager\+Adapter.\+get\+Page\+Title(), and com.\+example.\+choturemote.\+ui.\+main.\+Sections\+Pager\+Adapter.\+Sections\+Pager\+Adapter().
+
+\mbox{\Hypertarget{classcom_1_1example_1_1choturemote_1_1ui_1_1main_1_1_sections_pager_adapter_a80b718887bf1b6b59e62fa0eb7900f1e}\label{classcom_1_1example_1_1choturemote_1_1ui_1_1main_1_1_sections_pager_adapter_a80b718887bf1b6b59e62fa0eb7900f1e}} 
+\index{com.example.choturemote.ui.main.SectionsPagerAdapter@{com.example.choturemote.ui.main.SectionsPagerAdapter}!TAB\_TITLES@{TAB\_TITLES}}
+\index{TAB\_TITLES@{TAB\_TITLES}!com.example.choturemote.ui.main.SectionsPagerAdapter@{com.example.choturemote.ui.main.SectionsPagerAdapter}}
+\doxysubsubsection{\texorpdfstring{TAB\_TITLES}{TAB\_TITLES}}
+{\footnotesize\ttfamily final int \mbox{[}$\,$\mbox{]} com.\+example.\+choturemote.\+ui.\+main.\+Sections\+Pager\+Adapter.\+T\+A\+B\+\_\+\+T\+I\+T\+L\+ES = new int\mbox{[}$\,$\mbox{]}\{R.\+string.\+tab\+\_\+text\+\_\+1, R.\+string.\+tab\+\_\+text\+\_\+2, R.\+string.\+tab\+\_\+text\+\_\+3\}\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [private]}}
+
+
+
+Integer references to String resources. 
+
+Integer Array consisting of references to String resources. {\ttfamily @String\+Res} identifies the integers as String references. 
+
+Definition at line 29 of file Sections\+Pager\+Adapter.\+java.
+
+
+
+Referenced by com.\+example.\+choturemote.\+ui.\+main.\+Sections\+Pager\+Adapter.\+get\+Page\+Title().
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{_sections_pager_adapter_8java}{Sections\+Pager\+Adapter.\+java}}\end{DoxyCompactItemize}

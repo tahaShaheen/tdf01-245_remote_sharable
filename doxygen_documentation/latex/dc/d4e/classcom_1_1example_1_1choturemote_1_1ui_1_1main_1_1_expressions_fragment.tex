@@ -1,0 +1,150 @@
+\hypertarget{classcom_1_1example_1_1choturemote_1_1ui_1_1main_1_1_expressions_fragment}{}\doxysection{com.\+example.\+choturemote.\+ui.\+main.\+Expressions\+Fragment Class Reference}
+\label{classcom_1_1example_1_1choturemote_1_1ui_1_1main_1_1_expressions_fragment}\index{com.example.choturemote.ui.main.ExpressionsFragment@{com.example.choturemote.ui.main.ExpressionsFragment}}
+
+
+Expressions Fragment.  
+
+
+Inheritance diagram for com.\+example.\+choturemote.\+ui.\+main.\+Expressions\+Fragment\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{dc/d4e/classcom_1_1example_1_1choturemote_1_1ui_1_1main_1_1_expressions_fragment}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classcom_1_1example_1_1choturemote_1_1ui_1_1main_1_1_expressions_fragment_ac7c36130aca75be3e6fd78a53527fa9d}{Expressions\+Fragment}} ()
+\begin{DoxyCompactList}\small\item\em Constructor. \end{DoxyCompactList}\item 
+View \mbox{\hyperlink{classcom_1_1example_1_1choturemote_1_1ui_1_1main_1_1_expressions_fragment_afeff88671454d61569e929d80aaa48c0}{on\+Create\+View}} (Layout\+Inflater inflater, View\+Group container, Bundle saved\+Instance\+State)
+\begin{DoxyCompactList}\small\item\em Called to have the fragment instantiate its user interface view. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Expressions Fragment. 
+
+\begin{DoxyItemize}
+\item A Fragment is a piece of an application\textquotesingle{}s user interface or behavior that can be placed in an Activity \item This one deals with the Expressions aspect \end{DoxyItemize}
+
+
+Definition at line 32 of file Expressions\+Fragment.\+java.
+
+
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classcom_1_1example_1_1choturemote_1_1ui_1_1main_1_1_expressions_fragment_ac7c36130aca75be3e6fd78a53527fa9d}\label{classcom_1_1example_1_1choturemote_1_1ui_1_1main_1_1_expressions_fragment_ac7c36130aca75be3e6fd78a53527fa9d}} 
+\index{com.example.choturemote.ui.main.ExpressionsFragment@{com.example.choturemote.ui.main.ExpressionsFragment}!ExpressionsFragment@{ExpressionsFragment}}
+\index{ExpressionsFragment@{ExpressionsFragment}!com.example.choturemote.ui.main.ExpressionsFragment@{com.example.choturemote.ui.main.ExpressionsFragment}}
+\doxysubsubsection{\texorpdfstring{ExpressionsFragment()}{ExpressionsFragment()}}
+{\footnotesize\ttfamily com.\+example.\+choturemote.\+ui.\+main.\+Expressions\+Fragment.\+Expressions\+Fragment (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Constructor. 
+
+Required empty public constructor 
+
+Definition at line 38 of file Expressions\+Fragment.\+java.
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{38                                  \{}
+\DoxyCodeLine{39     \}}
+
+\end{DoxyCode}
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classcom_1_1example_1_1choturemote_1_1ui_1_1main_1_1_expressions_fragment_afeff88671454d61569e929d80aaa48c0}\label{classcom_1_1example_1_1choturemote_1_1ui_1_1main_1_1_expressions_fragment_afeff88671454d61569e929d80aaa48c0}} 
+\index{com.example.choturemote.ui.main.ExpressionsFragment@{com.example.choturemote.ui.main.ExpressionsFragment}!onCreateView@{onCreateView}}
+\index{onCreateView@{onCreateView}!com.example.choturemote.ui.main.ExpressionsFragment@{com.example.choturemote.ui.main.ExpressionsFragment}}
+\doxysubsubsection{\texorpdfstring{onCreateView()}{onCreateView()}}
+{\footnotesize\ttfamily View com.\+example.\+choturemote.\+ui.\+main.\+Expressions\+Fragment.\+on\+Create\+View (\begin{DoxyParamCaption}\item[{Layout\+Inflater}]{inflater,  }\item[{View\+Group}]{container,  }\item[{Bundle}]{saved\+Instance\+State }\end{DoxyParamCaption})}
+
+
+
+Called to have the fragment instantiate its user interface view. 
+
+\begin{DoxyItemize}
+\item This fragment has a View inflated from the grid\+\_\+view.\+xml file \item This View has a Grid\+View with the resource\+ID \char`\"{}grid\char`\"{} \item This Grid\+View is associated with an Adapter which is an \mbox{\hyperlink{classcom_1_1example_1_1choturemote_1_1ui_1_1main_1_1_expressions_word_adapter}{Expressions\+Word\+Adapter}} object \item The \mbox{\hyperlink{classcom_1_1example_1_1choturemote_1_1ui_1_1main_1_1_expressions_word_adapter}{Expressions\+Word\+Adapter}} object returns custom item\+View object to populate the Grid\+View 
+\begin{DoxyParams}{Parameters}
+{\em inflater} & The Layout\+Inflater object that can be used to inflate any views in the fragment \\
+\hline
+{\em container} & This is the parent view that the fragment\textquotesingle{}s UI should be attached to \\
+\hline
+{\em saved\+Instance\+State} & If non-\/null, this fragment is being re-\/constructed from a previous saved state as given here \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The View for the fragment\textquotesingle{}s UI, or null. 
+\end{DoxyReturn}
+\end{DoxyItemize}
+
+
+Definition at line 54 of file Expressions\+Fragment.\+java.
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{55                                                         \{}
+\DoxyCodeLine{56         \textcolor{comment}{// Inflating grid\_view.xml //}}
+\DoxyCodeLine{57         View rootView = inflater.inflate(R.layout.grid\_view, container, \textcolor{keyword}{false});}
+\DoxyCodeLine{58 }
+\DoxyCodeLine{59         \textcolor{comment}{// A list of Word objects //}}
+\DoxyCodeLine{60         \textcolor{keyword}{final} ArrayList<Word> words = \textcolor{keyword}{new} ArrayList<Word>();}
+\DoxyCodeLine{61         words.add(\textcolor{keyword}{new} Word(R.string.happy, R.drawable.smile));}
+\DoxyCodeLine{62         words.add(\textcolor{keyword}{new} Word(R.string.sad, R.drawable.sad));}
+\DoxyCodeLine{63         words.add(\textcolor{keyword}{new} Word(R.string.angry, R.drawable.angre));}
+\DoxyCodeLine{64         words.add(\textcolor{keyword}{new} Word(R.string.idle, R.drawable.idle));}
+\DoxyCodeLine{65         words.add(\textcolor{keyword}{new} Word(R.string.surprised, R.drawable.surprise));}
+\DoxyCodeLine{66 }
+\DoxyCodeLine{67         \textcolor{comment}{// Command String variables for expressions //}}
+\DoxyCodeLine{68         \textcolor{keyword}{final} String EMOTION\_CLASSIFIER = getString(R.string.EMOTION\_CLASSIFIER);}
+\DoxyCodeLine{69         \textcolor{keyword}{final} String TAIL\_STRING = \textcolor{stringliteral}{"000"};}
+\DoxyCodeLine{70         \textcolor{keyword}{final} String VERBALIZE\_EMOTION = \textcolor{stringliteral}{"V"};}
+\DoxyCodeLine{71 }
+\DoxyCodeLine{72         \textcolor{comment}{// An ExpressionsWordAdapter whose data source is a list of Words //}}
+\DoxyCodeLine{73         \textcolor{comment}{// The adapter knows how to create custom itemViews for each item in the list //}}
+\DoxyCodeLine{74         ExpressionsWordAdapter adapter = \textcolor{keyword}{new} ExpressionsWordAdapter(getActivity(), words, R.color.category\_expressions);}
+\DoxyCodeLine{75 }
+\DoxyCodeLine{76         \textcolor{comment}{// Find the GridView view hierarchy of the Activity with the ID "grid" //}}
+\DoxyCodeLine{77         GridView gridView = rootView.findViewById(R.id.grid);}
+\DoxyCodeLine{78 }
+\DoxyCodeLine{79         \textcolor{comment}{// Number of columns in the gridView //}}
+\DoxyCodeLine{80         gridView.setNumColumns(1);}
+\DoxyCodeLine{81 }
+\DoxyCodeLine{82         \textcolor{comment}{// Make gridView use the ExpressionsWordAdapter object we created above, so that the gridView will display items for each Word in the list.}}
+\DoxyCodeLine{83         gridView.setAdapter(adapter);}
+\DoxyCodeLine{84 }
+\DoxyCodeLine{85         \textcolor{comment}{// Set a click listener to send command String when the list item is clicked //}}
+\DoxyCodeLine{86         gridView.setOnItemClickListener(\textcolor{keyword}{new} AdapterView.OnItemClickListener() \{}
+\DoxyCodeLine{87             @Override}
+\DoxyCodeLine{88             \textcolor{keyword}{public} \textcolor{keywordtype}{void} onItemClick(AdapterView<?> adapterView, View view, \textcolor{keywordtype}{int} position, \textcolor{keywordtype}{long} l) \{}
+\DoxyCodeLine{89                 Word word = words.get(position);}
+\DoxyCodeLine{90                 MainActivity.writeToBluetooth(EMOTION\_CLASSIFIER, getString(word.getStringResourceId()), TAIL\_STRING);}
+\DoxyCodeLine{91 }
+\DoxyCodeLine{92             \}}
+\DoxyCodeLine{93         \});}
+\DoxyCodeLine{94 }
+\DoxyCodeLine{95         \textcolor{comment}{// Set a click listener to play audio when the list item is long pressed //}}
+\DoxyCodeLine{96         gridView.setOnItemLongClickListener(\textcolor{keyword}{new} AdapterView.OnItemLongClickListener() \{}
+\DoxyCodeLine{97             @Override}
+\DoxyCodeLine{98             \textcolor{keyword}{public} \textcolor{keywordtype}{boolean} onItemLongClick(AdapterView<?> parent, View view, \textcolor{keywordtype}{int} position, \textcolor{keywordtype}{long} \textcolor{keywordtype}{id}) \{}
+\DoxyCodeLine{99                 Word word = words.get(position);}
+\DoxyCodeLine{100                 MainActivity.writeToBluetooth(EMOTION\_CLASSIFIER, getString(word.getStringResourceId()) + VERBALIZE\_EMOTION, TAIL\_STRING);}
+\DoxyCodeLine{101                 \textcolor{keywordflow}{return} \textcolor{keyword}{true};}
+\DoxyCodeLine{102             \}}
+\DoxyCodeLine{103         \});}
+\DoxyCodeLine{104 }
+\DoxyCodeLine{105         \textcolor{keywordflow}{return} rootView;}
+\DoxyCodeLine{106     \}}
+
+\end{DoxyCode}
+
+
+References com.\+example.\+choturemote.\+ui.\+main.\+Word.\+get\+String\+Resource\+Id(), and com.\+example.\+choturemote.\+Main\+Activity.\+write\+To\+Bluetooth().
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{_expressions_fragment_8java}{Expressions\+Fragment.\+java}}\end{DoxyCompactItemize}

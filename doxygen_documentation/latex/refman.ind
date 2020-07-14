@@ -1,0 +1,354 @@
+\begin{theindex}
+
+  \item {beginConnection}
+    \subitem {com.example.choturemote.MainActivity}, \hyperpage{33}
+  \item {bluetoothAdapter}
+    \subitem {com.example.choturemote.MainActivity}, \hyperpage{38}
+    \subitem {com.example.choturemote.MyBluetoothService}, 
+		\hyperpage{49}
+
+  \indexspace
+
+  \item {cancel}
+    \subitem {com.example.choturemote.MyBluetoothService.ConnectedThread}, 
+		\hyperpage{15}
+    \subitem {com.example.choturemote.MyBluetoothService.ConnectThread}, 
+		\hyperpage{18}
+  \item {cancelThreads}
+    \subitem {com.example.choturemote.MyBluetoothService}, 
+		\hyperpage{46}
+  \item {com}, \hyperpage{11}
+  \item {com.example}, \hyperpage{11}
+  \item {com.example.choturemote}, \hyperpage{11}
+  \item {com.example.choturemote.MainActivity}, \hyperpage{32}
+    \subitem {beginConnection}, \hyperpage{33}
+    \subitem {bluetoothAdapter}, \hyperpage{38}
+    \subitem {DISABLE}, \hyperpage{38}
+    \subitem {ENABLE}, \hyperpage{39}
+    \subitem {MAC\_ADDRESS}, \hyperpage{39}
+    \subitem {mBTStateBroadcastReceiver}, \hyperpage{39}
+    \subitem {MY\_UUID}, \hyperpage{40}
+    \subitem {myBluetoothService}, \hyperpage{40}
+    \subitem {onActivityResult}, \hyperpage{34}
+    \subitem {onCreate}, \hyperpage{35}
+    \subitem {onDestroy}, \hyperpage{37}
+    \subitem {POKE}, \hyperpage{41}
+    \subitem {POKE\_SLEEP\_CLASSIFIER}, \hyperpage{41}
+    \subitem {REQUEST\_ENABLE\_BT}, \hyperpage{41}
+    \subitem {sectionsPagerAdapter}, \hyperpage{41}
+    \subitem {SEPARATOR}, \hyperpage{42}
+    \subitem {showToastMethod}, \hyperpage{37}
+    \subitem {tabs}, \hyperpage{42}
+    \subitem {TAG}, \hyperpage{42}
+    \subitem {TERMINATOR}, \hyperpage{43}
+    \subitem {TESTING}, \hyperpage{43}
+    \subitem {viewPager}, \hyperpage{43}
+    \subitem {writeToBluetooth}, \hyperpage{37}
+  \item {com.example.choturemote.MyBluetoothService}, \hyperpage{44}
+    \subitem {bluetoothAdapter}, \hyperpage{49}
+    \subitem {cancelThreads}, \hyperpage{46}
+    \subitem {connected}, \hyperpage{46}
+    \subitem {connectedThreadRunning}, \hyperpage{47}
+    \subitem {mConnectedThread}, \hyperpage{49}
+    \subitem {mConnectedThreadRunning}, \hyperpage{49}
+    \subitem {mConnectThread}, \hyperpage{50}
+    \subitem {mContext}, \hyperpage{50}
+    \subitem {mmDevice}, \hyperpage{50}
+    \subitem {mProgressDialog}, \hyperpage{51}
+    \subitem {MyBluetoothService}, \hyperpage{45}
+    \subitem {showToast}, \hyperpage{47}
+    \subitem {startClient}, \hyperpage{48}
+    \subitem {TAG}, \hyperpage{51}
+    \subitem {write}, \hyperpage{48}
+  \item {com.example.choturemote.MyBluetoothService.ConnectedThread}, 
+		\hyperpage{13}
+    \subitem {cancel}, \hyperpage{15}
+    \subitem {ConnectedThread}, \hyperpage{14}
+    \subitem {mmInStream}, \hyperpage{16}
+    \subitem {mmOutStream}, \hyperpage{16}
+    \subitem {mmSocket}, \hyperpage{16}
+    \subitem {run}, \hyperpage{15}
+    \subitem {write}, \hyperpage{15}
+  \item {com.example.choturemote.MyBluetoothService.ConnectThread}, 
+		\hyperpage{17}
+    \subitem {cancel}, \hyperpage{18}
+    \subitem {ConnectThread}, \hyperpage{18}
+    \subitem {mmSocket}, \hyperpage{20}
+    \subitem {run}, \hyperpage{19}
+  \item {com.example.choturemote.ui}, \hyperpage{11}
+  \item {com.example.choturemote.ui.main}, \hyperpage{12}
+  \item {com.example.choturemote.ui.main.ExpressionsFragment}, 
+		\hyperpage{20}
+    \subitem {ExpressionsFragment}, \hyperpage{21}
+    \subitem {onCreateView}, \hyperpage{21}
+  \item {com.example.choturemote.ui.main.ExpressionsWordAdapter}, 
+		\hyperpage{23}
+    \subitem {ExpressionsWordAdapter}, \hyperpage{23}
+    \subitem {getView}, \hyperpage{24}
+    \subitem {mColorResourceId}, \hyperpage{25}
+  \item {com.example.choturemote.ui.main.LocomotionFragment}, 
+		\hyperpage{26}
+    \subitem {LocomotionFragment}, \hyperpage{26}
+    \subitem {onCreateView}, \hyperpage{27}
+  \item {com.example.choturemote.ui.main.LocomotionWordAdapter}, 
+		\hyperpage{29}
+    \subitem {getView}, \hyperpage{30}
+    \subitem {LocomotionWordAdapter}, \hyperpage{30}
+    \subitem {mColorResourceId}, \hyperpage{31}
+  \item {com.example.choturemote.ui.main.SectionsPagerAdapter}, 
+		\hyperpage{52}
+    \subitem {getCount}, \hyperpage{53}
+    \subitem {getItem}, \hyperpage{53}
+    \subitem {getPageTitle}, \hyperpage{54}
+    \subitem {mContext}, \hyperpage{54}
+    \subitem {SectionsPagerAdapter}, \hyperpage{52}
+    \subitem {TAB\_TITLES}, \hyperpage{55}
+  \item {com.example.choturemote.ui.main.SpeakingFragment}, 
+		\hyperpage{55}
+    \subitem {DEFAULT\_PITCH}, \hyperpage{59}
+    \subitem {defaultPercentage}, \hyperpage{59}
+    \subitem {myPitch}, \hyperpage{59}
+    \subitem {onCreateView}, \hyperpage{57}
+    \subitem {PITCH\_FACTOR}, \hyperpage{60}
+    \subitem {SpeakingFragment}, \hyperpage{56}
+  \item {com.example.choturemote.ui.main.Word}, \hyperpage{60}
+    \subitem {getImageResourceId}, \hyperpage{62}
+    \subitem {getStringResourceId}, \hyperpage{62}
+    \subitem {hasImage}, \hyperpage{62}
+    \subitem {mImageResourceId}, \hyperpage{63}
+    \subitem {mStringResourceId}, \hyperpage{63}
+    \subitem {NO\_IMAGE\_PROVIDED}, \hyperpage{63}
+    \subitem {Word}, \hyperpage{61}
+  \item {connected}
+    \subitem {com.example.choturemote.MyBluetoothService}, 
+		\hyperpage{46}
+  \item {ConnectedThread}
+    \subitem {com.example.choturemote.MyBluetoothService.ConnectedThread}, 
+		\hyperpage{14}
+  \item {connectedThreadRunning}
+    \subitem {com.example.choturemote.MyBluetoothService}, 
+		\hyperpage{47}
+  \item {ConnectThread}
+    \subitem {com.example.choturemote.MyBluetoothService.ConnectThread}, 
+		\hyperpage{18}
+
+  \indexspace
+
+  \item {DEFAULT\_PITCH}
+    \subitem {com.example.choturemote.ui.main.SpeakingFragment}, 
+		\hyperpage{59}
+  \item {defaultPercentage}
+    \subitem {com.example.choturemote.ui.main.SpeakingFragment}, 
+		\hyperpage{59}
+  \item {DISABLE}
+    \subitem {com.example.choturemote.MainActivity}, \hyperpage{38}
+
+  \indexspace
+
+  \item {ENABLE}
+    \subitem {com.example.choturemote.MainActivity}, \hyperpage{39}
+  \item {ExpressionsFragment}
+    \subitem {com.example.choturemote.ui.main.ExpressionsFragment}, 
+		\hyperpage{21}
+  \item {ExpressionsFragment.java}, \hyperpage{65}
+  \item {ExpressionsWordAdapter}
+    \subitem {com.example.choturemote.ui.main.ExpressionsWordAdapter}, 
+		\hyperpage{23}
+  \item {ExpressionsWordAdapter.java}, \hyperpage{65}
+
+  \indexspace
+
+  \item {getCount}
+    \subitem {com.example.choturemote.ui.main.SectionsPagerAdapter}, 
+		\hyperpage{53}
+  \item {getImageResourceId}
+    \subitem {com.example.choturemote.ui.main.Word}, \hyperpage{62}
+  \item {getItem}
+    \subitem {com.example.choturemote.ui.main.SectionsPagerAdapter}, 
+		\hyperpage{53}
+  \item {getPageTitle}
+    \subitem {com.example.choturemote.ui.main.SectionsPagerAdapter}, 
+		\hyperpage{54}
+  \item {getStringResourceId}
+    \subitem {com.example.choturemote.ui.main.Word}, \hyperpage{62}
+  \item {getView}
+    \subitem {com.example.choturemote.ui.main.ExpressionsWordAdapter}, 
+		\hyperpage{24}
+    \subitem {com.example.choturemote.ui.main.LocomotionWordAdapter}, 
+		\hyperpage{30}
+
+  \indexspace
+
+  \item {hasImage}
+    \subitem {com.example.choturemote.ui.main.Word}, \hyperpage{62}
+
+  \indexspace
+
+  \item {LocomotionFragment}
+    \subitem {com.example.choturemote.ui.main.LocomotionFragment}, 
+		\hyperpage{26}
+  \item {LocomotionFragment.java}, \hyperpage{66}
+  \item {LocomotionWordAdapter}
+    \subitem {com.example.choturemote.ui.main.LocomotionWordAdapter}, 
+		\hyperpage{30}
+  \item {LocomotionWordAdapter.java}, \hyperpage{66}
+
+  \indexspace
+
+  \item {MAC\_ADDRESS}
+    \subitem {com.example.choturemote.MainActivity}, \hyperpage{39}
+  \item {MainActivity.java}, \hyperpage{67}
+  \item {mBTStateBroadcastReceiver}
+    \subitem {com.example.choturemote.MainActivity}, \hyperpage{39}
+  \item {mColorResourceId}
+    \subitem {com.example.choturemote.ui.main.ExpressionsWordAdapter}, 
+		\hyperpage{25}
+    \subitem {com.example.choturemote.ui.main.LocomotionWordAdapter}, 
+		\hyperpage{31}
+  \item {mConnectedThread}
+    \subitem {com.example.choturemote.MyBluetoothService}, 
+		\hyperpage{49}
+  \item {mConnectedThreadRunning}
+    \subitem {com.example.choturemote.MyBluetoothService}, 
+		\hyperpage{49}
+  \item {mConnectThread}
+    \subitem {com.example.choturemote.MyBluetoothService}, 
+		\hyperpage{50}
+  \item {mContext}
+    \subitem {com.example.choturemote.MyBluetoothService}, 
+		\hyperpage{50}
+    \subitem {com.example.choturemote.ui.main.SectionsPagerAdapter}, 
+		\hyperpage{54}
+  \item {mImageResourceId}
+    \subitem {com.example.choturemote.ui.main.Word}, \hyperpage{63}
+  \item {mmDevice}
+    \subitem {com.example.choturemote.MyBluetoothService}, 
+		\hyperpage{50}
+  \item {mmInStream}
+    \subitem {com.example.choturemote.MyBluetoothService.ConnectedThread}, 
+		\hyperpage{16}
+  \item {mmOutStream}
+    \subitem {com.example.choturemote.MyBluetoothService.ConnectedThread}, 
+		\hyperpage{16}
+  \item {mmSocket}
+    \subitem {com.example.choturemote.MyBluetoothService.ConnectedThread}, 
+		\hyperpage{16}
+    \subitem {com.example.choturemote.MyBluetoothService.ConnectThread}, 
+		\hyperpage{20}
+  \item {mProgressDialog}
+    \subitem {com.example.choturemote.MyBluetoothService}, 
+		\hyperpage{51}
+  \item {mStringResourceId}
+    \subitem {com.example.choturemote.ui.main.Word}, \hyperpage{63}
+  \item {MY\_UUID}
+    \subitem {com.example.choturemote.MainActivity}, \hyperpage{40}
+  \item {MyBluetoothService}
+    \subitem {com.example.choturemote.MyBluetoothService}, 
+		\hyperpage{45}
+  \item {myBluetoothService}
+    \subitem {com.example.choturemote.MainActivity}, \hyperpage{40}
+  \item {MyBluetoothService.java}, \hyperpage{67}
+  \item {myPitch}
+    \subitem {com.example.choturemote.ui.main.SpeakingFragment}, 
+		\hyperpage{59}
+
+  \indexspace
+
+  \item {NO\_IMAGE\_PROVIDED}
+    \subitem {com.example.choturemote.ui.main.Word}, \hyperpage{63}
+
+  \indexspace
+
+  \item {onActivityResult}
+    \subitem {com.example.choturemote.MainActivity}, \hyperpage{34}
+  \item {onCreate}
+    \subitem {com.example.choturemote.MainActivity}, \hyperpage{35}
+  \item {onCreateView}
+    \subitem {com.example.choturemote.ui.main.ExpressionsFragment}, 
+		\hyperpage{21}
+    \subitem {com.example.choturemote.ui.main.LocomotionFragment}, 
+		\hyperpage{27}
+    \subitem {com.example.choturemote.ui.main.SpeakingFragment}, 
+		\hyperpage{57}
+  \item {onDestroy}
+    \subitem {com.example.choturemote.MainActivity}, \hyperpage{37}
+
+  \indexspace
+
+  \item {PITCH\_FACTOR}
+    \subitem {com.example.choturemote.ui.main.SpeakingFragment}, 
+		\hyperpage{60}
+  \item {POKE}
+    \subitem {com.example.choturemote.MainActivity}, \hyperpage{41}
+  \item {POKE\_SLEEP\_CLASSIFIER}
+    \subitem {com.example.choturemote.MainActivity}, \hyperpage{41}
+
+  \indexspace
+
+  \item {README.md}, \hyperpage{68}
+  \item {REQUEST\_ENABLE\_BT}
+    \subitem {com.example.choturemote.MainActivity}, \hyperpage{41}
+  \item {run}
+    \subitem {com.example.choturemote.MyBluetoothService.ConnectedThread}, 
+		\hyperpage{15}
+    \subitem {com.example.choturemote.MyBluetoothService.ConnectThread}, 
+		\hyperpage{19}
+
+  \indexspace
+
+  \item {SectionsPagerAdapter}
+    \subitem {com.example.choturemote.ui.main.SectionsPagerAdapter}, 
+		\hyperpage{52}
+  \item {sectionsPagerAdapter}
+    \subitem {com.example.choturemote.MainActivity}, \hyperpage{41}
+  \item {SectionsPagerAdapter.java}, \hyperpage{68}
+  \item {SEPARATOR}
+    \subitem {com.example.choturemote.MainActivity}, \hyperpage{42}
+  \item {showToast}
+    \subitem {com.example.choturemote.MyBluetoothService}, 
+		\hyperpage{47}
+  \item {showToastMethod}
+    \subitem {com.example.choturemote.MainActivity}, \hyperpage{37}
+  \item {SpeakingFragment}
+    \subitem {com.example.choturemote.ui.main.SpeakingFragment}, 
+		\hyperpage{56}
+  \item {SpeakingFragment.java}, \hyperpage{68}
+  \item {startClient}
+    \subitem {com.example.choturemote.MyBluetoothService}, 
+		\hyperpage{48}
+
+  \indexspace
+
+  \item {TAB\_TITLES}
+    \subitem {com.example.choturemote.ui.main.SectionsPagerAdapter}, 
+		\hyperpage{55}
+  \item {tabs}
+    \subitem {com.example.choturemote.MainActivity}, \hyperpage{42}
+  \item {TAG}
+    \subitem {com.example.choturemote.MainActivity}, \hyperpage{42}
+    \subitem {com.example.choturemote.MyBluetoothService}, 
+		\hyperpage{51}
+  \item {TERMINATOR}
+    \subitem {com.example.choturemote.MainActivity}, \hyperpage{43}
+  \item {TESTING}
+    \subitem {com.example.choturemote.MainActivity}, \hyperpage{43}
+
+  \indexspace
+
+  \item {viewPager}
+    \subitem {com.example.choturemote.MainActivity}, \hyperpage{43}
+
+  \indexspace
+
+  \item {Word}
+    \subitem {com.example.choturemote.ui.main.Word}, \hyperpage{61}
+  \item {Word.java}, \hyperpage{69}
+  \item {write}
+    \subitem {com.example.choturemote.MyBluetoothService}, 
+		\hyperpage{48}
+    \subitem {com.example.choturemote.MyBluetoothService.ConnectedThread}, 
+		\hyperpage{15}
+  \item {writeToBluetooth}
+    \subitem {com.example.choturemote.MainActivity}, \hyperpage{37}
+
+\end{theindex}

@@ -1,0 +1,26 @@
+var classcom_1_1example_1_1choturemote_1_1_main_activity =
+[
+    [ "beginConnection", "d2/d1a/classcom_1_1example_1_1choturemote_1_1_main_activity.html#a2c702f416b173ab9f040d8f7e8d2f416", null ],
+    [ "onActivityResult", "d2/d1a/classcom_1_1example_1_1choturemote_1_1_main_activity.html#ac3abaf659333fa1d6fc2f300f504cf16", null ],
+    [ "onCreate", "d2/d1a/classcom_1_1example_1_1choturemote_1_1_main_activity.html#a1332d5b4e648746329f39c0fb582a2fc", null ],
+    [ "onDestroy", "d2/d1a/classcom_1_1example_1_1choturemote_1_1_main_activity.html#a9cf3195fbb9588ac3b61faed0cb15561", null ],
+    [ "showToastMethod", "d2/d1a/classcom_1_1example_1_1choturemote_1_1_main_activity.html#a1d4da6b3021a2b2b7805ed332b010fa5", null ],
+    [ "writeToBluetooth", "d2/d1a/classcom_1_1example_1_1choturemote_1_1_main_activity.html#a2a0745c0230a1d2472278bb418a6b33e", null ],
+    [ "bluetoothAdapter", "d2/d1a/classcom_1_1example_1_1choturemote_1_1_main_activity.html#a061e9ac654dd449b5043b6937f3bf592", null ],
+    [ "DISABLE", "d2/d1a/classcom_1_1example_1_1choturemote_1_1_main_activity.html#aa26bd8585bf0ab9cdc1b030369e257ef", null ],
+    [ "ENABLE", "d2/d1a/classcom_1_1example_1_1choturemote_1_1_main_activity.html#ae5ad6f9443471cb8c445e6a7f35c8cf6", null ],
+    [ "MAC_ADDRESS", "d2/d1a/classcom_1_1example_1_1choturemote_1_1_main_activity.html#ac1a0c9e9b8077cabfa5d18a584391044", null ],
+    [ "mBTStateBroadcastReceiver", "d2/d1a/classcom_1_1example_1_1choturemote_1_1_main_activity.html#abd4fc90f15deade7491ac2a18b2947bc", null ],
+    [ "MY_UUID", "d2/d1a/classcom_1_1example_1_1choturemote_1_1_main_activity.html#a1c5f9a89b607cb40b0b886b9d095a60f", null ],
+    [ "myBluetoothService", "d2/d1a/classcom_1_1example_1_1choturemote_1_1_main_activity.html#aeaa2c2da0a0ccef38be2bf1d8d3b0343", null ],
+    [ "POKE", "d2/d1a/classcom_1_1example_1_1choturemote_1_1_main_activity.html#ac3e9ca4725b013aac8b4210555d40ccf", null ],
+    [ "POKE_SLEEP_CLASSIFIER", "d2/d1a/classcom_1_1example_1_1choturemote_1_1_main_activity.html#a45413adbd3f558042556a9fb4dfab01c", null ],
+    [ "REQUEST_ENABLE_BT", "d2/d1a/classcom_1_1example_1_1choturemote_1_1_main_activity.html#a9473bd91131e1dfc843c05938d9bb811", null ],
+    [ "sectionsPagerAdapter", "d2/d1a/classcom_1_1example_1_1choturemote_1_1_main_activity.html#ab0a4994b9bd5818e19716d3f798443c0", null ],
+    [ "SEPARATOR", "d2/d1a/classcom_1_1example_1_1choturemote_1_1_main_activity.html#ab353b0e58d8b5533f4351a11a56f3c47", null ],
+    [ "tabs", "d2/d1a/classcom_1_1example_1_1choturemote_1_1_main_activity.html#acc22e845be09511f9c52ebe30d6d4a5d", null ],
+    [ "TAG", "d2/d1a/classcom_1_1example_1_1choturemote_1_1_main_activity.html#aa3382314e04a6a0e63b1318f0d0aec5c", null ],
+    [ "TERMINATOR", "d2/d1a/classcom_1_1example_1_1choturemote_1_1_main_activity.html#afb3ca51ae9be50096f8776a6312447c8", null ],
+    [ "TESTING", "d2/d1a/classcom_1_1example_1_1choturemote_1_1_main_activity.html#a6f2c5025e156efc0ea6940d05f963429", null ],
+    [ "viewPager", "d2/d1a/classcom_1_1example_1_1choturemote_1_1_main_activity.html#a7831031b101fce51879743e2eaf3b7a0", null ]
+];
